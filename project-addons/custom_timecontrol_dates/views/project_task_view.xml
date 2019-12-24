@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- From sd_timecontrol_dates -->
+    <!-- TIMESHEET FROM TASK VIEW -->
+    <record id="project_task_form_view_timecontrol_dates" model="ir.ui.view" >
+        <field name="name">project_task_form_view_timecontrol_dates</field>
+        <field name="model">project.task</field>
+        <field name="type">form</field>
+        <field name="inherit_id" ref="hr_timesheet.view_task_form2_inherited"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='timesheet_ids']" position="replace">
+                <field name="timesheet_ids" mode="tree,kanban" attrs="{'invisible': [('analytic_account_active', '=', False)]}" context="{'default_project_id': project_id, 'default_name':''}">
+                    <!-- Overwritted -->
+                    <tree editable="bottom" string="Timesheet Activities" default_order="date">
+                        <field name="name" required="True"/>
+                        <field name="date_start" required="True"/>
+                        <field name="date_end" required="True"/>
+                        <field name="work_type" required="True"/>
+                        <field name="unit_amount"/>
+                        <field name="discount"/>
+                        <field name="user_id"/>
+                        <field name="signature" widget="screen_draw" draw_height="300" draw_width="300"/>
+                        <field name="account_id"/>
+                        <!-- <button name="_send_part" type="object" string="Enviar parte por coreo"/> -->
+                        
+                    </tree>
+                    <kanban class="o_kanban_mobile">
+                        <field name="name" required="True"/>
+                        <field name="date_start" required="True"/>
+                        <field name="date_end" required="True"/>
+                        <field name="work_type" required="True"/>
+                        <field name="unit_amount"/>
+                        <field name="discount"/>
+                        <field name="user_id"/>
+                        <field name="signature" widget="screen_draw" draw_height="300" draw_width="300"/>
+                        <field name="account_id"/>
+                        <!-- <button name="_send_part" type="object" string="Enviar parte por coreo"/> -->
+                        <templates>
+                            <t t-name="kanban-box">
+                                <div t-attf-class="oe_kanban_card oe_kanban_global_click">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <strong><span><t t-esc="record.employee_id.value"/></span></strong>
+                                        </div>
+                                        <div class="col-6 pull-right text-right">
+                                            <strong><t t-esc="record.date.value"/></strong>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-6 text-muted">
+                                            <span><t t-esc="record.name.value"/></span>
+                                        </div>
+                                        <div class="col-6">
+                                            <span class="pull-right text-right">
+                                                <field name="unit_amount" widget="float_time"/>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </t>
+                        </templates>
+                    </kanban>
+                    <form string="Timesheet Activities">
+                        <sheet>
+                            <group>
+                                <field name="date"/>
+                                <field name="user_id" invisible="1"/>
+                                <field name="employee_id" required="1"/>
+                                <field name="name"/>
+                                <field name="unit_amount" string="Duration" widget="float_time"/>
+                                <field name="project_id" invisible="1"/>
+                            </group>
+                            <group>
+                                <field name="name" required="True"/>
+                                <field name="date_start" required="True"/>
+                                <field name="date_end" required="True"/>
+                                <field name="work_type" required="True"/>
+                                <field name="unit_amount"/>
+                                <field name="discount"/>
+                                <field name="user_id"/>
+                                <field name="signature" widget="screen_draw" draw_height="300" draw_width="300"/>
+                                <field name="account_id"/>
+                                <!-- <button name="_send_part" type="object" string="Enviar parte por coreo"/> -->
+                            </group>
+                        </sheet>
+                    </form>
+                </field>
+            </xpath>
+        </field>
+    </record>
+		
+</odoo>

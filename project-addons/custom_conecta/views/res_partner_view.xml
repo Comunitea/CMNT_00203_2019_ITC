@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<odoo>
+
+<!-- contract.contract inherit form view -->
+<record id="custom_partner_form" model="ir.ui.view">
+    <field name="name">custom.partner.form</field>
+    <field name="model">res.partner</field>
+    <field name="inherit_id" ref="base.view_partner_form"/>
+    <field name="arch" type="xml">
+        <notebook position="inside">
+            <page name="various" string="Various">
+                <group>
+                    <field name="did_customer"/>
+                    <field name="legal_representative"/>
+                    <field name="nif_representative"/>
+                    <field name="date"/>
+                </group>
+                <group>
+                    <field name="timetable"/>
+                    <field name="gestor_id"/>
+                    <field name="invoice_picking"/>
+                </group>
+                 <group>
+                    <field name="translate_partner"/>
+                    <field name="translate_address"/>
+                    <field name="translate_cif"/>
+                    <field name="nima_translate"/>
+                </group>         
+            </page>
+        </notebook>
+        
+    </field>
+</record>
+
+</odoo>

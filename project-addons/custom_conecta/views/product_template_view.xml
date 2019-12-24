@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<odoo>
+
+<!-- contract.contract inherit form view -->
+<record id="custom_product_template_form_view" model="ir.ui.view">
+    <field name="name">custom_product_template_form_view</field>
+    <field name="model">product.template</field>
+    <field name="inherit_id" ref="product.product_template_form_view"/>
+    <field name="arch" type="xml">
+        <notebook position="inside">
+            <page name="various" string="Various">
+                <group>
+                    <field name="gestor_product"/>
+                    <field name="ler_code"/>
+                    <field name="waste_type"/>
+                </group>
+            </page>
+        </notebook>    
+    </field>
+</record>
+
+</odoo>

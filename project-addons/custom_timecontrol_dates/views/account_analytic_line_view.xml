@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record model="ir.ui.view" id="hr_timesheet_line_form">
+			<field name="name">account.analytic.line</field>
+			<field name="model">account.analytic.line</field>
+			<field name="type">form</field>
+			<field name="inherit_id" ref="hr_timesheet.hr_timesheet_line_form"/>
+			<field name="arch" type="xml">
+				<field name="name" position="before">
+					<field name="date_start" required="True"/>
+					<field name="date_end" required="True"/>
+					<field name="discount"/>
+					<field name="work_type" required="True"/>
+				</field>
+				<field name="date" position="after">
+					<field name="signature" widget="screen_draw" draw_height="300" draw_width="300"/>
+					<field name="observations"/>
+				</field>
+			</field>
+		</record>
+
+    </data>
+</odoo>

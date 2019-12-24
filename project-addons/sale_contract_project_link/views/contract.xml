@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<odoo>
+
+<!-- contract.contract inherit form view -->
+<!-- <record id="contract_contract_form_view_add_sla" model="ir.ui.view">
+    <field name="name">contract.contract.inherit.view.form</field>
+    <field name="model">contract.contract</field>
+    <field name="inherit_id" ref="contract.contract_contract_form_view"/>
+    <field name="arch" type="xml">
+        <notebook position="inside">
+            <page name="sla_page" string="Service Level Agreement">
+                <group>
+                    <field name="sla_ids" nolabel="1"/>
+                    <button name="reapply_sla" string="Reapply" type="object"
+                       help="Reapply the SLAs to all Contract's documents."
+                       groups="project.group_project_manager" />
+                </group>
+                     
+            </page>
+        </notebook>
+        
+    </field>
+</record> -->
+
+</odoo>

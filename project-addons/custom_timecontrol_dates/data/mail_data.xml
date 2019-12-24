@@ -1,0 +1,38 @@
+
+
+<odoo>
+    <!-- Mail template is done in a NOUPDATE block
+         so users can freely customize/delete them -->
+    <data noupdate="1">
+
+        <!-- No se está usando -->
+        <record id="email_template_warn" model="mail.template">
+            <field name="name">Aviso exceso</field>
+            <field name="email_from">sat@conectapymes.com</field>
+            <field name="subject">Aviso de exceso de contrato</field>
+            <field name="email_to">desarrollo@coolabora.com</field>
+            <field name="model_id" ref="contract.model_contract_contract"/>
+            <field name="auto_delete" eval="False"/>
+            <field name="body_html"><![CDATA[
+<div style="font-family: 'Lucica Grande', Ubuntu, Arial, Verdana, sans-serif; font-size: 12px; color: rgb(34, 34, 34); background-color: rgb(255, 255, 255); ">
+        Se ha sobrepasado el porcentaje de ${object.porcentaje_aviso} en el contrato ${object.name},        <div>
+                <br>
+        </div>
+        <div>
+                Cantidad contratada: ${object.quantity_max}
+        </div>
+        <div>
+                Cantidad consumida: ${object.hours_quantity}
+        </div>
+        <br/>
+        <div>
+                Cantidad restante: ${object.remaining_hours}
+        </div>
+</div>
+
+            ]]></field>
+        </record>
+
+    </data>
+</odoo>
+
