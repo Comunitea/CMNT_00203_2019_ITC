@@ -1,0 +1,481 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* custom_sla
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-26 13:33+0000\n"
+"PO-Revision-Date: 2019-12-26 13:33+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: custom_sla
+#: selection:project.sla.control,sla_state:0
+#: selection:project.sla.controlled,sla_state:0
+#: selection:project.sla.report,sla_state:0
+#: selection:project.task,sla_state:0
+msgid "(1) Achieved"
+msgstr "(1) Logrado"
+
+#. module: custom_sla
+#: selection:project.sla.control,sla_state:0
+#: selection:project.sla.controlled,sla_state:0
+#: selection:project.sla.report,sla_state:0
+#: selection:project.task,sla_state:0
+msgid "(2) Watching"
+msgstr "(2) Observando"
+
+#. module: custom_sla
+#: selection:project.sla.control,sla_state:0
+#: selection:project.sla.controlled,sla_state:0
+#: selection:project.sla.report,sla_state:0
+#: selection:project.task,sla_state:0
+msgid "(3)Warning"
+msgstr "(3) Advertencia"
+
+#. module: custom_sla
+#: selection:project.sla.control,sla_state:0
+#: selection:project.sla.controlled,sla_state:0
+#: selection:project.sla.report,sla_state:0
+#: selection:project.task,sla_state:0
+msgid "(4) Will Fail"
+msgstr "(4) Va a fallar"
+
+#. module: custom_sla
+#: selection:project.sla.control,sla_state:0
+#: selection:project.sla.controlled,sla_state:0
+#: selection:project.sla.report,sla_state:0
+#: selection:project.task,sla_state:0
+msgid "(5) Failed"
+msgstr "(5) Falló"
+
+#. module: custom_sla
+#: model:ir.model.fields,field_description:custom_sla.field_project_sla_report__achieved_count
+msgid "Achieved Count"
+msgstr "Nº conseguidos"
+
+#. module: custom_sla
+#: model:ir.model.fields,field_description:custom_sla.field_project_sla_report__achieved_perc
+msgid "Achieved Percent"
+msgstr "Porcentage coseguido"
+
+#. module: custom_sla
+#: model:ir.model.fields,field_description:custom_sla.field_project_sla_control__sla_achieved
+msgid "Achieved?"
+msgstr "Conseguido?"
+
+#. module: custom_sla
+#: model:ir.model.fields,field_description:custom_sla.field_project_sla__active
+msgid "Active"
+msgstr "Activo"
+
+#. module: custom_sla
+#: model:ir.model,name:custom_sla.model_account_analytic_line
+msgid "Analytic Line"
+msgstr "Línea Analítica"
+
+#. module: custom_sla
+#: model:ir.model.fields,help:custom_sla.field_project_sla_line__condition
+msgid "Apply only if this expression is evaluated to True. The document fields can be accessed using either o, obj or object. Example: obj.priority <= '2'"
+msgstr "Se aplica solo si la expresión es evaluada a verdadero. Los campos del documento son accesibles con o, obj, o object. Ejemplo: obj.priority <= '2'"
+
+#. module: custom_sla
+#: model_terms:ir.actions.act_window,help:custom_sla.action_sla
+msgid "Click to create a new SLA."
+msgstr "Click para crear un nuevo SLA"
+
+#. module: custom_sla
+#: model:ir.model.fields,field_description:custom_sla.field_project_sla_control__sla_close_date
+msgid "Close Date"
+msgstr "Fecha cierre"
+
+#. module: custom_sla
+#: model:ir.model.fields,field_description:custom_sla.field_project_task__date_closed
+msgid "Closed"
+msgstr "Cerrado"
+
+#. module: custom_sla
+#: model:ir.model.fields,field_description:custom_sla.field_project_sla_line__condition
+msgid "Condition"
+msgstr "Condición"
+
+#. module: custom_sla
+#: model:ir.model,name:custom_sla.model_contract_contract
+msgid "Contract"
+msgstr "Contrato"
+
+#. module: custom_sla
+#: model:ir.model.fields,field_description:custom_sla.field_project_sla__analytic_ids
+#: model_terms:ir.ui.view,arch_db:custom_sla.view_sla_form
+msgid "Contracts"
+msgstr "Contratos"
+
+#. module: custom_sla
+#: model:ir.model.fields,field_description:custom_sla.field_project_sla__control_field_id
+msgid "Control Date"
+msgstr "Fecha de control"
+
+#. module: custom_sla
+#: model_terms:ir.ui.view,arch_db:custom_sla.project_task_form_sla
+msgid "Control SLA"
+msgstr "Controles SLA"
+
+#. module: custom_sla
+#: model:ir.model.fields,field_description:custom_sla.field_project_sla__create_uid
+#: model:ir.model.fields,field_description:custom_sla.field_project_sla_control__create_uid
+#: model:ir.model.fields,field_description:custom_sla.field_project_sla_line__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: custom_sla
+#: model:ir.model.fields,field_description:custom_sla.field_project_sla__create_date
+#: model:ir.model.fields,field_description:custom_sla.field_project_sla_control__create_date
+#: model:ir.model.fields,field_description:custom_sla.field_project_sla_line__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: custom_sla
+#: model:ir.model.fields,help:custom_sla.field_project_sla__control_field_id
+msgid "Date field used to check if the SLA was achieved."
+msgstr "Campo fecha usado para saver si el SLA se logró"
+
+#. module: custom_sla
+#: model:ir.model.fields,field_description:custom_sla.field_project_sla__sla_line_ids
+#: model_terms:ir.ui.view,arch_db:custom_sla.view_sla_lines_tree
+msgid "Definitions"
+msgstr "Definiciones"
+
+#. module: custom_sla
+#: model:ir.model.fields,field_description:custom_sla.field_project_sla__display_name
+#: model:ir.model.fields,field_description:custom_sla.field_project_sla_control__display_name
+#: model:ir.model.fields,field_description:custom_sla.field_project_sla_controlled__display_name
+#: model:ir.model.fields,field_description:custom_sla.field_project_sla_line__display_name
+#: model:ir.model.fields,field_description:custom_sla.field_project_sla_report__display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: custom_sla
+#: model:ir.model.fields,field_description:custom_sla.field_project_sla_control__doc_id
+msgid "Document ID"
+msgstr "ID del documento"
+
+#. module: custom_sla
+#: model:ir.model.fields,field_description:custom_sla.field_project_sla_control__doc_model
+#: model:ir.model.fields,field_description:custom_sla.field_project_sla_report__document_model_id
+msgid "Document Model"
+msgstr "Modelo de documento"
+
+#. module: custom_sla
+#: model:ir.model.fields,field_description:custom_sla.field_project_sla_report__failed_count
+msgid "Failed Count"
+msgstr "Nº Fallos"
+
+#. module: custom_sla
+#: model:ir.model.fields,field_description:custom_sla.field_project_task__last_task_date
+msgid "Fecha finalización de última tarea"
+msgstr ""
+
+#. module: custom_sla
+#: model:ir.model.fields,field_description:custom_sla.field_project_task__finish_date
+msgid "Finish"
+msgstr "Finalizado"
+
+#. module: custom_sla
+#: model:ir.model.fields,field_description:custom_sla.field_project_sla__control_model
+msgid "For documents"
+msgstr "Para documentos"
+
+#. module: custom_sla
+#: selection:project.task,priority:0
+msgid "Hight"
+msgstr "Alta"
+
+#. module: custom_sla
+#: model:ir.model.fields,field_description:custom_sla.field_project_sla_line__limit_qty
+msgid "Hours to Limit"
+msgstr "Horas para límite"
+
+#. module: custom_sla
+#: model:ir.model.fields,field_description:custom_sla.field_project_sla_line__warn_qty
+msgid "Hours to Warn"
+msgstr "Horas para aviso"
+
+#. module: custom_sla
+#: model:ir.model.fields,field_description:custom_sla.field_project_sla__id
+#: model:ir.model.fields,field_description:custom_sla.field_project_sla_control__id
+#: model:ir.model.fields,field_description:custom_sla.field_project_sla_controlled__id
+#: model:ir.model.fields,field_description:custom_sla.field_project_sla_line__id
+#: model:ir.model.fields,field_description:custom_sla.field_project_sla_report__id
+msgid "ID"
+msgstr ""
+
+#. module: custom_sla
+#: model:ir.model.fields,field_description:custom_sla.field_project_sla_report__sla_closed
+msgid "Is Closed"
+msgstr "Está cerrado"
+
+#. module: custom_sla
+#: model:ir.model.fields,field_description:custom_sla.field_project_task__issue_date
+msgid "Issue date"
+msgstr "Fecha incidencia"
+
+#. module: custom_sla
+#: model:ir.model.fields,field_description:custom_sla.field_project_sla____last_update
+#: model:ir.model.fields,field_description:custom_sla.field_project_sla_control____last_update
+#: model:ir.model.fields,field_description:custom_sla.field_project_sla_controlled____last_update
+#: model:ir.model.fields,field_description:custom_sla.field_project_sla_line____last_update
+#: model:ir.model.fields,field_description:custom_sla.field_project_sla_report____last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: custom_sla
+#: model:ir.model.fields,field_description:custom_sla.field_project_sla__write_uid
+#: model:ir.model.fields,field_description:custom_sla.field_project_sla_control__write_uid
+#: model:ir.model.fields,field_description:custom_sla.field_project_sla_line__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: custom_sla
+#: model:ir.model.fields,field_description:custom_sla.field_project_sla__write_date
+#: model:ir.model.fields,field_description:custom_sla.field_project_sla_control__write_date
+#: model:ir.model.fields,field_description:custom_sla.field_project_sla_line__write_date
+msgid "Last Updated on"
+msgstr "Última actualización el"
+
+#. module: custom_sla
+#: model:ir.model.fields,field_description:custom_sla.field_project_sla_control__sla_limit_date
+msgid "Limit Date"
+msgstr "Fecha límite"
+
+#. module: custom_sla
+#: selection:project.task,priority:0
+msgid "Low"
+msgstr "Baja"
+
+#. module: custom_sla
+#: selection:project.task,priority:0
+msgid "Mid"
+msgstr "Media"
+
+#. module: custom_sla
+#: model:ir.model.fields,field_description:custom_sla.field_project_sla_report__date_month
+msgid "Month"
+msgstr "Mes"
+
+#. module: custom_sla
+#: selection:project.task,priority:0
+msgid "No process"
+msgstr "No procede"
+
+#. module: custom_sla
+#: model:ir.model.fields,field_description:custom_sla.field_project_task__notice_person
+msgid "Notice person"
+msgstr "Persona de aviso"
+
+#. module: custom_sla
+#: model:ir.model.fields,field_description:custom_sla.field_project_task__priority
+msgid "Priority"
+msgstr "Prioridad"
+
+#. module: custom_sla
+#: model:ir.model.fields,field_description:custom_sla.field_project_task__problem
+msgid "Problem"
+msgstr "Problema"
+
+#. module: custom_sla
+#: model:ir.model.fields,field_description:custom_sla.field_project_task__problem_description
+msgid "Problem cause"
+msgstr "Causa Problema"
+
+#. module: custom_sla
+#: model:ir.model,name:custom_sla.model_project_sla_report
+msgid "Project SLA report"
+msgstr "Informe proyecto SLA"
+
+#. module: custom_sla
+#: model:ir.model.fields,field_description:custom_sla.field_project_sla_report__date_quarter
+msgid "Quarter"
+msgstr "Cuarto"
+
+#. module: custom_sla
+#: model_terms:ir.ui.view,arch_db:custom_sla.contract_contract_form_view_add_sla
+msgid "Reapply"
+msgstr "Reaplicar"
+
+#. module: custom_sla
+#: model_terms:ir.ui.view,arch_db:custom_sla.view_sla_form
+msgid "Reapply SLA on Contracts"
+msgstr "Reaplicar SLA en contratos"
+
+#. module: custom_sla
+#: model_terms:ir.ui.view,arch_db:custom_sla.contract_contract_form_view_add_sla
+msgid "Reapply the SLAs to all Contract's documents."
+msgstr "Reaplica el SLA en todos los documentos contratos"
+
+#. module: custom_sla
+#: model:ir.model.fields,field_description:custom_sla.field_project_sla_control__locked
+msgid "Recalculation disabled"
+msgstr "Recalculo deshabilitado"
+
+#. module: custom_sla
+#: model:ir.model.fields,field_description:custom_sla.field_project_task__reply_date
+msgid "Reply date"
+msgstr "Fecha respuesta"
+
+#. module: custom_sla
+#: model:ir.model.fields,field_description:custom_sla.field_project_task__reply_type
+msgid "Reply type"
+msgstr "Tipo respuesta"
+
+#. module: custom_sla
+#: model:ir.model.fields,field_description:custom_sla.field_project_task__resolution_type
+msgid "Resolution Type"
+msgstr "Tipo resolución"
+
+#. module: custom_sla
+#: model_terms:ir.ui.view,arch_db:custom_sla.view_sla_form
+msgid "Rules"
+msgstr "Reglas"
+
+#. module: custom_sla
+#: model:ir.model.fields,field_description:custom_sla.field_project_sla_controlled__sla_control_ids
+#: model:ir.model.fields,field_description:custom_sla.field_project_task__sla_control_ids
+msgid "SLA Control"
+msgstr "Controles SLA"
+
+#. module: custom_sla
+#: model:ir.model,name:custom_sla.model_project_sla_control
+msgid "SLA Control Registry"
+msgstr "Controles SLA"
+
+#. module: custom_sla
+#: model:ir.model,name:custom_sla.model_project_sla_controlled
+msgid "SLA Controlled Document"
+msgstr "Documento controlado por SLA"
+
+#. module: custom_sla
+#: model:ir.model.fields,field_description:custom_sla.field_project_sla_line__sla_id
+#: model_terms:ir.ui.view,arch_db:custom_sla.view_sla_form
+msgid "SLA Definition"
+msgstr "Definición SLA"
+
+#. module: custom_sla
+#: model:ir.model.fields,field_description:custom_sla.field_project_sla_report__sla_line_name
+msgid "SLA Line Name"
+msgstr "Nombre línea SLA"
+
+#. module: custom_sla
+#: model:ir.model.fields,field_description:custom_sla.field_project_sla_report__sla_name
+msgid "SLA Name"
+msgstr "Nombre SLA"
+
+#. module: custom_sla
+#: model:ir.model.fields,field_description:custom_sla.field_project_sla_report__sla_state
+msgid "SLA State"
+msgstr "Estado SLA"
+
+#. module: custom_sla
+#: model:ir.model.fields,field_description:custom_sla.field_project_sla_control__sla_state
+#: model:ir.model.fields,field_description:custom_sla.field_project_sla_controlled__sla_state
+#: model:ir.model.fields,field_description:custom_sla.field_project_task__sla_state
+#: model_terms:ir.ui.view,arch_db:custom_sla.project_task_search_sla
+msgid "SLA Status"
+msgstr "Estado SLA"
+
+#. module: custom_sla
+#: model:ir.model.fields,help:custom_sla.field_project_sla_control__locked
+msgid "Safeguard manual changes from future automatic recomputations."
+msgstr ""
+
+#. module: custom_sla
+#: model:ir.model.fields,field_description:custom_sla.field_project_sla_line__sequence
+msgid "Sequence"
+msgstr "Secuencia"
+
+#. module: custom_sla
+#: model:ir.model.fields,field_description:custom_sla.field_project_sla_control__sla_line_id
+msgid "Service Agreement"
+msgstr "Acuerdo nivel de servicio"
+
+#. module: custom_sla
+#: model_terms:ir.ui.view,arch_db:custom_sla.view_sla_control_tree
+msgid "Service Level"
+msgstr "Nivel de servicio"
+
+#. module: custom_sla
+#: model:ir.actions.act_window,name:custom_sla.action_sla
+#: model:ir.model.fields,field_description:custom_sla.field_contract_contract__sla_ids
+#: model:ir.ui.menu,name:custom_sla.menu_sla_customer
+#: model_terms:ir.ui.view,arch_db:custom_sla.contract_contract_form_view_add_sla
+msgid "Service Level Agreement"
+msgstr "Acuerdo de nivel de servicio"
+
+#. module: custom_sla
+#: model_terms:ir.ui.view,arch_db:custom_sla.project_task_form_sla
+msgid "Service Levels"
+msgstr "Niveles de servicio"
+
+#. module: custom_sla
+#: model:ir.model.fields,field_description:custom_sla.field_project_sla_control__sla_start_date
+msgid "Start Date"
+msgstr "Fecha de inicio"
+
+#. module: custom_sla
+#: model:ir.model,name:custom_sla.model_project_task
+msgid "Task"
+msgstr "Tarea"
+
+#. module: custom_sla
+#: model:ir.model.fields,field_description:custom_sla.field_project_sla__name
+#: model:ir.model.fields,field_description:custom_sla.field_project_sla_line__name
+msgid "Title"
+msgstr "Título"
+
+#. module: custom_sla
+#: model:ir.model.fields,field_description:custom_sla.field_project_sla_report__total_count
+msgid "Total Count"
+msgstr "Nº total"
+
+#. module: custom_sla
+#: model:ir.actions.server,name:custom_sla.ir_cron_sla_action_ir_actions_server
+#: model:ir.cron,cron_name:custom_sla.ir_cron_sla_action
+#: model:ir.cron,name:custom_sla.ir_cron_sla_action
+msgid "Update SLA States"
+msgstr "Actualizar estados SLA"
+
+#. module: custom_sla
+#: model:ir.model.fields,field_description:custom_sla.field_project_task__waiting
+msgid "Waiting"
+msgstr "Esperando"
+
+#. module: custom_sla
+#: model:ir.model.fields,field_description:custom_sla.field_project_sla_control__sla_warn_date
+msgid "Warning Date"
+msgstr "Fecha de aviso"
+
+#. module: custom_sla
+#: model:ir.model.fields,field_description:custom_sla.field_project_sla_report__date_week
+msgid "Week"
+msgstr "Semana"
+
+#. module: custom_sla
+#: model:ir.model.fields,field_description:custom_sla.field_project_sla_report__date_year
+msgid "Year"
+msgstr "Año"
+
+#. module: custom_sla
+#: model:ir.model,name:custom_sla.model_project_sla
+msgid "project.sla"
+msgstr ""
+
+#. module: custom_sla
+#: model:ir.model,name:custom_sla.model_project_sla_line
+msgid "project.sla.line"
+msgstr ""
+

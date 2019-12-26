@@ -1,0 +1,191 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* custom_timecontrol_dates
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-26 13:27+0000\n"
+"PO-Revision-Date: 2019-12-26 13:27+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: custom_timecontrol_dates
+#: model:mail.template,body_html:custom_timecontrol_dates.email_template_edi_issue
+#: model:mail.template,body_html:custom_timecontrol_dates.email_template_warn
+msgid "\n"
+"<div style=\"font-family: 'Lucica Grande', Ubuntu, Arial, Verdana, sans-serif; font-size: 12px; color: rgb(34, 34, 34); background-color: rgb(255, 255, 255); \">\n"
+"        Se ha sobrepasado el porcentaje de ${object.porcentaje_aviso} en el contrato ${object.name},        <div>\n"
+"                <br>\n"
+"        </div>\n"
+"        <div>\n"
+"                Cantidad contratada: ${object.quantity_max}\n"
+"        </div>\n"
+"        <div>\n"
+"                Cantidad consumida: ${object.hours_quantity}\n"
+"        </div>\n"
+"        <br/>\n"
+"        <div>\n"
+"                Cantidad restante: ${object.remaining_hours}\n"
+"        </div>\n"
+"</div>\n"
+"\n"
+"            "
+msgstr ""
+
+#. module: custom_timecontrol_dates
+#: model:ir.model,name:custom_timecontrol_dates.model_account_analytic_line
+msgid "Analytic Line"
+msgstr "Línea Analítica"
+
+#. module: custom_timecontrol_dates
+#: model:mail.template,subject:custom_timecontrol_dates.email_template_edi_issue
+#: model:mail.template,subject:custom_timecontrol_dates.email_template_warn
+msgid "Aviso de exceso de contrato"
+msgstr ""
+
+#. module: custom_timecontrol_dates
+#: selection:account.analytic.line,work_type:0
+msgid "CMAX"
+msgstr ""
+
+#. module: custom_timecontrol_dates
+#: model:ir.model,name:custom_timecontrol_dates.model_contract_contract
+msgid "Contract"
+msgstr "Contrato"
+
+#. module: custom_timecontrol_dates
+#: model:ir.model.fields,field_description:custom_timecontrol_dates.field_account_analytic_line__signature
+#: model:ir.model.fields,field_description:custom_timecontrol_dates.field_contract_contract__signature
+#: model:ir.model.fields,field_description:custom_timecontrol_dates.field_project_task__signature
+msgid "Customer signature"
+msgstr "Firma cliente"
+
+#. module: custom_timecontrol_dates
+#: model:ir.model.fields,field_description:custom_timecontrol_dates.field_account_analytic_line__date_end
+msgid "Date End"
+msgstr "Fecha fin"
+
+#. module: custom_timecontrol_dates
+#: model:ir.model.fields,field_description:custom_timecontrol_dates.field_account_analytic_line__date_start
+msgid "Date Start"
+msgstr "Fecha inicio"
+
+#. module: custom_timecontrol_dates
+#: model:ir.model.fields,field_description:custom_timecontrol_dates.field_account_analytic_line__name
+msgid "Description"
+msgstr "Descripción"
+
+#. module: custom_timecontrol_dates
+#: model_terms:ir.ui.view,arch_db:custom_timecontrol_dates.project_task_form_view_timecontrol_dates
+msgid "Duration"
+msgstr "Duración"
+
+#. module: custom_timecontrol_dates
+#: model:ir.model.fields,field_description:custom_timecontrol_dates.field_account_analytic_line__discount
+msgid "Hours discount"
+msgstr "Descuento en horas"
+
+#. module: custom_timecontrol_dates
+#: selection:account.analytic.line,work_type:0
+msgid "Interno"
+msgstr ""
+
+#. module: custom_timecontrol_dates
+#: selection:account.analytic.line,work_type:0
+msgid "LOPD"
+msgstr ""
+
+#. module: custom_timecontrol_dates
+#: model:ir.model.fields,field_description:custom_timecontrol_dates.field_account_analytic_line__observations
+msgid "Observations"
+msgstr "Observaciones"
+
+#. module: custom_timecontrol_dates
+#: selection:account.analytic.line,work_type:0
+msgid "Presencial"
+msgstr ""
+
+#. module: custom_timecontrol_dates
+#: model:ir.model,name:custom_timecontrol_dates.model_project_project
+msgid "Project"
+msgstr "Proyecto"
+
+#. module: custom_timecontrol_dates
+#: model:ir.model.fields,field_description:custom_timecontrol_dates.field_contract_contract__remaining_hours
+#: model:ir.model.fields,field_description:custom_timecontrol_dates.field_project_project__remaining_hours
+msgid "Remaining Time"
+msgstr "Tiempo restante"
+
+#. module: custom_timecontrol_dates
+#: selection:account.analytic.line,work_type:0
+msgid "Remoto"
+msgstr ""
+
+#. module: custom_timecontrol_dates
+#: model:ir.model.fields,field_description:custom_timecontrol_dates.field_contract_contract__quantity_max
+#: model:ir.model.fields,field_description:custom_timecontrol_dates.field_project_project__quantity_max
+msgid "Scheduled Time"
+msgstr "Tiempo planificado"
+
+#. module: custom_timecontrol_dates
+#: model:ir.model.fields,field_description:custom_timecontrol_dates.field_account_analytic_line__sended
+msgid "Sended"
+msgstr "Enviado"
+
+#. module: custom_timecontrol_dates
+#: selection:account.analytic.line,work_type:0
+msgid "Taller"
+msgstr ""
+
+#. module: custom_timecontrol_dates
+#: model:ir.model,name:custom_timecontrol_dates.model_project_task
+msgid "Task"
+msgstr "Tarea"
+
+#. module: custom_timecontrol_dates
+#: selection:account.analytic.line,work_type:0
+msgid "Telefonico"
+msgstr ""
+
+#. module: custom_timecontrol_dates
+#: model_terms:ir.ui.view,arch_db:custom_timecontrol_dates.contract_contract_form_view_add_sla
+msgid "Time Control"
+msgstr "Control de tiempos"
+
+#. module: custom_timecontrol_dates
+#: model_terms:ir.ui.view,arch_db:custom_timecontrol_dates.project_task_form_view_timecontrol_dates
+msgid "Timesheet Activities"
+msgstr "Actividades del parte de horas"
+
+#. module: custom_timecontrol_dates
+#: model:ir.model.fields,field_description:custom_timecontrol_dates.field_contract_contract__total_discount
+msgid "Total DIscounted Time"
+msgstr "Tiempo descontado total"
+
+#. module: custom_timecontrol_dates
+#: model:ir.model.fields,field_description:custom_timecontrol_dates.field_project_project__total_discount
+msgid "Total Discounted Time"
+msgstr "Tiempo descontado total"
+
+#. module: custom_timecontrol_dates
+#: model:ir.model.fields,field_description:custom_timecontrol_dates.field_contract_contract__hours_quantity
+#: model:ir.model.fields,field_description:custom_timecontrol_dates.field_project_project__hours_quantity
+msgid "Total Worked Time"
+msgstr "Tiempo trabajado total"
+
+#. module: custom_timecontrol_dates
+#: model:ir.model.fields,field_description:custom_timecontrol_dates.field_contract_contract__warn_percent
+msgid "Warning limit percent"
+msgstr "Porcentaje límite de avisos"
+
+#. module: custom_timecontrol_dates
+#: model:ir.model.fields,field_description:custom_timecontrol_dates.field_account_analytic_line__work_type
+msgid "Work Type"
+msgstr "Tipo trabajo"
+

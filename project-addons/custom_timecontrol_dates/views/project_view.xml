@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+
+    <!-- model.name inherit form view -->
+    <record id="edit_project_add_time_control" model="ir.ui.view">
+        <field name="name">edit.project.add.time_control</field>
+        <field name="model">project.project</field>
+        <field name="inherit_id" ref="project.edit_project"/>
+        <field name="arch" type="xml">
+  
+            <field name="resource_calendar_id" position="after">
+                <field name="quantity_max" widget="float_time" />
+                <field name="hours_quantity" widget="float_time" />
+                <field name="remaining_hours" widget="float_time" />
+                <field name="total_discount" widget="float_time" />
+            </field>
+            
+        </field>
+    </record>
+
+    </data>
+</odoo>
