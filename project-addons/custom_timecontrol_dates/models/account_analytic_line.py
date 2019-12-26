@@ -56,7 +56,6 @@ class AccountAnalyticLine(models.Model):
     @api.model
     def create(self, vals):
         res = super().create(vals)
-        import ipdb; ipdb.set_trace()
         if res.task_id and res.task_id.contract_id:
             contract = res.task_id.contract_id
             if contract.check_limit():
