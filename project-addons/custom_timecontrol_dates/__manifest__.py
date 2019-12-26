@@ -14,12 +14,14 @@
         'account', 
         'hr_timesheet',
         'contract',
+        'sale_contract_project_link'
     ],
     'data': [
         'data/mail_data.xml',
         'views/account_analytic_line_view.xml',
         'views/contract_view.xml',
         'views/project_task_view.xml',
+        'views/project_view.xml',
         ],
     'development_status': 'Beta',
     'maintainers': [

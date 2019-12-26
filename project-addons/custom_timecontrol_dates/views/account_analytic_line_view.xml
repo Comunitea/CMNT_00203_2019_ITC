@@ -12,7 +12,7 @@
 					<field name="date_start" required="True"/>
 					<field name="date_end" required="True"/>
 					<field name="work_type" required="True"/>
-					<field name="discount"/>
+					<field name="discount" widget="float_time"/>
 					<field name="signature" widget="screen_draw" draw_height="300" draw_width="300"/>
 					<field name="observations"/>
 				</field>

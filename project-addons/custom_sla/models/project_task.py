@@ -55,8 +55,8 @@ class ProjectTask(models.Model):
             ['working_hours_open', 'working_hours_close', 'working_days_open', 'working_days_close'], 0.0))
 
     # Fields from sd_project_sla module
-    waiting = fields.Boolean('Esperando')
-    finish_date = fields.Datetime('Finalizado', readonly=True, select=True)
+    waiting = fields.Boolean('Waiting')
+    finish_date = fields.Datetime('Finish', readonly=True, select=True)
     last_task_date = fields.Datetime(
         compute='_compute_final', 
         string="Fecha finalización de última tarea", 
@@ -65,20 +65,20 @@ class ProjectTask(models.Model):
     date_closed = fields.Datetime('Closed', readonly=True, select=True)
 
     # From sd_ajustes_conecta
-    reply_date = fields.Datetime('Fecha de respuesta')
-    reply_type = fields.Char('Tipo respuesta')
-    resolution_type = fields.Char('Tipo resolucion')
+    reply_date = fields.Datetime('Reply date')
+    reply_type = fields.Char('Reply type')
+    resolution_type = fields.Char('Resolution Type')
 
     # is_issue = fields.Boolean('Es incidencia')
     issue_date = fields.Datetime(
-        string="Fecha de la incidencia", required=True,
+        string="Issue date", required=True,
         default=fields.Datetime.now())
-    notice_person = fields.Char(string="Persona de aviso", required=True)
+    notice_person = fields.Char(string="Notice person", required=True)
     priority = fields.Selection(
-        [('0','No procede'), ('1','Baja'), ('2','Media'), ('3','Alta')], 
+        [('0','No process'), ('1','Low'), ('2','Mid'), ('3','Hight')], 
         'Priority', select=True, index=True)
-    problem = fields.Boolean('Problema')
-    problem_description = fields.Text('Causa del problema')
+    problem = fields.Boolean('Problem')
+    problem_description = fields.Text('Problem cause')
     # project_id = fields.Many2one(
     # 'project.project', 'Project', track_visibility='onchange', select=True)
     # working_hours_open = fields.Float(

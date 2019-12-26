@@ -8,8 +8,16 @@
         <field name="arch" type="xml">
             <field name="user_id" position="after">
                 <field name="signature"/>
-                <field name="warn_percent"/>
             </field>
+            <group name="recurring_invoices" position="after">
+                <group string="Time Control" col="4">
+                    <field name="quantity_max" widget="float_time"  col="2"/>
+                    <field name="total_discount" widget="float_time"  col="2"/>
+                    <field name="hours_quantity" widget="float_time"  col="2"/>
+                    <field name="warn_percent" col="2"/>
+                    <field name="remaining_hours" widget="float_time"  col="2"/>
+                </group>
+            </group>
             
         </field>
     </record>

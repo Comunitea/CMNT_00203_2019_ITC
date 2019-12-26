@@ -8,7 +8,7 @@ from odoo import models, fields, api
 class ProjectTask(models.Model):
     _inherit = ['project.task']
 
-    signature = fields.Binary("Firma del cliente")
+    signature = fields.Binary("Customer signature")
 
     @api.model
     def create(self, vals):

@@ -6,21 +6,21 @@ class AccountAnalyticLine(models.Model):
 
     # From sd_timecontrol_dates
     #Overwrite date for Datetime
-    date_start = fields.Datetime('Fecha inicio')
-    date_end = fields.Datetime('Fecha fin')
+    date_start = fields.Datetime('Date Start')
+    date_end = fields.Datetime('Date End')
     work_type = fields.Selection(
         [('presencial','Presencial'),
-            ('remoto','Remoto'),
-            ('telefonico','Telefonico'),
-            ('taller','Taller'),
-            ('lopd','LOPD'),
-            ('cmax','CMAX'),
-            ('interno','Interno')], 'Tipo de trabajo')
+         ('remoto','Remoto'),
+         ('telefonico','Telefonico'),
+         ('taller','Taller'),
+         ('lopd','LOPD'),
+         ('cmax','CMAX'),
+         ('interno','Interno')], 'Work Type')
     name = fields.Text('Description')
-    discount = fields.Float('Descuento de horas')
-    signature = fields.Binary('Firma del cliente')
-    observations = fields.Text('Observaciones')
-    sended = fields.Boolean('Enviado', default=False)
+    discount = fields.Float('Hours discount')
+    signature = fields.Binary('Customer signature')
+    observations = fields.Text('Observations')
+    sended = fields.Boolean('Sended', default=False)
 
     @api.onchange('date_start', 'date_end', 'work_type', 'discount')
     def _on_change_datetime(self):
@@ -56,6 +56,7 @@ class AccountAnalyticLine(models.Model):
     @api.model
     def create(self, vals):
         res = super().create(vals)
+        import ipdb; ipdb.set_trace()
         if res.task_id and res.task_id.contract_id:
             contract = res.task_id.contract_id
             if contract.check_limit():
@@ -63,12 +64,6 @@ class AccountAnalyticLine(models.Model):
         return res
     
     def send_warning_mail(self, account_id):
-        # email_template_obj = self.pool.get('email.template')
-        # template_ids = email_template_obj.search(cr, uid, [('name','=','Aviso exceso')], limit=1)
-        # for template_id in template_ids:
-        #     for contract in self.pool.get('account.analytic.account').browse(cr, uid, ids, context=context):
-        #         email_template_obj.send_mail(cr, uid, template_id, contract.id, context=context)
-  
         email_template_warn = self.env.ref('custom_timecontrol_dates.email_template_warn')
         email_template_warn.send_mail(account_id, force_send=True)
         return True

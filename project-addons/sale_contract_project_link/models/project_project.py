@@ -9,6 +9,7 @@ class ProjectProject(models.Model):
     _inherit = 'project.project'
 
     @api.multi
+    @api.depends('analytic_account_id')
     def get_contract_id(self):
         for project in self:
             if project.analytic_account_id:
