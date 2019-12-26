@@ -60,7 +60,10 @@ def get_line_vals(data):
 
 def get_contract_vals(data):
     field_lines = []
+
     partner_id = False
+    if vals.get('partner_extid'):
+        partner_id = self.env.ref(vals['partner_extid'])
     user_id = False
     pricelist_id = False
 
@@ -85,6 +88,12 @@ def create_contracts(contract_datas):
         if ext_id:
             vals = self.get_contract_vals(data)
             contract = self.env['contract.contract'].create(vals)
+            data = {
+                'xml_id': ext_id,
+                'record': contract,
+                'noupdate': True
+            }
+            self.env['ir.model.data']._update_xmlids()
         else:
             line_vals = get_line_vals(data)
             contract.write({'contract_line_ids': line_vals})

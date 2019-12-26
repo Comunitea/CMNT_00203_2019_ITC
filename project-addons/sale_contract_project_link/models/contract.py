@@ -48,5 +48,7 @@ class ContractContract(models.Model):
                 'project_id': project.id,
                 'group_id': project.analytic_account_id.id
             })
+            project.get_contract_id()
+
         return True
 
