@@ -8,13 +8,11 @@
 			<field name="type">form</field>
 			<field name="inherit_id" ref="hr_timesheet.hr_timesheet_line_form"/>
 			<field name="arch" type="xml">
-				<field name="name" position="before">
+				<field name="date" position="after">
 					<field name="date_start" required="True"/>
 					<field name="date_end" required="True"/>
-					<field name="discount"/>
 					<field name="work_type" required="True"/>
-				</field>
-				<field name="date" position="after">
+					<field name="discount"/>
 					<field name="signature" widget="screen_draw" draw_height="300" draw_width="300"/>
 					<field name="observations"/>
 				</field>

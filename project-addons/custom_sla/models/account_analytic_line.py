@@ -2,6 +2,7 @@
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
 
 from odoo import fields, models, api
+from datetime import datetime as dt
 
 
 class AccountAnalyticLine(models.Model):
@@ -15,6 +16,10 @@ class AccountAnalyticLine(models.Model):
         
         # Fecha respuesta y tipo resolucion, si es la fecha mas baja 
         # significa que tiene que ser el tipo de resolucion
+        if not isinstance(date_start, dt):
+            date_start = fields.Datetime.to_datetime(date_start)
+        if not isinstance(date_end, dt):
+            date_end = fields.Datetime.to_datetime(date_end)
         if task.reply_date:
             if date_start < task.reply_date:
                 task_vals.update({
@@ -61,8 +66,9 @@ class AccountAnalyticLine(models.Model):
         task_vals = self._get_task_vals(
                 task, date_start, date_end, work_type)
         if task_vals:
-            task.write(task_vals)
-        
+            vals.update(task_vals)
+
+        vals['date'] = date_start
         res = super().create(vals)
         return res
     

@@ -5,7 +5,8 @@ class AccountAnalyticLine(models.Model):
     _inherit = "account.analytic.line"
 
     # From sd_timecontrol_dates
-    date_start = fields.Datetime('Fecha inicio', required=True)
+    #Overwrite date for Datetime
+    date_start = fields.Datetime('Fecha inicio')
     date_end = fields.Datetime('Fecha fin')
     work_type = fields.Selection(
         [('presencial','Presencial'),
@@ -224,7 +225,7 @@ class AccountAnalyticLine(models.Model):
     # 			email_template_obj.send_mail(cr, uid, template_id, contract.id, context=context)
     # 	return True
 
-    @api.onchange('date_start, date_end, work_type, discount')
+    @api.onchange('date_start', 'date_end', 'work_type', 'discount')
     def _on_change_datetime(self):
         self.ensure_one()
         res = 0
@@ -234,13 +235,13 @@ class AccountAnalyticLine(models.Model):
             decimals = hours - math.floor(hours)
             hours_floor = math.floor( (hours * 10) + 0.89) / 10
 
-            if (work_type == 'presencial'):
+            if (self.work_type == 'presencial'):
                 if(hours < 1 and hours > 0):
                     res = 1
                 else:
                     res = round(2 * hours_floor + 0.499) / 2
             
-            elif work_type in ['remoto', 'telefonico', 'taller', 'cmax']:
+            elif self.work_type in ['remoto', 'telefonico', 'taller', 'cmax']:
                 if(decimals == 0):
                     res = math.floor(hours)
                 elif(decimals > 0 and decimals <= 0.25):

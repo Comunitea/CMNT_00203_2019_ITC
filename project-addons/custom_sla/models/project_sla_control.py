@@ -12,8 +12,9 @@ import logging
 _logger = logging.getLogger(__name__)
 
 
-SLA_STATES = [('5', 'Failed'), ('4', 'Will Fail'), ('3', 'Warning'),
-              ('2', 'Watching'), ('1', 'Achieved')]
+SLA_STATES = [('5', '(5) Failed'), ('4', '(4) Will Fail'),
+              ('3', '(3)Warning'),
+              ('2', '(2) Watching'), ('1', '(1) Achieved')]
 
 
 def safe_getattr(obj, dotattr, default=False):

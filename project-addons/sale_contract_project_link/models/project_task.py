@@ -9,7 +9,8 @@ class ProjectTask(models.Model):
     _inherit = 'project.task'
 
     @api.multi
-    def get_contract_id(self):
+    @api.depends('project_id', 'project_id.analytic_account_id')
+    def _get_contract_id(self):
         for task in self:
             if task.project_id and task.project_id.analytic_account_id:
                 ac_id = task.project_id.analytic_account_id.id
@@ -19,4 +20,5 @@ class ProjectTask(models.Model):
                     task.contract_id = contract.id
 
     contract_id = fields.Many2one(
-        'contract.contract', compute='get_contract_id')
+        'contract.contract', compute='_get_contract_id', store=True)
+    is_issue = fields.Boolean('Is issue', default=True)

@@ -19,6 +19,7 @@ class ContractContract(models.Model):
             for model_name in ctrl_models:
                 model = self.env[model_name]
                 base = []
+                # TODO esto puede servir
                 # base = [] if recalc_closed else [('stage_id.fold', '=', 0)]
                 doc_ids = []
                 # if 'analytic_account_id' in model._columns:

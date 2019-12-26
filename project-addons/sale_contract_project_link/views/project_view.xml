@@ -2,24 +2,51 @@
 <odoo>
     <data>
 
-        <!-- List view used when the sla_control_ids field
-             is added to controlled document's form -->
-        <!-- <record id="view_sla_control_tree" model="ir.ui.view">
-            <field name="name">view_sla_control_tree</field>
-            <field name="model">project.sla.control</field>
-            <field name="arch" type="xml">
+    <record id="act_contract_to_issue" model="ir.actions.act_window">
+        <field name="name">Tasks</field>
+        <field name="res_model">project.task</field>
+        <field name="view_mode">kanban,tree,form,calendar,pivot,graph,activity</field>
+        <field name="context">{
+            'search_default_contract_id': [active_id],
+            'search_default_is_issue': True,
+            'default_contract_id': active_id,
+            'default_is_issue': True,
+        }</field>
+        <field name="search_view_id" ref="project.view_task_search_form"/>
+    </record>
 
-                <tree string="Service Level">
-                    <field name="sla_line_id"/>
-                    <field name="sla_state"/>
-                    <field name="sla_start_date"/>
-                    <field name="sla_warn_date"/>
-                    <field name="sla_limit_date"/>
-                    <field name="sla_close_date"/>
-                </tree>
+     <record id="act_project_to_issue" model="ir.actions.act_window">
+        <field name="name">Tasks</field>
+        <field name="res_model">project.task</field>
+        <field name="view_mode">kanban,tree,form,calendar,pivot,graph,activity</field>
+        <field name="context">{
+            'search_default_project_id': [active_id],
+            'search_default_is_issue': True,
+            'default_project_id': active_id,
+            'default_is_issue': True,
+        }</field>
+        <field name="search_view_id" ref="project.view_task_search_form"/>
+    </record>
 
+    <!-- model.name inherit form view -->
+    <record id="edit_project_add_contract" model="ir.ui.view">
+        <field name="name">edit.project.add.contract</field>
+        <field name="model">project.project</field>
+        <field name="inherit_id" ref="project.edit_project"/>
+        <field name="arch" type="xml">
+            <div name="button_box" position="inside">
+                <button class="oe_stat_button" type="action"
+                        name="%(act_project_to_issue)d" icon="fa-tasks">
+                    <field string="Issues" name="task_issue_count" widget="statinfo"/>
+                </button>
+            </div>
+
+            <field name="user_id" position="after">
+                <field name="contract_id"/>
             </field>
-        </record> -->
+            
+        </field>
+    </record>
 
     </data>
 </odoo>

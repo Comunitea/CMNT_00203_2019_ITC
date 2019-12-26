@@ -6,6 +6,7 @@
         <field name="inherit_id" ref="project.view_task_form2"/>
         <field name="arch" type="xml">
             <field name="tag_ids" position="after">
+                <field name="is_issue"/>
                 <field name="contract_id"/>
             </field>
             
@@ -18,6 +19,7 @@
         <field name="inherit_id" ref="project.view_task_tree2"/>
         <field name="arch" type="xml">
             <field name="stage_id" position="after">
+                <field name="is_issue" />
                 <field name="contract_id" />
             </field>
             
@@ -25,17 +27,23 @@
     </record>
 
     <!-- solo si lo hago store -->
-    <!-- <record id="project_task_search_sla" model="ir.ui.view">
+    <record id="project_task_search_sla" model="ir.ui.view">
         <field name="name">project.task.search.sla</field>
         <field name="model">project.task</field>
         <field name="inherit_id" ref="project.view_task_search_form"/>
         <field name="arch" type="xml">
-           <filter name="stage" position="after">
-                <filter name="contract" string="Contract" context="{'group_by':'contract_id'}"/>
-            </filter>
-            
+            <field name="user_id" position="after">
+                <field name="contract_id"/>
+            </field>
+            <filter name="stage" position="after">
+                    <filter name="contract" string="Contract" context="{'group_by':'contract_id'}"/>
+                </filter>
+
+                <filter name="my_tasks" position="after">
+                    <filter string="My Issues" name="my_issues" domain="[('is_issue', '=', True)]"/>
+                </filter>            
         </field>
-    </record> -->
+    </record>
 
 
 

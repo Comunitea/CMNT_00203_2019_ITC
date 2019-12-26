@@ -15,6 +15,8 @@ class ProjectTask(models.Model):
         for task in self:
             finish_date = False
             for ts in task.timesheet_ids:
+                if not ts.date_end:
+                    continue
                 if finish_date == False:
                     finish_date = ts.date_end
                 elif finish_date < ts.date_end:
@@ -69,7 +71,8 @@ class ProjectTask(models.Model):
 
     # is_issue = fields.Boolean('Es incidencia')
     issue_date = fields.Datetime(
-        string="Fecha de la incidencia", required=True)
+        string="Fecha de la incidencia", required=True,
+        default=fields.Datetime.now())
     notice_person = fields.Char(string="Persona de aviso", required=True)
     priority = fields.Selection(
         [('0','No procede'), ('1','Baja'), ('2','Media'), ('3','Alta')], 
@@ -88,9 +91,9 @@ class ProjectTask(models.Model):
     @api.onchange('stage_id')
     def onchange_stage_id(self):
         res = {}
-        if not stage_id:
+        if not self.stage_id:
             return
-        stage = self.env['project.task.type'].browse(self.stage_id)
+        stage = self.stage_id
         if stage.name == 'Finalizada' or stage.name == 'Done' or \
                 stage.name == 'Finalizado':
             self.finish_date = fields.Datetime.Now()
