@@ -22,6 +22,57 @@ class AccountAnalyticLine(models.Model):
     observations = fields.Text('Observaciones')
     sended = fields.Boolean('Enviado', default=False)
 
+    @api.onchange('date_start', 'date_end', 'work_type', 'discount')
+    def _on_change_datetime(self):
+        self.ensure_one()
+        res = 0
+        if self.date_start and self.date_end and self.work_type:
+            diff = self.date_end - self.date_start
+            hours = ( (diff.seconds) / 3600)
+            decimals = hours - math.floor(hours)
+            hours_floor = math.floor( (hours * 10) + 0.89) / 10
+
+            if (self.work_type == 'presencial'):
+                if(hours < 1 and hours > 0):
+                    res = 1
+                else:
+                    res = round(2 * hours_floor + 0.499) / 2
+            
+            elif self.work_type in ['remoto', 'telefonico', 'taller', 'cmax']:
+                if(decimals == 0):
+                    res = math.floor(hours)
+                elif(decimals > 0 and decimals <= 0.25):
+                    res = math.floor(hours) + 0.25
+                elif (decimals > 0.25 and decimals <= 0.5):
+                    res = math.floor(hours) + 0.5
+                elif(decimals > 0.5 and decimals <= 0.75):
+                    res = math.floor(hours) + 0.75
+                elif(decimals > 0.75 and decimals <= 1):
+                    res = math.floor(hours) + 1
+                else:
+                    res = hours
+            self.unit_amount = res - self.discount
+    
+    @api.model
+    def create(self, vals):
+        res = super().create(vals)
+        if res.task_id and res.task_id.contract_id:
+            contract = res.task_id.contract_id
+            if contract.check_limit():
+                self.send_warning_mail(contract.id)
+        return res
+    
+    def send_warning_mail(self, account_id):
+        # email_template_obj = self.pool.get('email.template')
+        # template_ids = email_template_obj.search(cr, uid, [('name','=','Aviso exceso')], limit=1)
+        # for template_id in template_ids:
+        #     for contract in self.pool.get('account.analytic.account').browse(cr, uid, ids, context=context):
+        #         email_template_obj.send_mail(cr, uid, template_id, contract.id, context=context)
+  
+        email_template_warn = self.env.ref('custom_timecontrol_dates.email_template_warn')
+        email_template_warn.send_mail(account_id, force_send=True)
+        return True
+    
     # def invoice_cost_create(self, cr, uid, ids, data=None, context=None):
     # 			analytic_account_obj = self.pool.get('account.analytic.account')
     # 			account_payment_term_obj = self.pool.get('account.payment.term')
@@ -209,71 +260,4 @@ class AccountAnalyticLine(models.Model):
 
     # 							invoice_obj.button_reset_taxes(cr, uid, [last_invoice], context)
     # 			return invoices
-
-    # def create(self, cr, uid, vals, context=None):
-    # 	res = super(hr_analytic_timesheet, self).create(cr, uid, vals, context=context)
-    # 	if 'account_id' in vals:
-    # 		if self.pool.get('account.analytic.account').check_limite(cr, uid, vals['account_id'], context=context):
-    # 			self.enviar_correo_aviso(cr, uid, vals['account_id'], context=context)
-    # 	return res
-
-    # def enviar_correo_aviso(self, cr, uid, ids, context=None):
-    # 	email_template_obj = self.pool.get('email.template')
-    # 	template_ids = email_template_obj.search(cr, uid, [('name','=','Aviso exceso')], limit=1)
-    # 	for template_id in template_ids:
-    # 		for contract in self.pool.get('account.analytic.account').browse(cr, uid, ids, context=context):
-    # 			email_template_obj.send_mail(cr, uid, template_id, contract.id, context=context)
-    # 	return True
-
-    @api.onchange('date_start', 'date_end', 'work_type', 'discount')
-    def _on_change_datetime(self):
-        self.ensure_one()
-        res = 0
-        if self.date_start and self.date_end and self.work_type:
-            diff = self.date_end - self.date_start
-            hours = ( (diff.seconds) / 3600)
-            decimals = hours - math.floor(hours)
-            hours_floor = math.floor( (hours * 10) + 0.89) / 10
-
-            if (self.work_type == 'presencial'):
-                if(hours < 1 and hours > 0):
-                    res = 1
-                else:
-                    res = round(2 * hours_floor + 0.499) / 2
-            
-            elif self.work_type in ['remoto', 'telefonico', 'taller', 'cmax']:
-                if(decimals == 0):
-                    res = math.floor(hours)
-                elif(decimals > 0 and decimals <= 0.25):
-                    res = math.floor(hours) + 0.25
-                elif (decimals > 0.25 and decimals <= 0.5):
-                    res = math.floor(hours) + 0.5
-                elif(decimals > 0.5 and decimals <= 0.75):
-                    res = math.floor(hours) + 0.75
-                elif(decimals > 0.75 and decimals <= 1):
-                    res = math.floor(hours) + 1
-                else:
-                    res = hours
-            self.unit_amount = res - self.discount
-    
-    @api.model
-    def create(self, vals):
-        res = super().create(vals)
-        # TODO SEND MAIL WARNING
-        # if 'account_id' in vals:
-        #     account = self.env['account.analytic.account'].browse(vals['account_id'])
-		# 	if account.check_limit():
-		# 		self.send_warning_mail(account.id)
-        return res
-    
-    def send_warning_mail(self, account_id):
-        # email_template_obj = self.pool.get('email.template')
-        # template_ids = email_template_obj.search(cr, uid, [('name','=','Aviso exceso')], limit=1)
-        # for template_id in template_ids:
-        #     for contract in self.pool.get('account.analytic.account').browse(cr, uid, ids, context=context):
-        #         email_template_obj.send_mail(cr, uid, template_id, contract.id, context=context)
-  
-        email_template_warn = self.env.ref('custom_timecontrol_dates.email_template_warn')
-        email_template_warn.send_mail(account_id, force_send=True)
-        return True
     

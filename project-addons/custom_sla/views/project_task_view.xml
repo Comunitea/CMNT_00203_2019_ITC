@@ -17,16 +17,16 @@
             <notebook position="inside">
                 <!-- <page name="sla_page" string="Service Levels" attrs="{'invisible': [('sla_state', '=', False)]}"> -->
                 <page name="sla_page" string="Service Levels" >
-                    <group>
-                        <field name="sla_state"/>
-                        <field name="write_date"/>
-                        <field name="sla_control_ids"/>
-                    </group>
-                    <group>
+                    <group col="2">
                         <field name="reply_date"/>
                         <field name="reply_type"/>
                         <field name="resolution_type"/>
                         <field name="waiting"/>
+                        <field name="sla_state"/>
+                        <field name="write_date"/>
+                    </group>
+                    <group string="Control SLA">
+                        <field name="sla_control_ids" nolabel="1"/>
                     </group>
                 </page>
             </notebook>

@@ -77,7 +77,7 @@
                             <group>
                                 <field name="name" required="True"/>
                                 <field name="date" invisible="1"/>
-                                <field name="date_start"/>
+                                <field name="date_start" required="True"/>
                                 <field name="date_end" required="True"/>
                                 <field name="work_type" required="True"/>
                                 <field name="unit_amount" string="Duration" widget="float_time"/>

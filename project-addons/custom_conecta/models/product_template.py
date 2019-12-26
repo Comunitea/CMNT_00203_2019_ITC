@@ -9,8 +9,8 @@ class ProductTemplate(models.Model):
 
     gestor_product = fields.Float('Gestor product')
 
-    ler_code = fields.Char(string="Codigo LER")
+    ler_code = fields.Char(string="LER code")
     waste_type = fields.Selection(
-        [('papel', 'Papel'),
+        [('papel', 'Paper'),
          ('toner', 'Toner'), ('raees', 'Raees')], 
         string='Tipo residuo')

@@ -7,7 +7,7 @@ from odoo import fields, models, api
 class StockPicking(models.Model):
     _inherit = "stock.picking"
 
-    did_weight = fields.Float('Peso Contenedor')
+    did_weight = fields.Float('Container Weight')
     part_state = fields.Selection(
-        [('a', 'Aceptado'), ('r', 'Rechazado')],
+        [('a', 'Aceppted'), ('r', 'Rejected')],
         string='Estado del parte')
