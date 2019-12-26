@@ -17,7 +17,7 @@
             <notebook position="inside">
                 <!-- <page name="sla_page" string="Service Levels" attrs="{'invisible': [('sla_state', '=', False)]}"> -->
                 <page name="sla_page" string="Service Levels" >
-                    <group col="2">
+                    <group col="6">
                         <field name="reply_date"/>
                         <field name="reply_type"/>
                         <field name="resolution_type"/>
