@@ -109,7 +109,7 @@ def get_line_vals(data, idx, contract=False):
         logging.error('SIN RECURRING NEXT DATE EN (LIN %s)' % (str(idx)))
     vals = {
         'product_id': product_id,
-        'name': product.name_get(),
+        'name': line_name,
         'recurring_interval': recurring_interval,
         'recurring_rule_type': recurring_rule_type,
         'date_start': date_start,
@@ -236,11 +236,11 @@ def create_contracts(contract_datas):
 
 import csv
 idx = 0
-f1 = open('/home/comunitea/conecta/scripts/contratos.csv', newline='\n')
+f1 = open('/home/javier/buildouts/conecta/scripts/contratos.csv', newline='\n')
 lines2count= csv.reader(f1, delimiter=',', quotechar='"')
 row_count = sum(1 for row in lines2count)
 
-with open('/home/comunitea/conecta/scripts/contratos.csv', newline='\n') as csvfile:
+with open('/home/javier/buildouts/conecta/scripts/contratos.csv', newline='\n') as csvfile:
     lines = csv.reader(csvfile, delimiter=',', quotechar='"')
     
     contract_datas = []
