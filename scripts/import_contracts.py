@@ -39,7 +39,6 @@ def _parse_line(line):
     }
 
 def get_line_vals(data, idx, contract=False):
-    # import ipdb; ipdb.set_trace()
     field_lines = []
     product_id = False
     product = False
@@ -210,7 +209,6 @@ def get_contract_vals(data, idx):
     return vals
 
 def create_contracts(contract_datas):
-    # import ipdb; ipdb.set_trace()
     idx = 1
     row_count = len(contract_datas) + 1
     created_contracts = session.env['contract.contract']
@@ -223,7 +221,6 @@ def create_contracts(contract_datas):
             vals = get_contract_vals(data, idx)
             contract = session.env['contract.contract'].create(vals)
             created_contracts += contract
-            # import ipdb; ipdb.set_trace()
             data =  [{
                 'xml_id': 'CONTRACT.' + ext_id,
                 'record': contract,
@@ -233,14 +230,12 @@ def create_contracts(contract_datas):
         else:
             line_vals = get_line_vals(data, idx, contract)
             contract.write({'contract_line_ids': line_vals})
-    import ipdb; ipdb.set_trace()
     created_contracts.link_project()
 
 
 
 import csv
 idx = 0
-# import ipdb; ipdb.set_trace()
 f1 = open('/home/javier/buildouts/conecta/scripts/contratos.csv', newline='\n')
 lines2count= csv.reader(f1, delimiter=',', quotechar='"')
 row_count = sum(1 for row in lines2count)
