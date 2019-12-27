@@ -254,5 +254,5 @@ with open('/home/javier/buildouts/conecta/scripts/contratos.csv', newline='\n') 
 
     create_contracts(contract_datas)
     
-# session.cr.commit()
-# session.cr.close()
+session.cr.commit()
+session.cr.close()
