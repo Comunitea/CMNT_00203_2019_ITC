@@ -1,22 +1,1949 @@
-__export__.account_analytic_account_1863,Sonia Pruecont**,__export__.res_partner_5534,Sonia Bautista,0.7,AA1910,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2015-06-01,,False,0.0,0.0,False,Exceso horas Nivel 1,True,,Mes(es),1,1,2015-12-01,__export__.product_product_1353,[STCDT5] DISPONIBILIDAD TECNICA 5 HORAS TRIMESTRALES,1.0,Unidad(es),100.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
-__export__.account_analytic_account_1864,Sonia Pruecontfijo**,__export__.res_partner_5534,Sonia Bautista,0.7,AA1911,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2015-10-01,,False,0.0,0.0,False,Tarifa pública,True,,Mes(es),1,3,2015-12-01,__export__.product_product_1479,[STSGVP] SERVICIOS DE SEGURIDAD: VPN,1.0,Unidad(es),50.0,0.0,,,Mantenimientos - M
-__export__.account_analytic_account_1952,PESQUERA INTER - External,__export__.res_partner_6765,Administrador,0.7,AA2012,Externalware Ibérica,2015-01-01,2018-12-31,True,15000.0,0.0,False,Tarifa pública,True,,Mes(es),1,1,2019-06-25,__export__.product_product_2299,"Cuota de Servicios Integral
+External ID,Nombre del contrato/cuenta,Cliente/ID (identificación),Gestor contable/Nombre,Porcentaje límite para avisos,Referencia,Compañía/Nombre de la compañía,Fecha de inicio,Fecha de caducidad,Precio fijo,Precio máx. factura,Unidades del servicio pre-pago,En imputaciones de horas,Tarifa/Nombre tarifa,Generar automáticamente facturas recurrentes,Descripción,Recurrencia,Repetir cada,Repetir cada,Fecha de la proxima factura,Líneas de factura/Producto/ID,Líneas de factura/Descripción,Líneas de factura/Cantidad,Líneas de factura/Unidad de medida/Unidad de medida,Líneas de factura/Precio unitario,Líneas de factura/Descuento (%),Modo de pago/Nombre,Plazo de pago/Plazo de pago,Tipo de venta/Nombre
+__export__.account_analytic_account_82,NOT. VPEON - Disp8T,__export__.res_partner_909,Mónica Pérez,0.7,AA103,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2019-10-01,2019-12-31,False,0.0,8.0,False,Exceso horas Nivel 1,True,,Mes(es),1,3,2020-03-25,__export__.product_product_1362,DISPONIBILIDAD TECNICA 8 HORAS TRIMESTRALES,1.0,Unidad(es),336.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_83,CUVIDASA - Disp2M,__export__.res_partner_7327,Ramon Basadre,0.7,AA104,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2019-10-01,2019-12-31,False,0.0,6.0,False,Exceso horas Nivel 1,True,,Mes(es),1,1,2020-01-25,__export__.product_product_1375,DISPONIBILIDAD 2 HORAS MENSUALES,1.0,Unidad(es),86.0,0.0,Transferencia,Contado,Mantenimientos - M
+__export__.account_analytic_account_85,RAMON CRUZ - Disp5T,__export__.res_partner_1512,Mónica Pérez,0.7,AA106,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2019-10-01,2019-12-31,False,0.0,5.0,False,Exceso horas Nivel 1,True,,Mes(es),1,3,2020-03-25,__export__.product_product_1353,DISPONIBILIDAD TECNICA 5 HORAS TRIMESTRALES,1.0,Unidad(es),215.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_87,MARITIMA - Disp2M,__export__.res_partner_1415,Mónica Pérez,0.7,AA108,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2019-10-01,2019-12-31,False,0.0,6.0,False,Exceso horas Nivel 1,True,,Mes(es),1,1,2020-01-25,__export__.product_product_1375,DISPONIBILIDAD 2 HORAS MENSUALES,1.0,Unidad(es),86.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_90,CONGELADOS - Disp5T,__export__.res_partner_1477,Mónica Pérez,0.7,AA111,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2019-10-01,2019-12-31,False,0.0,5.0,False,Tarifa pública,True,,Mes(es),1,3,2020-03-25,__export__.product_product_1289,SERVICIO DE DISPONIBILIDAD TECNICA TRIM.,1.0,Unidad(es),87.5,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_91,NOT. PONTEAREAS - Disp5M,__export__.res_partner_1501,Administrador,0.7,AA112,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2019-10-01,2019-12-31,False,0.0,15.0,False,Exceso horas Nivel 1,True,,Mes(es),1,1,2020-01-25,__export__.product_product_1350,DISPONIBILIDAD TECNICA 5 HORAS MENSUALES,1.0,Unidad(es),200.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_92,NOT. RECONQUISTA - Disp8M,__export__.res_partner_1072,Mónica Pérez,0.7,AA113,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2019-10-01,2019-12-31,False,0.0,24.0,False,Exceso horas Nivel 2,True,,Mes(es),1,1,2020-01-25,__export__.product_product_1351,DISPONIBILIDAD TECNICA 8 HORAS MENSUALES,1.0,Unidad(es),312.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_95,GESPESA - Disp2M,__export__.res_partner_1250,Mónica Pérez,0.7,AA116,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2019-10-01,2019-12-31,False,0.0,6.0,False,Exceso horas Nivel 1,True,,Mes(es),1,1,2020-01-25,__export__.product_product_1375,DISPONIBILIDAD 2 HORAS MENSUALES,1.0,Unidad(es),86.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_98,NOT. PONTEAREAS - SegP,__export__.res_partner_1501,Mónica Pérez,0.7,AA119,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2014-12-01,,False,110.0,0.0,False,Tarifa pública,True,,Mes(es),1,1,2020-01-25,__export__.product_product_1478,SERVICIOS SEGURIDAD PERIMETRAL,1.0,Unidad(es),110.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_101,KRACK - Backup,__export__.res_partner_1232,Sonia Bautista,0.7,AA122,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2015-05-01,,False,0.0,0.0,False,Tarifa pública,True,,Mes(es),1,1,2020-01-25,__export__.product_product_1501,"BACKUP REMOTO SERVICIOS
+- Acceso a banda ancha a Internet
+- Housing dispositivo del cliente en CPD ISO27001",1.0,Unidad(es),55.0,0.0,Transferencia,Contado,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1502,"BACKUP REMOTO MANO DE OBRA - Monitorización y gestión de alertas, vigilancia del proceso y pruebas de recuperación",1.0,Unidad(es),30.0,0.0,,,
+__export__.account_analytic_account_105,SOFTDIL - T,__export__.res_partner_8060,Sonia Bautista,0.7,AA131,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2015-09-10,,False,0.0,0.0,True,Tarifa pública,True,,Año(s),1,1,2020-09-10,__export__.product_product_1462,[ALQD80C] DiD ALQUILER cube 80+,1.0,Unidad(es),310.0,0.0,,,SAT - T
+__export__.account_analytic_account_1785,INBOBE - CMax - AV,__export__.res_partner_1210,Sonia Bautista,0.7,AA1822,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2015-10-01,,False,0.0,0.0,False,,True,,Mes(es),1,1,2020-01-25,__export__.product_product_2388,"SERVICIOS CMAX MONITORIZACION SERVIDOR
+Servicios Gestionados ConectaMAX:
+Agente Base 5,5 € 
+
+Funciones adicionales para Windows	
+	Control Remoto MSP Anyview  	3,2
+        Team Viewer - solo W2003 -          3,2
+
+VIGO:  3 SERVIDORES
+	
+",3.0,Unidad(es),8.7,0.0,Transferencia,30 días,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S
+Servicios Gestionados ConectaMAX
+Intervalo de monitorización: cada 120/60 min.  0,35 € 
+Control remoto  0,6 €
+
+BRASIL:  4 EQUIPOS
+PARAGUAY:  6 EQUIPOS
+VIGO: 18 EQUIPOS
+MADRID:  23 EQUIPOS 
+MOVILES: 3 EQUIPOS
+PANAMA: 2 EQUIPOS
+
+",56.0,Unidad(es),0.95,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S
+Servicios Gestionados ConectaMAX
+Análisis de vulnerabilidades y ad. revisiones 0,8 €
+",18.0,Unidad(es),0.8,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1474,"SERVICIOS CMAX ANTIVIRUS
+Servicios Gestionados ConectaMAX
+Antivirus administrado 2,35 € por Servidor-PC ",59.0,Unidad(es),2.35,10.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_2388,"SERVICIOS CMAX MONITORIZACION SERVIDOR
+Servicios Gestionados ConectaMAX:
+Acceso de clientes al portal 10,5 €
+",1.0,Unidad(es),10.5,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_2389,"SERVICIOS CMAX ADMON REMOTA
+Servicios Gestionados ConectaMAX:
+Mail Protection  PVP --- 1,2 euro buzon             ",1.0,Unidad(es),1.2,0.0,,,
+__export__.account_analytic_account_1786,CONGELADOS - Hosting Basico,__export__.res_partner_1477,Sonia Bautista,0.7,AA1824,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2015-10-01,,False,0.0,0.0,False,,True,,Mes(es),1,3,2020-03-25,__export__.product_product_1355,SERVICIO INTERNET BASICO,1.0,Unidad(es),45.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_1787,CONGELADOS - CMax - AV,__export__.res_partner_1477,Sonia Bautista,0.7,AA1825,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2015-02-01,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-01-27,__export__.product_product_1474," SERVICIOS CMAX ANTIVIRUS
+Servicios Gestionados ConectaMAX
+Antivirus administrado 2,20€ por Servidor-PC 
+
+1 AV - Anual",12.0,Unidad(es),2.35,0.0,SEPA Conecta,Contado,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S
+Servicios Gestionados ConectaMAX
+Intervalo de monitorización: cada 120/60 min.  0,35 €
+Control remoto  0,6 €
+
+1 Pc - Anual
+",12.0,Unidad(es),0.95,0.0,,,
+__export__.account_analytic_account_1788,CUVIDASA - Cmax AV,__export__.res_partner_7327,Ramon Basadre,0.7,AA1826,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2014-06-01,,False,0.0,0.0,False,,True,,Mes(es),1,1,2020-01-25,__export__.product_product_1474,"SERVICIOS CMAX ANTIVIRUS
+Servicios Gestionados ConectaMAX
+Antivirus administrado 2,35€ por Servidor-PC ",22.0,Unidad(es),2.35,0.0,Transferencia,Contado,Mantenimientos - M
+__export__.account_analytic_account_1789,RAMON CRUZ - CMax - AV,__export__.res_partner_1512,Sonia Bautista,0.7,AA1827,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2014-10-01,,False,0.0,0.0,False,,True,,Mes(es),1,1,2020-01-25,__export__.product_product_2388,"SERVICIOS CMAX MONITORIZACION SERVIDOR
+Servicios Gestionados ConectaMAX:
+Agente Base 5,5 €
+
+Funciones adicionales para Windows	
+	Team Viewer - solo W2003 - 3,2 €
+	
+",1.0,Unidad(es),8.7,0.0,SEPA Conecta,Contado,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S
+Servicios Gestionados ConectaMAX
+Intervalo de monitorización: cada 120/60 min.  0,35 €
+Tareas automatizadas  0,25 €
+",2.0,Unidad(es),0.6,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1474,"SERVICIOS CMAX ANTIVIRUS
+Servicios Gestionados ConectaMAX
+Antivirus administrado 2,35 € por Servidor-PC ",3.0,Unidad(es),2.35,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S
+Servicios Gestionados ConectaMAX
+Control remoto MSP Anyview  0,6 €",1.0,Unidad(es),0.6,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S
+Servicios Gestionados ConectaMAX
+Team Viewer - solo Windows XP - 1,1 €",1.0,Unidad(es),1.1,0.0,,,
+__export__.account_analytic_account_1791,NOT. PEDRO RIOL - SegP,__export__.res_partner_1385,Sonia Bautista,0.7,AA1831,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2014-07-01,,False,0.0,0.0,False,,True,,Mes(es),1,1,2020-01-25,__export__.product_product_1476,SERVICIOS DE SEGURIDAD: PERIMETRAL,1.0,Unidad(es),125.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_1792,NOT. PEDRO RIOL - CMax -AV,__export__.res_partner_1385,Sonia Bautista,0.7,AA1832,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2014-07-01,,False,0.0,0.0,False,,True,,Mes(es),1,1,2020-01-25,__export__.product_product_2388,"SERVICIOS CMAX MONITORIZACION SERVIDOR
+Servicios Gestionados ConectaMAX:
+         Agente Base 5,5 €
+
+Funciones adicionales para Windows:
+	Team Viewer - solo W2003 -  3,2 €
+	
+",1.0,Unidad(es),8.7,0.0,SEPA Conecta,Contado,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S
+Servicios Gestionados ConectaMAX
+Intervalo de monitorización: cada 120/60 min.  0,35 €
+Control remoto  0,6 €
+Análisis de vulnerabilidades y ad. revisiones	0,8 €",16.0,Unidad(es),1.75,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1474,"SERVICIOS CMAX ANTIVIRUS
+Servicios Gestionados ConectaMAX
+Antivirus administrado 2,35 € por Servidor-PC ",17.0,Unidad(es),2.35,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_2389,"SERVICIOS CMAX ADMON REMOTA
+Mail Protection - 1,2 euro / buzón             
+",11.0,Unidad(es),1.2,0.0,,,
+__export__.account_analytic_account_1793,NOT. PEDRO RIOL - Hosting Profesional,__export__.res_partner_1385,Sonia Bautista,0.7,AA1833,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2014-07-01,,False,0.0,0.0,False,,True,,Mes(es),1,1,2020-01-25,__export__.product_product_1359,SERVICIO INTERNET PROFESIONAL,1.0,Unidad(es),30.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_1794,MARITIMA - CMax - AV,__export__.res_partner_1415,Sonia Bautista,0.7,AA1834,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2014-12-01,,False,0.0,0.0,False,,True,,Mes(es),1,1,2020-01-25,__export__.product_product_2388," SERVICIOS CMAX MONITORIZACION SERVIDOR
+Servicios Gestionados ConectaMAX:
+Agente Base 5,5 €
+
+Monitorización básica 	
+	Eventos críticos 2,3 €
+			
+Monitorización hardware y del rendimiento
+	Estado de disco físico 2,3 €
+	
+Funciones adicionales para Windows	
+	Take Control	3,2 €
+	
+",1.0,Unidad(es),13.3,0.0,SEPA Conecta,Contado,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S
+Servicios Gestionados ConectaMAX
+Intervalo de monitorización: cada 120/60 min.  0,35 €
+Tareas automatizadas 0,25 €
+Control remoto MSP Anyview  0,6 €
+Análisis de vulnerabilidades y ad. revisiones	 0,8 €
+
+(Máx 4,00 €/pc/mes con el antivirus)",6.0,Unidad(es),1.65,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1474,"SERVICIOS CMAX ANTIVIRUS
+Servicios Gestionados ConectaMAX
+Antivirus administrado 2,35 € por Servidor-PC ",8.0,Unidad(es),2.35,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_2389," SERVICIOS CMAX ADMON REMOTA
+Servicios Gestionados ConectaMAX:
+Mail Protection 1,2 €/buzon             
+",2.0,Unidad(es),1.2,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S
+Servicios Gestionados ConectaMAX
+Intervalo de monitorización: cada 120/60 min.  0,35 €
+Tareas automatizadas 0,25 €
+Team Viewer - solo Windows XP - 1,1 €
+Análisis de vulnerabilidades y ad. revisiones	 0,8 €
+
+(Máx 4,5€/pc/mes con el antivirus)",1.0,Unidad(es),2.15,0.0,,,
+__export__.account_analytic_account_1795,MARITIMA - SegP,__export__.res_partner_1415,Sonia Bautista,0.7,AA1835,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2014-12-01,,False,0.0,0.0,False,,True,,Mes(es),1,1,2020-01-25,__export__.product_product_1478,SERVICIOS SEGURIDAD PERIMETRAL,1.0,Unidad(es),75.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1225,"Descuento Alquiler Gateway por promoción contratos 3 años de suscripciones de servicio
+35,00 €/mes",1.0,Unidad(es),-35.0,0.0,,,
+__export__.account_analytic_account_1799,TEQUISA - CMax ,__export__.res_partner_1299,Sonia Bautista,0.7,AA1839,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2014-12-01,,False,0.0,0.0,False,,True,,Mes(es),1,1,2020-01-25,__export__.product_product_2388,"SERVICIOS CMAX MONITORIZACION SERVIDOR
+Servicios Gestionados ConectaMAX:
+        Agente Base 5,5 €
+Monitorización básica 	
+	Eventos críticos	2,3 €
+			
+Funciones adicionales para Windows	
+	Take Control	3,2 €
+	
+",2.0,Unidad(es),11.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_2388,"SERVICIOS CMAX MONITORIZACION SERVIDOR
+Servicios Gestionados ConectaMAX:
+
+Monitorización hardware y del rendimiento
+	Monitorización rendimiento	4,3 €
+	",1.0,Unidad(es),4.3,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S
+Servicios Gestionados ConectaMAX
+Intervalo de monitorización: cada 120/60 min. 0,35 €
+Tareas automatizadas  0,25 €
+Control remoto  0,6 €
+",14.0,Unidad(es),1.2,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_2389,"SERVICIOS CMAX ADMON REMOTA
+Servicios Gestionados ConectaMAX:
+Mail Protection 1,20 €/buzon
+cuentas ""tequisa.com""",7.0,Unidad(es),1.2,0.0,,,
+__export__.account_analytic_account_1800,TEQUISA - Cmax AV,__export__.res_partner_1299,Sonia Bautista,0.7,AA1840,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2015-03-01,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-03-25,__export__.product_product_1474,"SERVICIOS CMAX ANTIVIRUS
+Servicios Gestionados ConectaMAX
+Antivirus administrado 2,35€ por Servidor-PC 
+
+10 AV - ANUAL",10.0,Unidad(es),28.2,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_1801,NOT. PONTEAREAS - CMax,__export__.res_partner_1501,Sonia Bautista,0.7,AA1841,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2014-12-01,,False,0.0,0.0,False,,True,,Mes(es),1,1,2020-01-25,__export__.product_product_2388,"SERVICIOS CMAX MONITORIZACION SERVIDOR
+Servicios Gestionados ConectaMAX:
+        Agente Base 5,5 €
+Funciones adicionales para Windows	
+	Take Control	3,2 €",1.0,Unidad(es),8.7,0.0,SEPA Conecta,Contado,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S
+Servicios Gestionados ConectaMAX
+Intervalo de monitorización: cada 120/60 min.  0,35 €
+Control remoto  0,6 €
+",10.0,Unidad(es),0.95,0.0,,,
+__export__.account_analytic_account_1803,NOT. RECONQUISTA - CMax - AV,__export__.res_partner_1072,Sonia Bautista,0.7,AA1843,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2014-12-01,,False,0.0,0.0,False,,True,,Mes(es),1,1,2020-01-25,__export__.product_product_2388,"SERVICIOS CMAX MONITORIZACION SERVIDOR
+Servicios Gestionados ConectaMAX:
+Agnte Base 5,5 €
+
+Monitorización básica 	
+	Eventos críticos 2,3 €
+			
+Monitorización hardware y del rendimiento
+	Cambio espacio en disco	2,3 €
+	Estado de disco físico	2,3 €
+	Monitorización rendimiento	4,3 €
+	
+Funciones adicionales para Windows	
+	Take Control	3,2 €
+	
+",1.0,Unidad(es),19.9,0.0,SEPA Conecta,Contado,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S
+Servicios Gestionados ConectaMAX
+Intervalo de monitorización: cada 120/60 min.   0,35 €
+Control remoto  0,6 €",26.0,Unidad(es),0.95,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S
+Servicios Gestionados ConectaMAX
+Tareas automatizadas 0,25 €
+",23.0,Unidad(es),0.25,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_2389," SERVICIOS CMAX ADMON REMOTA
+Servicios Gestionados ConectaMAX:
+Mail Protection 1,2 €/ buzon             
+",26.0,Unidad(es),1.2,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1474,"SERVICIOS CMAX ANTIVIRUS
+Servicios Gestionados ConectaMAX
+Antivirus administrado 2,35 € por Servidor-PC ",27.0,Unidad(es),2.35,0.0,,,
+__export__.account_analytic_account_1804,NOT. RECONQUISTA - SegP,__export__.res_partner_1072,Sonia Bautista,0.7,AA1844,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2014-12-01,,False,0.0,0.0,False,,True,,Mes(es),1,1,2020-01-25,__export__.product_product_1477,SERVICIOS SEGURIDAD PERIMETRAL,1.0,Unidad(es),145.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_1805,NOT. RECONQUISTA - Hosting Profesional,__export__.res_partner_1072,Sonia Bautista,0.7,AA1845,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2014-12-01,,False,0.0,0.0,False,,True,,Mes(es),1,1,2020-01-25,__export__.product_product_1359,SERVICIO INTERNET PROFESIONAL,1.0,Unidad(es),30.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_1806,NOT. RECONQUISTA - Backup,__export__.res_partner_1072,Sonia Bautista,0.7,AA1846,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2015-05-01,,False,0.0,0.0,False,,True,,Mes(es),1,1,2020-01-25,__export__.product_product_1501,"BACKUP REMOTO SERVICIOS
+- Acceso compartido Fibra Óptica Red Privada Datos a Internet
+- Housing Alojamiento de un dispositivo del cliente en CPD ISO27001",1.0,Unidad(es),45.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1502,"BACKUP REMOTO MANO DE OBRA
+- Monitorización y gestión de alertas, vigilancia del proceso y pruebas de recuperación",1.0,Unidad(es),30.0,0.0,,,
+__export__.account_analytic_account_1807,NOT. SANXENXO - Hosting Basico,__export__.res_partner_840,Sonia Bautista,0.7,AA1847,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2014-12-01,,False,0.0,0.0,False,,True,,Mes(es),1,1,2020-01-25,__export__.product_product_1355,SERVICIO INTERNET BASICO,1.0,Unidad(es),15.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_1808,NOT. SANXENXO - SegP,__export__.res_partner_840,Sonia Bautista,0.7,AA1848,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2014-12-01,,False,0.0,0.0,False,,True,,Mes(es),1,1,2020-01-25,__export__.product_product_1477,SERVICIOS SEGURIDAD: PERIMETRAL,1.0,Unidad(es),90.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_1809,NOT. SANXENXO - CMax - AV,__export__.res_partner_840,Sonia Bautista,0.7,AA1849,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2014-12-01,,False,0.0,0.0,False,,True,,Mes(es),1,1,2020-01-25,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S
+Servicios Gestionados ConectaMAX
+Intervalo de monitorización: cada 120/60 min.  0,35 €
+Tareas automatizadas  0,25 €
+",8.0,Unidad(es),0.6,0.0,SEPA Conecta,Contado,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1474,"SERVICIOS CMAX ANTIVIRUS
+Servicios Gestionados ConectaMAX
+Antivirus administrado 2,35 € por Servidor-PC ",8.0,Unidad(es),2.35,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_2389,"SERVICIOS CMAX ADMON REMOTA
+Servicios Gestionados ConectaMAX:
+Mail Protection  1,2 €/buzon             
+",8.0,Unidad(es),1.2,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S
+Servicios Gestionados ConectaMAX
+Control remoto MSP Anyview  0,6 €",7.0,Unidad(es),0.6,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S
+Servicios Gestionados ConectaMAX
+Team Viewer - solo Windows XP - 1,1 €",1.0,Unidad(es),1.1,0.0,,,
+__export__.account_analytic_account_1812,CARCELLER - CMax,__export__.res_partner_1052,Sonia Bautista,0.7,AA1852,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2014-12-01,,False,0.0,0.0,False,,True,,Mes(es),1,1,2020-01-25,__export__.product_product_2388,"SERVICIOS CMAX MONITORIZACION SERVIDOR
+Servicios Gestionados ConectaMAX:
+Agente Base 5,5 €
+		
+Monitorización hardware y del rendimiento
+	Cambio espacio en disco 2,3 €
+	Monitorización rendimiento	4,3 €
+			
+Funciones adicionales para Windows	
+	Take Control 3,2 €
+	
+",1.0,Unidad(es),15.3,0.0,SEPA Conecta,Contado,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S
+Servicios Gestionados ConectaMAX
+Intervalo de monitorización: cada 120/60 min.  0,35 €
+Tareas automatizadas  0,25 €",15.0,Unidad(es),0.6,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S
+Servicios Gestionados ConectaMAX
+Control remoto MSP Anyview  0,6 €",15.0,Unidad(es),0.6,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_2389,"SERVICIOS CMAX ADMON REMOTA
+Servicios Gestionados ConectaMAX:
+Mail Protection  PVP --- 1,2 euro buzon             
+",12.0,Unidad(es),1.2,0.0,,,
+__export__.account_analytic_account_1813,CARCELLER - Cmax AV,__export__.res_partner_1052,Sonia Bautista,0.7,AA1853,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2015-04-01,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-04-27,__export__.product_product_1474,"SERVICIOS CMAX ANTIVIRUS
+Servicios Gestionados ConectaMAX
+Antivirus administrado 2,35€ por Servidor-PC 
+
+AV - Anual",18.0,Unidad(es),28.2,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_1814,GESPESA - SegP,__export__.res_partner_1250,Sonia Bautista,0.7,AA1854,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2014-12-01,,False,0.0,0.0,False,,True,,Mes(es),1,1,2020-01-25,__export__.product_product_1478,SERVICIOS SEGURIDAD: PERIMETRAL,1.0,Unidad(es),75.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_1815,GESPESA - CMax - AV,__export__.res_partner_1250,Sonia Bautista,0.7,AA1855,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2014-12-01,,False,0.0,0.0,False,,True,,Mes(es),1,1,2020-01-25,__export__.product_product_2388,"SERVICIOS CMAX MONITORIZACION SERVIDOR
+Servicios Gestionados ConectaMAX:
+
+Agente Base 5,5 €
+
+Funciones adicionales para Windows:	
+	Control Remoto MSP Anyview  	3,2 €
+        Team Viewer - solo W2003 -          3,2 €
+	",2.0,Unidad(es),8.7,0.0,SEPA Conecta,Contado,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S
+Servicios Gestionados ConectaMAX
+Intervalo de monitorización: cada 120/60 min.  0,35€",4.0,Unidad(es),0.35,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1474,"SERVICIOS CMAX ANTIVIRUS
+Servicios Gestionados ConectaMAX
+Antivirus administrado  2,35€ por Servidor-PC ",6.0,Unidad(es),2.35,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S
+Servicios Gestionados ConectaMAX
+Control remoto MSP Anyview  0,6 €",1.0,Unidad(es),0.6,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S
+Servicios Gestionados ConectaMAX
+Team Viewer - solo Windows XP - 1,1 €",3.0,Unidad(es),1.1,0.0,,,
+__export__.account_analytic_account_1816,NOT. VPEON - CMax - AV,__export__.res_partner_909,Sonia Bautista,0.7,AA1858,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2015-10-01,,False,0.0,0.0,False,,True,,Mes(es),1,3,2020-03-25,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S
+Servicios Gestionados ConectaMAX
+Intervalo de monitorización: cada 120/60 min.  0,35 €
+Control remoto  0,6 €
+Análisis de vulnerabilidades y ad. revisiones	0,8 €
+
+20 PC´s - Trimestral",60.0,Unidad(es),1.75,0.0,SEPA Conecta,Contado,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1474,"SERVICIOS CMAX ANTIVIRUS
+Servicios Gestionados ConectaMAX
+Antivirus administrado 2,35€ por Servidor-PC 
+
+21 AV - Trimestral",63.0,Unidad(es),2.35,0.0,,,
+__export__.account_analytic_account_1817,NOT. VPEON - SegP,__export__.res_partner_909,Sonia Bautista,0.7,AA1859,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2014-04-01,,False,0.0,0.0,False,,True,,Mes(es),1,3,2020-03-25,__export__.product_product_1478,SERVICIOS SEGURIDAD PERIMETRAL,1.0,Unidad(es),330.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_1819,RAFAEL SANMARTIN - CMax - AV,__export__.res_partner_823,Sonia Bautista,0.7,AA1861,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2013-03-01,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-01-01,__export__.product_product_1474,"SERVICIOS CMAX ANTIVIRUS
+Servicios Gestionados ConectaMAX
+Antivirus administrado 2,35€ por Servidor-PC 
+
+1 AV - Anual",1.0,Unidad(es),28.2,0.0,SEPA Conecta,Contado,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S
+Servicios Gestionados ConectaMAX
+Intervalo de monitorización: cada 120/60 min 0,35 €
+Control remoto  0,6 €
+
+1 PC - Anual",1.0,Unidad(es),11.4,0.0,,,
+__export__.account_analytic_account_1822,ANDRADE - CMax - AV,__export__.res_partner_960,Sonia Bautista,0.7,AA1864,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2014-05-01,,False,0.0,0.0,False,,True,,Mes(es),1,3,2020-03-25,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S
+Servicios Gestionados ConectaMAX
+Intervalo de monitorización: cada 120/60 min.  0,35 €
+Control remoto  0,6 €
+
+5 Pc´s - Trimestral",15.0,Unidad(es),0.95,0.0,SEPA Conecta,Contado,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1474,"SERVICIOS CMAX ANTIVIRUS
+Servicios Gestionados ConectaMAX
+Antivirus administrado 2,35€ por Servidor-PC 
+
+5 AV - Trimestral",15.0,Unidad(es),2.35,0.0,,,
+__export__.account_analytic_account_1823,KAUMAN - CMax - AV,__export__.res_partner_1285,Sonia Bautista,0.7,AA1865,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2014-08-01,,False,0.0,0.0,False,,True,,Mes(es),1,1,2020-01-25,__export__.product_product_2388,"SERVICIOS CMAX MONITORIZACION SERVIDOR
+Servicios Gestionados ConectaMAX:
+Agente Base 5,5 €
+
+Funciones adicionales para Windows:	
+        Control Remoto MSP Anyview   3,2 €
+        Team Viewer - solo W2003 -  3,2 €
+
+Monitorización básica:
+   Espacio en sistema archivos 4,3 €
+   Servicio Windows 8,7 €
+   Eventos críticos 2,3 €
+
+Monitorización Hardware y rendimiento
+   Cambio espacio en disco 2,3 €
+   Monitorización rendimiento 4,3 €
+
+Importe máximo a facturar por servidor: 27,00 €
+",3.0,Unidad(es),27.0,0.0,Transferencia,Contado,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S
+Servicios Gestionados ConectaMAX
+Intervalo de monitorización: cada 120/60 min.   0,35€
+Tareas automatizadas  0,25€
+Control remoto  0,6 €",37.0,Unidad(es),1.2,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1474,"SERVICIOS CMAX ANTIVIRUS
+Servicios Gestionados ConectaMAX
+Antivirus administrado 2,35 por Servidor-PC ",40.0,Unidad(es),2.35,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S
+Mail Protection 1,2 €",26.0,Unidad(es),1.2,0.0,,,
+__export__.account_analytic_account_1824,KAUMAN - Backup,__export__.res_partner_1285,Sonia Bautista,0.7,AA1866,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2015-05-01,,False,0.0,0.0,False,,True,,Mes(es),1,1,2020-01-25,__export__.product_product_1501,"BACKUP REMOTO SERVICIOS
+- Acceso banda ancha a Internet FIBRA - compartido
+- Housing dispositivo del cliente en CPD Conecta",1.0,Unidad(es),55.0,0.0,Transferencia,Contado,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1502,"BACKUP REMOTO MANO DE OBRA
+Monitorización y gestión de alertas, vigilancia del proceso y pruebas de recuperación",1.0,Unidad(es),30.0,100.0,,,
+__export__.account_analytic_account_1825,CARRACEDO - CMax - AV,__export__.res_partner_1538,Sonia Bautista,0.7,AA1867,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2014-10-01,,False,0.0,0.0,False,,True,,Mes(es),1,1,2020-01-25,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S
+Servicios Gestionados ConectaMAX
+Intervalo de monitorización: cada 120/60 min.  0,35 €
+Control remoto   0,6 €
+Análisis de vulnerabilidades y ad. revisiones	 0,8 €
+",3.0,Unidad(es),1.75,0.0,SEPA Conecta,Contado,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1474,"SERVICIOS CMAX ANTIVIRUS
+Servicios Gestionados ConectaMAX
+Antivirus administrado 2,35 € por Servidor-PC ",4.0,Unidad(es),2.35,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_2389,"SERVICIOS CMAX ADMON REMOTA
+Servicios Gestionados ConectaMAX:
+Mail Protection  1,2 €/buzon             
+",5.0,Unidad(es),1.2,0.0,,,
+__export__.account_analytic_account_1827,MONTECHICO - CMax - AV,__export__.res_partner_1191,Sonia Bautista,0.7,AA1869,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2014-10-01,,False,0.0,0.0,False,,True,,Mes(es),1,1,2020-01-25,__export__.product_product_2388,"SERVICIOS CMAX MONITORIZACION SERVIDOR
+Servicios Gestionados ConectaMAX:
+Agente Base  5,5 €
+
+Monitorización aplicaciones:
+ 	Copia de seguridad 2,3 €
+	
+Servicios de red	
+        Ping Host 2,3 €
+	
+Funciones adicionales para Windows:	
+	Take Control	3,2 €
+	
+",1.0,Unidad(es),13.3,0.0,SEPA Conecta,Contado,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S
+Servicios Gestionados ConectaMAX
+Intervalo de monitorización: cada 120/60 min.  0,35 €
+Tareas automatizadas  0,25 €",3.0,Unidad(es),0.6,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1474,"SERVICIOS CMAX ANTIVIRUS
+Servicios Gestionados ConectaMAX
+Antivirus administrado 2,35 € por Servidor-PC ",4.0,Unidad(es),2.35,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_2389,"SERVICIO CMAX ADMON REMOTA
+Servicios Gestionados ConectaMAX:
+Mail Protection 1,2 €/buzon             
+",11.0,Unidad(es),1.2,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S
+Servicios Gestionados ConectaMAX
+Control remoto MSP Anyview  0,6 €",2.0,Unidad(es),0.6,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S
+Servicios Gestionados ConectaMAX
+Team Viewer - solo Windows XP - 1,1 €",1.0,Unidad(es),1.1,0.0,,,
+__export__.account_analytic_account_1828,DOPICO - CMax - AV,__export__.res_partner_1309,Sonia Bautista,0.7,AA1870,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2014-10-01,,False,0.0,0.0,False,,True,,Mes(es),1,1,2020-01-25,__export__.product_product_2388,"SERVICIOS CMAX MONITORIZACION SERVIDOR
+Servicios Gestionados ConectaMAX:
+Agente Base 5,5 €
+Monitorización básica 	
+	Eventos críticos	2,3 €
+			
+Monitorización hardware y del rendimiento
+	Estado de disco físico	2,3 €
+	
+Funciones adicionales para Windows	
+        Control Remoto MSP Anyview  	3,2 €
+        Team Viewer - solo W2003 -          3,2 €
+",2.0,Unidad(es),13.3,0.0,SEPA Conecta,Contado,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_2388,"SERVICIOS CMAX MONITORIZACION SERVIDOR
+Servicios Gestionados ConectaMAX:
+Monitorización básica 	
+	Espacio en disco	4,3
+			
+Monitorización hardware y del rendimiento
+	Cambio espacio en disco		2,3 €
+	Monitorización de rendimiento 4,3€
+	",1.0,Unidad(es),10.9,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S
+Servicios Gestionados ConectaMAX
+Intervalo de monitorización: cada 120/60 min.  0,35 €
+Tareas automatizadas  0,25 €",12.0,Unidad(es),0.6,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1474," SERVICIOS CMAX ANTIVIRUS
+Servicios Gestionados ConectaMAX
+Antivirus administrado 2,35€ por Servidor-PC ",14.0,Unidad(es),2.35,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S
+Servicios Gestionados ConectaMAX
+Control remoto MSP Anyview  0,6 €",7.0,Unidad(es),0.6,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S
+Servicios Gestionados ConectaMAX
+Team Viewer - solo Windows XP - 1,1 €",5.0,Unidad(es),1.1,0.0,,,
+__export__.account_analytic_account_1829,VICUS - Cmax AV,__export__.res_partner_1111,Sonia Bautista,0.7,AA1871,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2014-10-01,,False,0.0,0.0,False,,True,,Mes(es),1,1,2020-01-25,__export__.product_product_1474,"SERVICIOS CMAX ANTIVIRUS
+Servicios Gestionados ConectaMAX
+Antivirus administrado 2,35€ por Servidor-PC ",2.0,Unidad(es),2.35,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_1830,MARTINEZ ROSA - CMax - AV,__export__.res_partner_1063,Sonia Bautista,0.7,AA1872,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2014-10-01,,False,0.0,0.0,False,,True,,Mes(es),1,1,2020-01-25,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S
+Servicios Gestionados ConectaMAX
+Intervalo de monitorización: cada 120/60 min.   0,35 €
+Análisis de vulnerabilidades y ad. revisiones	 0,8 €
+",6.0,Unidad(es),1.15,0.0,SEPA Conecta,Contado,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1474,"SERVICIOS CMAX ANTIVIRUS
+Servicios Gestionados ConectaMAX
+Antivirus administrado 2,35 € por Servidor-PC ",6.0,Unidad(es),2.35,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_2389,"SERVICIOS CMAX ADMON REMOTA
+Servicios Gestionados ConectaMAX:
+Mail Protection  1,2€/ buzon             
+",5.0,Unidad(es),1.2,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S
+Servicios Gestionados ConectaMAX
+Control remoto MSP Anyview  PVP  0,6 €",6.0,Unidad(es),0.6,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_2390,"SERVICIOS CMAX ACCESO CLIENTE
+Servicios Gestionados ConectaMAX
+Acceso de clientes al portal   PVP --- 10,50 €/mes",1.0,Unidad(es),10.5,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_2389,"SERVICIOS CMAX ADMON REMOTA
+Servicios Gestionados ConectaMAX:
+WEB Protection  PVP --- 2,40 euro/buzon             ",2.0,Unidad(es),2.4,0.0,,,
+__export__.account_analytic_account_1831,MARTINEZ ROSA - Hosting Elite,__export__.res_partner_1063,Sonia Bautista,0.7,AA1873,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2014-10-01,,False,0.0,0.0,False,,True,,Mes(es),1,1,2020-01-25,__export__.product_product_1355,"SERVICIO INTERNET ELITE
+- Espacio en disco SSD 5Gb (alerta a los 4Gb)
+",1.0,Unidad(es),15.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_1832,POMARCO - CMax - AV,__export__.res_partner_1248,Sonia Bautista,0.7,AA1874,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2014-10-01,,False,0.0,0.0,False,,True,,Mes(es),1,1,2020-01-25,__export__.product_product_2388,"SERVICIOS CMAX MONITORIZACION SERVIDOR
+Servicios Gestionados ConectaMAX:
+Agente Base 5,5 €
+
+Funciones adicionales para Windows
+Team Viewer - solo W2003 -  3,2 €
+	
+",1.0,Unidad(es),8.7,0.0,SEPA Conecta,Contado,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S
+Servicios Gestionados ConectaMAX
+Intervalo de monitorización: cada 120/60 min. 0,35 €
+Tareas automatizadas 0,25 €",6.0,Unidad(es),0.6,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1474,"SERVICIOS CMAX ANTIVIRUS
+Servicios Gestionados ConectaMAX
+Antivirus administrado 2,35€ por Servidor-PC ",6.0,Unidad(es),2.35,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S
+Servicios Gestionados ConectaMAX
+Control remoto MSP Anyview  0,6 €",4.0,Unidad(es),0.6,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S
+Servicios Gestionados ConectaMAX
+Team Viewer - solo Windows XP - 1,1 €",2.0,Unidad(es),1.1,0.0,,,
+__export__.account_analytic_account_1834,KRACK - CMax - AV,__export__.res_partner_1232,Sonia Bautista,0.7,AA1876,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2014-11-01,,False,0.0,0.0,False,,True,,Mes(es),1,1,2020-01-25,__export__.product_product_2388,"SERVICIOS CMAX MONITORIZACION SERVIDOR
+Servicios Gestionados ConectaMAX:
+Agente Base 5,5 €
+
+Funciones adicionales para Windows	
+	Take Control 3,2 €
+	
+",4.0,Unidad(es),8.7,0.0,Transferencia,Contado,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_2388,"SERVICIOS CMAX MONITORIZACION SERVIDOR
+Acceso de clientes al portal 10,5 € x 6 cuentas
+
+Servicios Gestionados ConectaMAX:
+Monitorización básica 	
+	Servicio Windows 9 €
+	
+	",1.0,Unidad(es),72.0,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S
+Servicios Gestionados ConectaMAX
+Intervalo de monitorización: cada 120/60 min.  0,35 €
+",108.0,Unidad(es),0.35,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S
+Servicios Gestionados ConectaMAX
+Control remoto MSP Anyview  0,6 €
+",93.0,Unidad(es),0.6,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1474,"SERVICIOS CMAX ANTIVIRUS
+Servicios Gestionados ConectaMAX
+Antivirus administrado 2,35 € por Servidor-PC ",108.0,Unidad(es),2.35,10.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_2389,"SERVICIOS CMAX ADMON REMOTA
+Servicios Gestionados ConectaMAX:
+Mail Protection  1,2€/ buzon   
+cuentas ""globalretail.es""         
+",95.0,Unidad(es),1.2,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_2389,"SERVICIOS CMAX ADMON REMOTA
+Servicios Gestionados ConectaMAX:
+Mail Protection  1,2€/ buzon   
+cuentas ""krackonline.com""",10.0,Unidad(es),1.2,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S
+Servicios Gestionados ConectaMAX
+Team Viewer - solo Windows XP- 1,1 €",12.0,Unidad(es),1.1,0.0,,,
+__export__.account_analytic_account_1838,AUTEIMA - Disp3M,__export__.res_partner_5106,Sonia Bautista,0.7,AA1881,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2019-10-01,2019-12-31,False,0.0,9.0,False,Exceso horas Nivel 1,True,,Mes(es),1,1,2020-01-25,__export__.product_product_1515,DISPONIBILIDAD TECNICA 3 HORAS MENSUALES,1.0,Unidad(es),126.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_1840,NOT. PABLO PAZOS - CMax - AV,__export__.res_partner_1135,Sonia Bautista,0.7,AA1884,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2014-12-01,,False,0.0,0.0,False,Tarifa pública,True,,Mes(es),1,1,2020-01-25,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S
+Servicios Gestionados ConectaMAX
+Intervalo de monitorización: cada 120/60 min.   0,35 €
+Control remoto 0,6 €
+Análisis de vulnerabilidades y ad. revisiones	0,8 €
+",5.0,Unidad(es),1.75,0.0,SEPA Conecta,Contado,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1474,"SERVICIOS CMAX ANTIVIRUS
+Servicios Gestionados ConectaMAX
+Antivirus administrado 2,35 € por Servidor-PC ",5.0,Unidad(es),2.35,0.0,,,
+__export__.account_analytic_account_1842,ZELNOVA - SegP,__export__.res_partner_1073,Sonia Bautista,0.7,AA1886,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2015-01-01,,False,0.0,0.0,False,,True,,Mes(es),1,1,2020-01-25,__export__.product_product_1477,SERVICIOS SEGURIDAD PERIMETRAL ,1.0,Unidad(es),150.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_1843,CAMBA - CMax,__export__.res_partner_1573,Sonia Bautista,0.7,AA1887,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2015-01-01,,False,0.0,0.0,False,Tarifa pública,True,,Mes(es),1,1,2020-01-25,__export__.product_product_2388,"SERVICIOS CMAX MONITORIZACION SERVIDOR
+Servicios Gestionados ConectaMAX:
+Agente Base 5,5 €
+
+Funciones adicionales para Windows	
+        Team Viewer - solo W2003 -          3,2 €
+	
+",1.0,Unidad(es),8.7,0.0,SEPA Conecta,Contado,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S
+Servicios Gestionados ConectaMAX
+Intervalo de monitorización: cada 120/60 min.  0,35 €
+",5.0,Unidad(es),0.35,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S
+Servicios Gestionados ConectaMAX
+Control remoto MSP Anyview  0,6 €",3.0,Unidad(es),0.6,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S
+Servicios Gestionados ConectaMAX
+Team Viewer - solo Windows XP - 1,1 €",2.0,Unidad(es),1.1,0.0,,,
+__export__.account_analytic_account_1845,DMM - Cmax AV,__export__.res_partner_1024,Sonia Bautista,0.7,AA1889,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2015-04-01,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-05-27,__export__.product_product_1474,"SERVICIOS CMAX ANTIVIRUS
+Servicios Gestionados ConectaMAX
+Antivirus administrado 2,35€ por Servidor-PC 
+
+13 AV - Anual
+
+",13.0,Unidad(es),28.2,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_1850,SOFTDIL - Gestion Int,__export__.res_partner_8060,Sonia Bautista,0.7,AA1894,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2015-09-01,,False,0.0,0.0,False,,True,,Mes(es),1,1,2020-01-25,__export__.product_product_1329,SERVICIOS DE GESTION INTERNA Y DIRECCION IT,1.0,Unidad(es),350.0,0.0,,,Mantenimientos - M
+__export__.account_analytic_account_1853,NOT. PONTEAREAS - Backup,__export__.res_partner_1501,Sonia Bautista,0.7,AA1899,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2015-12-01,,False,0.0,0.0,False,Tarifa pública,True,,Mes(es),1,1,2020-01-25,__export__.product_product_1501,"BACKUP REMOTO SERVICIOS
+- Acceso compartido FIBRA ÓPTICA Red privada Datos e Internet
+- Housing ALOJAMIENTO de un dispositivo del cliente en CPD ISO27001
+",1.0,Unidad(es),45.0,0.0,SEPA Conecta,,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1502,"BACKUP REMOTO MANO DE OBRA
+- Monitorización y gestión de alertas, vigilancia del proceso y pruebas recuperación",1.0,Unidad(es),30.0,0.0,,,
+__export__.account_analytic_account_1856,NOT. ARTURO VIDAL - CMax - AV,__export__.res_partner_1412,Sonia Bautista,0.7,AA1903,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2015-12-01,,False,0.0,0.0,False,Tarifa pública,True,,Mes(es),1,1,2020-01-25,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S
+Servicios Gestionados ConectaMAX
+Intervalo de monitorización: cada 120/60 min.  0,35 €
+Control remoto  0,6 €
+Análisis de vulnerabilidades y ad. revisiones	0,8 €",4.0,Unidad(es),1.75,0.0,SEPA Conecta,Contado,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1474,"SERVICIOS CMAX ANTIVIRUS
+Servicios Gestionados ConectaMAX
+Antivirus administrado 2,35€ por Servidor-PC ",4.0,Unidad(es),2.35,0.0,,,
+__export__.account_analytic_account_1857,AUTEIMA - CMax - AV,__export__.res_partner_5106,Sonia Bautista,0.7,AA1904,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2015-11-16,,False,0.0,0.0,False,,True,,Mes(es),1,1,2020-01-25,__export__.product_product_2388,"SERVICIOS CMAX MONITORIZACION SERVIDOR
+Servicios Gestionados ConectaMAX:
+Agente Base 5,5 €
+			
+Funciones adicionales para Windows	
+	Take Control	3,2 €
+	
+",1.0,Unidad(es),8.7,0.0,SEPA Conecta,Contado,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S
+Servicios Gestionados ConectaMAX
+Intervalo de monitorización: cada 120/60 min.   0,35 €",12.0,Unidad(es),0.35,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1474,"SERVICIOS CMAX ANTIVIRUS
+Servicios Gestionados ConectaMAX
+Antivirus administrado 2,35 € por Servidor-PC ",13.0,Unidad(es),2.35,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S
+Servicios Gestionados ConectaMAX
+Team Viewer - solo Windows XP- 1,1 €/pc",2.0,Unidad(es),1.1,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S
+Servicios Gestionados ConectaMAX
+Control remoto MSP Anyview  0,6 €/pc",10.0,Unidad(es),0.6,0.0,,,
+__export__.account_analytic_account_1911,NOT. ARTURO VIDAL - Disp2M,__export__.res_partner_1412,Sonia Bautista,0.7,AA1961,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2019-10-01,2019-12-31,False,0.0,6.0,False,Exceso horas Nivel 2,True,,Mes(es),1,1,2020-01-25,__export__.product_product_1375,DISPONIBILIDAD 2 HORAS MENSUALES,1.0,Unidad(es),86.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_1936,ESYCSA - Backup,__export__.res_partner_1429,Sonia Bautista,0.7,AA1991,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2015-11-01,,False,0.0,0.0,False,,True,,Mes(es),1,1,2020-01-25,__export__.product_product_1501,"BACKUP REMOTO SERVICIOS
+Acceso Compartido FIBRA OPTICA Red Privada Datos a Internet",1.0,Unidad(es),30.0,0.0,Transferencia,60 días,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1502,"BACKUP REMOTO MANO DE OBRA
+M.O. Monitorización y gestión de alertas, vigilancia del proceso y pruebas recuperación",1.0,Unidad(es),30.0,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1501,"SERVICIO HOUSING
+Housing ALOJAMIENTO de un dispositivo del cliente en CPD Conecta",1.0,Unidad(es),25.0,0.0,,,
+__export__.account_analytic_account_1940,PROCSA - CMax,__export__.res_partner_932,Sonia Bautista,0.7,AA1997,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2016-03-04,,False,0.0,0.0,False,,True,,Mes(es),1,1,2020-01-25,__export__.product_product_2388,"SERVICIOS CMAX MONITORIZACION SERVIDOR
+Servicios Gestionados ConectaMAX:
+Agente Base: 5,5 € 	
+
+Servicios de red: Servicio puerto TCP 2.3 € x 3
+
+Funciones adicionales para Windows:	
+Take Control 3,2 €
+",1.0,Unidad(es),15.6,0.0,Transferencia,30 días,Mantenimientos - M
+__export__.account_analytic_account_1941,ALFRIO Ribeira - CMax,__export__.res_partner_1218,Sonia Bautista,0.7,AA1998,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2016-03-04,,False,0.0,0.0,False,,True,,Mes(es),1,1,2020-01-25,__export__.product_product_2388,"SERVICIOS CMAX MONITORIZACION SERVIDOR
+Servicios Gestionados ConectaMAX:
+
+Agente Base 2 x 5,5 €
+
+Servicios de red: Servicio puerto TCP 2.30€ x 5
+
+Funciones adicionales para windows:
+Take Control 2 x 3,2 €
+",1.0,Unidad(es),28.9,0.0,Transferencia,Contado,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S
+Servicios Gestionados ConectaMAX
+Intervalo de monitorización: cada 120/60 min.  0,35 €/pc",1.0,Unidad(es),0.35,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S
+Servicios Gestionados ConectaMAX
+Control remoto  0,6 €/pc
+",3.0,Unidad(es),0.6,0.0,,,
+__export__.account_analytic_account_1948,PROCSA VIGO - Ext Mant Videovigilancia,__export__.res_partner_6760,Administrador,0.7,AA2008,Externalware Ibérica,2016-04-01,2019-03-31,True,3360.0,0.0,False,Tarifa pública,True,,Mes(es),1,1,2019-12-27,__export__.product_product_2298,"Servicios de Mantenimiento y Revisión de videograbacion y control de accesos.
+- Según proyecto firmado -",1.0,Unidad(es),280.0,0.0,Transferencia E,Contado,External - E
+__export__.account_analytic_account_1950,ALFRIO RIBEIRA - Ext Mant Videovigilancia,__export__.res_partner_6761,Administrador,0.7,AA2010,Externalware Ibérica,2016-04-01,2019-03-31,True,3360.0,0.0,False,Tarifa pública,True,,Mes(es),1,1,2019-12-27,__export__.product_product_2298,"Servicios de Mantenimiento y Revisión de videograbacion y control de accesos.
+- Según proyecto firmado ALFRIO RIBEIRA -",1.0,Unidad(es),280.0,0.0,Transferencia E,Contado,External - E
+__export__.account_analytic_account_1954,KRACK - Ext Sistemas,__export__.res_partner_6766,Administrador,0.7,AA2014,Externalware Ibérica,2016-09-01,2018-09-30,True,500.0,7.0,False,Exceso horas Nivel 1,True,,Mes(es),1,1,2019-12-27,__export__.product_product_2298,"Servicio External del Area de Sistemas
+Importe base mensual de dirección IT ( los excesos se facturarán aparte)
+- Según contrato -
+",1.0,Unidad(es),500.0,0.0,Transferencia E,Contado,External - E
+__export__.account_analytic_account_1955,NOT. RECONQUISTA - SegP Conta,__export__.res_partner_1072,Sonia Bautista,0.7,AA2015,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2016-04-01,,False,0.0,0.0,False,,True,,Mes(es),1,1,2020-01-25,__export__.product_product_1476,"SERVICIOS DE SEGURIDAD PERIMETRAL
+Alquiler 2 firewalls VPN entre Notaría y Despacho Contable",1.0,Unidad(es),17.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_1976,PORTELA - CMax - AV,__export__.res_partner_8702,Juan Carlos Cobas,0.7,AA2039,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2016-08-01,,False,0.0,0.0,False,,True,,Mes(es),1,1,2020-01-25,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S
+Servicios Gestionados ConectaMAX
+Intervalo de monitorización: cada 120/60 min.  PVP --- 0,35 €
+Control remoto  PVP --- 0,6 €",8.0,Unidad(es),0.95,0.0,SEPA Conecta,Contado,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_2388,"SERVICIOS CMAX MONITORIZACION SERVIDOR
+Servicios Gestionados ConectaMAX:
+
+Acceso de clientes al portal: 10,50 €
+Monitorización básica: Espacio en disco	4,3 €
+",1.0,Unidad(es),14.8,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1474,"SERVICIOS CMAX ANTIVIRUS
+Servicios Gestionados ConectaMAX
+Antivirus administrado PVP - 2,35€ por Servidor-PC ",10.0,Unidad(es),2.35,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACIÓN PC´S 
+Mail Protection
+",1.0,Unidad(es),1.2,0.0,,,
+__export__.account_analytic_account_1977,PORTELA - Hosting,__export__.res_partner_8702,Juan Carlos Cobas,0.7,AA2040,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2016-09-01,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-10-27,__export__.product_product_1308,"SERVICIO HOSTING 
+- Transferencia mensual ilimitada
+- 20 cuentas de correo
+- Espacio en disco SSD 2Gb (alerta a los 1,5Gb)
+- Trafico mensual 100 Gb/mes 
+- Subdominios ilimitados
+- Buzones de correo: 50 Tamaño máx. Buzón: 1 Gb
+- BBDD máximas: 10 ",1.0,Unidad(es),112.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_1978,VANESA - CMax - AV,__export__.res_partner_7704,Sonia Bautista,0.7,AA2041,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2016-08-01,,False,0.0,0.0,False,,True,,Mes(es),1,1,2020-01-25,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S
+Servicios Gestionados ConectaMAX
+Intervalo de monitorización: cada 120/60 min.   0,35 €
+Control remoto  0,6 €
+Análisis de vulnerabilidades y ad. revisiones	0,8 €
+",2.0,Unidad(es),1.75,0.0,SEPA Conecta,Contado,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1474," SERVICIOS CMAX ANTIVIRUS
+Servicios Gestionados ConectaMAX
+Antivirus administrado 2,35€ por Servidor-PC ",2.0,Unidad(es),2.35,0.0,,,
+__export__.account_analytic_account_1985,CONSGO - Hosting Basico,__export__.res_partner_1534,Sonia Bautista,0.7,AA2048,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2016-10-01,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-10-27,__export__.product_product_1308,"[GSALAL] SERVICIO HOSTING BASICO
+- Transferencia mensual ilimitada (alerta 10Gb/Mes)
+- Espacio en disco SSD 1Gb (alerta a los 0,75Gb)
+- Subdominios ilimitados
+- Buzones de correo: 10 
+- Tamaño max. Buzón: 0,75 Gb
+- 300 envíos de correo max. por hora.
+- BBDD máximas: 1 Mysql 5x
+- CPD en España con cumplimiento LOPD
+- Administración por parte del cliente con una cuenta de acceso Plesk.
+
+(Opcionales para contratar: Certificado SSL, Backups personalizados, módulos Premium, Tienda online, importación desde otras tiendas, TPV, …)",1.0,Unidad(es),90.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_1986,MARITIMA - Hosting Basico,__export__.res_partner_1415,Sonia Bautista,0.7,AA2049,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2016-10-01,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-10-27,__export__.product_product_1308,"[GSALAL] SERVICIO HOSTING BASICO
+- Transferencia mensual ilimitada (alerta 10Gb/Mes)
+- Espacio en disco SSD 1Gb (alerta a los 0,75Gb)
+- Subdominios ilimitados
+- Buzones de correo: 10 
+- Tamaño max. Buzón: 0,75 Gb
+- 300 envíos de correo max. por hora.
+- BBDD máximas: 1 Mysql 5x
+- CPD en España con cumplimiento LOPD
+- Administración por parte del cliente con una cuenta de acceso Plesk.
+
+(Opcionales para contratar: Certificado SSL, Backups personalizados, módulos Premium, Tienda online, importación desde otras tiendas, TPV, …)",1.0,Unidad(es),90.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_1987,CUVIDASA ORENSE - Cmax Av,__export__.res_partner_7327,Sonia Bautista,0.7,AA2050,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2016-10-01,,False,0.0,0.0,False,,True,,Mes(es),1,1,2020-01-25,__export__.product_product_1474,"SERVICIOS CMAX ANTIVIRUS
+Servicios Gestionados ConectaMAX
+Antivirus administrado 2,35€ por Servidor-PC ",4.0,Unidad(es),2.35,0.0,Transferencia,Contado,Mantenimientos - M
+__export__.account_analytic_account_1988,Fernando Seoane - Hosting Profesional,__export__.res_partner_7754,Diego Lago,0.7,AA2051,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2016-10-18,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-10-27,__export__.product_product_1309,"[GSALSV] SERVICIO HOSTING PROFESIONAL
+Hosting Profesional 1.4/1.5/1.6, BBDD Mysql 5x, PHP 5.3/5.4/5.5
+- Transferencia mensual ilimitada (alerta 10Gb/Mes)
+- Espacio en disco SSD 3Gb (alerta a los 2,5Gb)
+- Subdominios ilimitados
+- Buzones de correo: 30 Tamaño max. Buzón: 1 Gb
+- 300 envíos de correo max. por hora.
+- BBDD máximas: 3 Mysql 5x
+- CPD en España con cumplimiento LOPD
+- Administración por parte del cliente con una cuenta de acceso Plesk.
+
+
+(Opcionales para contratar: Certificado SSL, Backups personalizados, módulos Premium, Tienda online, importación desde otras tiendas, TPV, …)
+",1.0,Unidad(es),140.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_1992,Montechico - Hosting Profesional,__export__.res_partner_1191,Sonia Bautista,0.7,AA2055,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2016-10-18,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-10-27,__export__.product_product_1309,"SERVICIO HOSTING PROFESIONAL MONTECHICO
+Hosting Profesional 1.4/1.5/1.6, BBDD Mysql 5x, PHP 5.3/5.4/5.5
+- Transferencia mensual ilimitada (alerta 10Gb/Mes)
+- Espacio en disco SSD 3Gb (alerta a los 2,5Gb)
+- Subdominios ilimitados
+- Buzones de correo: 30 Tamaño max. Buzón: 1 Gb
+- 300 envíos de correo max. por hora.
+- BBDD máximas: 3 Mysql 5x
+- CPD en España con cumplimiento LOPD
+- Administración por parte del cliente con una cuenta de acceso Plesk.
+
+
+(Opcionales para contratar: Certificado SSL, Backups personalizados, módulos Premium, Tienda online, importación desde otras tiendas, TPV, …)
+",1.0,Unidad(es),140.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_1996,Chemasport - CMax,__export__.res_partner_5726,Mónica Pérez,0.7,AA2059,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2016-08-01,,False,0.0,0.0,False,,True,,Mes(es),1,1,2020-01-25,__export__.product_product_2389,"SERVICIOS CMAX ADMON REMOTA
+Servicios Gestionados ConectaMAX:
+Mail Protection  1,2 €/ buzon        
+     
+",5.0,Unidad(es),1.2,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_1997,CORUXO FC - CMax - AV,__export__.res_partner_4975,Sonia Bautista,0.7,AA2060,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2016-11-01,,False,0.0,0.0,False,,True,,Mes(es),1,1,2020-01-25,__export__.product_product_2388,"SERVICIOS CMAX MONITORIZACION SERVIDOR
+Servicios Gestionados ConectaMAX:
+
+Agente Base 5,5 €
+
+Funciones adicionales para Windows:	
+Team Viewer - solo Windows 2003 - 3,2 €",1.0,Unidad(es),8.7,0.0,SEPA Conecta,Contado,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S
+Servicios Gestionados ConectaMAX
+Intervalo de monitorización: cada 120/60 min.  0,35 € x 3 Pc´s
+Control remoto MSP Anyview  0,6 € x 3 PC's
+Team Viewer - solo Windows XP - 1,10 € x 1PC",1.0,Unidad(es),3.95,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1474,"SERVICIOS CMAX ANTIVIRUS
+Servicios Gestionados ConectaMAX
+Antivirus administrado 2,35€ por Servidor-PC ",4.0,Unidad(es),2.35,0.0,,,
+__export__.account_analytic_account_1998,Dopico SG - CMax - AV,__export__.res_partner_1309,Sonia Bautista,0.7,AA2061,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2016-11-01,,False,0.0,0.0,False,,True,,Mes(es),1,1,2020-01-25,__export__.product_product_2388,"SERVICIOS CMAX MONITORIZACION SERVIDOR
+Servicios Gestionados ConectaMAX:
+        Agente Base 5,5 €
+
+Funciones adicionales para Windows	
+	Control Remoto MSP Anyview  3,2 €
+	
+",1.0,Unidad(es),8.7,0.0,SEPA Conecta,Contado,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S
+Servicios Gestionados ConectaMAX
+Intervalo de monitorización: cada 120/60 min.  0,35 €",3.0,Unidad(es),0.35,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1474,"SERVICIOS CMAX ANTIVIRUS
+Servicios Gestionados ConectaMAX
+Antivirus administrado 2,35€ por Servidor-PC ",4.0,Unidad(es),2.35,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S
+Servicios Gestionados ConectaMAX
+Control remoto MSP Anyview  0,6 €
+",2.0,Unidad(es),0.6,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S
+Servicios Gestionados ConectaMAX
+Team Viewer - solo Windows XP -  1,1 €",1.0,Unidad(es),1.1,0.0,,,
+__export__.account_analytic_account_1999,ARACELI - CMax,__export__.res_partner_1261,Ramon Basadre,0.7,AA2062,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2016-11-01,,False,0.0,0.0,False,,True,,Mes(es),1,3,2020-03-25,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S
+Servicios Gestionados ConectaMAX
+Intervalo de monitorización: cada 120/60 min.  0,35 €
+Control remoto  0,6 €
+Análisis de vulnerabilidades y ad. revisiones	0,8 €
+
+2 Pc´s - Trimestral",3.0,Unidad(es),3.5,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2008,TECNOPC - Hosting Profesional,__export__.res_partner_5245,Diego Lago,0.7,AA2072,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2015-10-28,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-10-27,__export__.product_product_1309,"[GSALSV] SERVICIO HOSTING PROFESIONAL
+Hosting Profesional 1.4/1.5/1.6, BBDD Mysql 5x, PHP 5.3/5.4/5.5
+- Transferencia mensual ilimitada (alerta 10Gb/Mes)
+- Espacio en disco SSD 3Gb (alerta a los 2,5Gb)
+- Subdominios ilimitados
+- Buzones de correo: 30 Tamaño max. Buzón: 1 Gb
+- 300 envíos de correo max. por hora.
+- BBDD máximas: 3 Mysql 5x
+- CPD en España con cumplimiento LOPD
+- Administración por parte del cliente con una cuenta de acceso Plesk.
+
+
+(Opcionales para contratar: Certificado SSL, Backups personalizados, módulos Premium, Tienda online, importación desde otras tiendas, TPV, …)
+",1.0,Unidad(es),140.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2009,ANFORA - Hosting Profesional,__export__.res_partner_5231,Sonia Bautista,0.7,AA2073,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2015-10-29,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-10-27,__export__.product_product_1309,"[GSALSV] SERVICIO HOSTING PROFESIONAL
+Hosting Profesional 1.4/1.5/1.6, BBDD Mysql 5x, PHP 5.3/5.4/5.5
+- Transferencia mensual ilimitada (alerta 10Gb/Mes)
+- Espacio en disco SSD 3Gb (alerta a los 2,5Gb)
+- Subdominios ilimitados
+- Buzones de correo: 30 Tamaño max. Buzón: 1 Gb
+- 300 envíos de correo max. por hora.
+- BBDD máximas: 3 Mysql 5x
+- CPD en España con cumplimiento LOPD
+- Administración por parte del cliente con una cuenta de acceso Plesk.
+
+
+(Opcionales para contratar: Certificado SSL, Backups personalizados, módulos Premium, Tienda online, importación desde otras tiendas, TPV, …)
+",1.0,Unidad(es),140.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2018,PORTELA - Backup,__export__.res_partner_8702,Juan Carlos Cobas,0.7,AA2084,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2016-11-01,,False,0.0,0.0,False,,True,,Mes(es),1,1,2020-01-25,__export__.product_product_1501,"BACKUP REMOTO SERVICIOS
+Acceso banda ancha internet fibra - compartida
+Housing dispositivo del cliente en CPD Conecta",1.0,Unidad(es),55.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1502,"BACKUP REMOTO MANO DE OBRA
+Monitorización y gestión de alertas, vigilancia del proceso y pruebas de recuperación.",1.0,Unidad(es),30.0,0.0,,,
+__export__.account_analytic_account_2023,PAZ DISMAC - SegP,__export__.res_partner_1161,Juan Carlos Cobas,0.7,AA2093,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-01-01,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-02-25,__export__.product_product_1476,"SERVICIOS DE SEGURIDAD: PERIMETRAL
+Anual",1.0,Unidad(es),480.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2024,TEQUISA - Disp5M,__export__.res_partner_1299,Mónica Pérez,0.7,AA2094,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2019-10-01,2019-12-31,False,0.0,15.0,False,Exceso horas Nivel 2,True,,Mes(es),1,1,2020-01-25,__export__.product_product_1350,DISPONIBILIDAD TECNICA 5 HORAS MENSUALES,1.0,Unidad(es),200.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2027,INMOVEDRA - Hosting Elite,__export__.res_partner_7784,Juan Carlos Cobas,0.7,AA2097,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2016-12-27,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-12-27,__export__.product_product_2371,"SERVICIO HOSTING ELITE
+Prestashop 1.4/1.5/1.6, BBDD Mysql 5x, PHP 5.3/5.4/5.5
+- Transferencia mensual ilimitada (alerta 10Gb/Mes)
+- Espacio en disco SSD 5Gb (alerta a los 4Gb)
+- Subdominios ilimitados
+- Buzones de correo: 50 Tamaño máx. Buzón: 2 Gb
+- 300 envios de correo max por hora.
+- BBDD máximas: 5 Mysql 5x
+- CPD en España con cumplimiento LOPD
+- Administración por parte del cliente con una cuenta de acceso Plesk.
+
+(Opcionales para contratar: Certificado SSL, Backups personalizados, módulos Premium, Tienda online, importación desde otras tiendas, TPV, …)
+",1.0,Unidad(es),180.0,0.0,Transferencia,Contado,Mantenimientos - M
+__export__.account_analytic_account_2033,FOREST GARDEN - Cmax - AV,__export__.res_partner_7822,Juan Carlos Cobas,0.7,AA2104,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-01-23,,False,0.0,0.0,False,,True,,Mes(es),1,1,2020-01-25,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S
+Servicios Gestionados ConectaMAX
+Intervalo de monitorización: cada 120/60 min.  PVP --- 0,35
+Control remoto  PVP --- 0,6
+
+",4.0,Unidad(es),0.95,0.0,SEPA Conecta,Contado,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1474,"SERVICIOS CMAX ANTIVIRUS
+Servicios Gestionados ConectaMAX
+Antivirus administrado PVP --- 2,35 por Servidor-PC 
+Administración de dispositivos móviles PVP --- 0,00",4.0,Unidad(es),2.35,0.0,,,
+__export__.account_analytic_account_2049,GERARDO GARCIA BOENTE - Cmax AV,__export__.res_partner_1434,Juan Carlos Cobas,0.7,AA2121,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-01-31,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-10-27,__export__.product_product_1474," SERVICIOS CMAX ANTIVIRUS
+Servicios Gestionados ConectaMAX
+Antivirus administrado 2,35€ por Servidor-PC 
+
+1 AV- ANUAL",1.0,Unidad(es),28.2,0.0,,,Mantenimientos - M
+__export__.account_analytic_account_2055,NOT. PONTEAREAS - AV,__export__.res_partner_1501,Juan Carlos Cobas,0.7,AA2132,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-02-07,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-01-27,__export__.product_product_1474,"ANTIVIRUS ANUAL VIPRE Business
+11 Licencias - Anual: 
+401U4-MULXS-4X7JP-TCYRG-2DY7Z",11.0,Unidad(es),26.4,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2057,BERASI SHOES - SSL,__export__.res_partner_7731,Diego Lago,0.7,AA2137,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-02-13,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-12-27,__export__.product_product_1357,"Certificado anual SSL de seguridad
+lunacalzados.es",1.0,Unidad(es),90.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2058,ZAPATERIA RIN - SSL,__export__.res_partner_8485,Juan Carlos Cobas,0.7,AA2138,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-02-13,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-12-27,__export__.product_product_1357,"Certificado anual SSL 
+www.zapateriasrin.com",1.0,Unidad(es),106.25,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2061,IES CHAPELA - Cmax AV,__export__.res_partner_1014,Juan Carlos Cobas,0.7,AA2141,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2016-12-20,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-11-27,__export__.product_product_1492,ANTIVIRUS SYMANTEC,57.0,Unidad(es),9.3,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2066,BIOTECH - Hosting Basico,__export__.res_partner_6574,Juan Carlos Cobas,0.7,AA2147,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-02-21,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-01-27,__export__.product_product_1308,"SERVICIO HOSTING BASICO
+Prestashop 1.4/1.5/1.6, BBDD Mysql 5x, PHP 5.3/5.4/5.5
+- Transferencia mensual ilimitada (alerta 10Gb/Mes)
+- Espacio en disco SSD 1Gb (alerta a los 0,75Gb)
+- Subdominios ilimitados
+- Buzones de correo: 10 
+- Tamaño max. Buzón: 0,75 Gb
+- 300 envíos de correo max. por hora.
+- BBDD máximas: 1 Mysql 5x
+- CPD en España con cumplimiento LOPD
+- Administración por parte del cliente con una cuenta de acceso Plesk.
+
+fipobiotech.com
+atlanticecosys.com",2.0,Unidad(es),90.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2069,VICUS ART - LOPD,__export__.res_partner_1111,Juan Carlos Cobas,0.7,AA2150,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-03-02,,False,0.0,0.0,False,,True,Aceptada en presupuesto 171072,Año(s),1,1,2020-02-25,__export__.product_product_1468,"MANTENIMIENTO TECNICO PARA LOPD
+",1.0,Unidad(es),140.0,0.0,SEPA Conecta,,Mantenimientos - M
+__export__.account_analytic_account_2071,GALLEGA DE PROYECTOS - LOPD,__export__.res_partner_7872,Juan Carlos Cobas,0.7,AA2153,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-03-06,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-02-25,__export__.product_product_1468,MANTENIMIENTO   TECNICO ANUAL PARA LOPD,1.0,Unidad(es),140.0,0.0,Transferencia,Contado,Mantenimientos - M
+__export__.account_analytic_account_2073,VARGAS - CMax - AV,__export__.res_partner_7694,Juan Carlos Cobas,0.7,AA2155,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-03-10,,False,0.0,0.0,False,,True,,Mes(es),1,1,2020-01-25,__export__.product_product_2388,"SERVICIOS CMAX MONITORIZACION SERVIDOR
+Servicios Gestionados ConectaMAX:
+
+Seguimiento de recursos 0 €
+Agente Base     5,50 €
+Take Control	3,20 €
+	
+",1.0,Unidad(es),8.7,0.0,SEPA Conecta,Contado,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S
+Servicios Gestionados ConectaMAX
+Intervalo de monitorización: cada 120/60 min.  PVP --- 0,35 €
+Análisis de vulnerabilidades y ad. revisiones	PVP --- 0,8 €
+Control Remoto PVP --- 0,6 €
+6 PC´s",6.0,Unidad(es),1.75,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1474,"SERVICIOS CMAX ANTIVIRUS
+Servicios Gestionados ConectaMAX
+Antivirus administrado 2,35€ por Servidor-PC ",7.0,Unidad(es),2.35,0.0,,,
+__export__.account_analytic_account_2075,LUIS FERNANDO PENIN - LOPD,__export__.res_partner_7876,Juan Carlos Cobas,0.7,AA2157,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-03-14,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-03-25,__export__.product_product_1468,MANTENIMIENTO TECNICO ANUAL PARA LOPD,1.0,Unidad(es),140.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2076,STELLA RODRIGUEZ - LOPD,__export__.res_partner_943,Juan Carlos Cobas,0.7,AA2158,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-03-14,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-03-25,__export__.product_product_1468,MANTENIMIENTO TECNICO ANUAL PARA LOPD,1.0,Unidad(es),140.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2077,DSTILO - Dominio,__export__.res_partner_1594,Juan Carlos Cobas,0.7,AA2159,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-03-15,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-01-27,__export__.product_product_1357,"RENOVACION ANUAL DE DOMINIO
+Renovación por 1 año del dominio ""dstilo.es""",1.0,Unidad(es),25.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2080,TEQUISA - Hosting Profesional,__export__.res_partner_1299,Juan Carlos Cobas,0.7,AA2163,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-03-17,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-03-25,__export__.product_product_1359,"SERVICIO INTERNET PROFESIONAL
+Hosting administrado por personal especializado.
+- Se incluyen todas las gestiones de ampliación, modificación o gestión de incidencias del servicio.
+- Transferencia mensual ilimitada (alerta 10Gb/Mes) 
+- Espacio en disco SSD 3Gb (alerta a los 2,5Gb) 
+- Subdominios ilimitados 
+- Buzones de correo: 30 
+- Tamaño máx. Buzón: 1 Gb 
+- 300 envíos de correo max. por hora.
+- BBDD máximas: 3 Mysql 5x 
+- CPD en España con cumplimiento LOPD 
+
+",1.0,Unidad(es),360.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2094,NOT. PEDRO RIOL - Disp5M,__export__.res_partner_1385,Juan Carlos Cobas,0.7,AA2180,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2019-10-01,2019-12-31,False,0.0,15.0,False,Exceso horas Nivel 2,True,,Mes(es),1,1,2020-01-25,__export__.product_product_1350,DISPONIBILIDAD TECNICA 5 HORAS MENSUALES,1.0,Unidad(es),200.0,0.0,Transferencia,Contado,Mantenimientos - M
+__export__.account_analytic_account_2098,Bidasoa - SSL,__export__.res_partner_7755,Juan Carlos Cobas,0.7,AA2186,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-04-20,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-02-25,__export__.product_product_1357,Certificado anual SSL de seguridad para la web de www.hemeshops.com,1.0,Unidad(es),90.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2100,Inmovedra - Dominio,__export__.res_partner_7784,Juan Carlos Cobas,0.7,AA2188,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-04-20,,False,0.0,0.0,False,,True,,Año(s),1,1,2024-10-27,__export__.product_product_1357,"TRANSFERIR Y RENOVACION ANUAL DE DOMINIO
+inmomichelena.com",1.0,Unidad(es),25.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2101,TEQUISA - Dominios,__export__.res_partner_1299,Juan Carlos Cobas,0.7,AA2189,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-04-24,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-02-25,__export__.product_product_1357,"RENOVACION ANUAL DE DOMINIO
+- anpeix.com
+- blantex.com
+- melacide.com
+- melacide.es
+- tequisa.com
+- tequisa.es",6.0,Unidad(es),25.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2109,UNIVERSIDAD DE JAEN - Hosting Elite y dominio,__export__.res_partner_923,Juan Carlos Cobas,0.7,AA2200,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-05-19,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-10-27,__export__.product_product_2371,"SERVICIO HOSTING ELITE
+Prestashop 1.4/1.5/1.6, BBDD Mysql 5x, PHP 5.3/5.4/5.5
+- Transferencia mensual ilimitada (alerta 10Gb/Mes)
+- Espacio en disco SSD 5Gb (alerta a los 4Gb)
+- Subdominios ilimitados
+- Buzones de correo: 50 Tamaño máx. Buzón: 2 Gb
+- 300 envios de correo max por hora.
+- BBDD máximas: 5 Mysql 5x
+- CPD en España con cumplimiento LOPD
+- Administración por parte del cliente con una cuenta de acceso Plesk.
+
+
+",1.0,Unidad(es),180.0,0.0,Transferencia,Contado,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1357,"TRASLADO Y RENOVACION ANUAL DE DOMINIO
+www.arquiberlab.com
+www.arquiberlab.es",2.0,Unidad(es),25.0,0.0,,,
+__export__.account_analytic_account_2110,CONSGO - Dominio,__export__.res_partner_1534,Juan Carlos Cobas,0.7,AA2202,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-05-19,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-04-27,__export__.product_product_1357,"RENOVACION DE DOMINIO
+Renovacion anual del dominio ""gonzalezotero.com""",1.0,Unidad(es),25.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2112,NOT. SANXENXO - Dominio,__export__.res_partner_840,Juan Carlos Cobas,0.7,AA2204,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-05-30,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-03-25,__export__.product_product_1357,"RENOVACION ANUAL DE DOMINIO
+""notariadesanxenxo.com"" ",1.0,Unidad(es),25.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2113,ROGELIO - CMax - AV,__export__.res_partner_1104,Sonia Bautista,0.7,AA2207,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-06-01,,False,0.0,0.0,False,,True,,Mes(es),1,1,2020-01-25,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S CENTRAL
+Servicios Gestionados ConectaMAX
+Control remoto MSP Anyview   0,6 €",8.0,Unidad(es),0.6,0.0,SEPA Conecta,Contado,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S CENTRAL
+Servicios Gestionados ConectaMAX
+Team Viewer - solo Windows XP -  1,1 €",7.0,Unidad(es),1.1,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1474,"SERVICIOS CMAX ANTIVIRUS CENTRAL
+Servicios Gestionados ConectaMAX
+Antivirus administrado 2,35€ por Servidor-PC ",13.0,Unidad(es),2.35,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S TIENDAS
+Servicios Gestionados ConectaMAX
+Control remoto MSP Anyview   0,6 €",8.0,Unidad(es),0.6,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S TIENDAS
+Servicios Gestionados ConectaMAX
+Team Viewer - solo Windows XP -  1,1 €",4.0,Unidad(es),1.1,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_2390,"SERVICIOS CMAX ACCESO CLIENTE
+Servicios Gestionados ConectaMAX
+Acceso de clientes al portal   PVP --- 10,50 €/cuenta",1.0,Unidad(es),10.5,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_2389,"SERVICIOS CMAX ADMON REMOTA
+Servicios Gestionados ConectaMAX:
+Mail Protection  PVP --- 1,2 € / buzon             
+",14.0,Unidad(es),1.2,0.0,,,
+__export__.account_analytic_account_2117,LUIS FERNANDO PENIN - BACKUP,__export__.res_partner_7876,Juan Carlos Cobas,0.7,AA2211,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-06-02,,False,0.0,0.0,False,,True,,Mes(es),1,1,2020-01-25,__export__.product_product_1501,"BACKUP REMOTO SERVICIOS
+Acceso banda ancha internet fibra -compartida.
+Housing dispositivo del cliente en CPD Conecta",1.0,Unidad(es),27.5,0.0,SEPA Conecta,Contado,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1502,"BACKUP REMOTO MANO DE OBRA
+Monitorización y gestión de alertas, vigilancia del proceso y pruebas de recuperación.",1.0,Unidad(es),15.0,0.0,,,
+__export__.account_analytic_account_2118,STELLA RODRIGUEZ - Backup,__export__.res_partner_943,Juan Carlos Cobas,0.7,AA2212,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-06-02,,False,0.0,0.0,False,,True,,Mes(es),1,1,2020-01-25,__export__.product_product_1501,"BACKUP REMOTO SERVICIOS
+Acceso banda ancha internet fibra -compartida.
+Housing dispositivo del cliente en CPD Conecta",1.0,Unidad(es),27.5,0.0,SEPA Conecta,Contado,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1502,"BACKUP REMOTO MANO DE OBRA
+Monitorización y gestión de alertas, vigilancia del proceso y pruebas de recuperación.",1.0,Unidad(es),15.0,0.0,,,
+__export__.account_analytic_account_2122,DSTILO - SSL,__export__.res_partner_1594,Juan Carlos Cobas,0.7,AA2217,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-06-15,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-04-27,__export__.product_product_1357,Certificado anual SSL de seguridad para la web de www.dstilo.es,1.0,Unidad(es),90.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2123,MONTECHICO - Dominio,__export__.res_partner_1191,Ramon Basadre,0.7,AA2219,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-06-15,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-11-27,__export__.product_product_1357,RENOVACION ANUAL DE DOMINIO www.montechico.es,1.0,Unidad(es),25.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2124,Chemasport - SSL,__export__.res_partner_5726,Juan Carlos Cobas,0.7,AA2221,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-06-16,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-04-27,__export__.product_product_1357,Certificado anual SSL de seguridad para la web de Chemasport.es,1.0,Unidad(es),106.25,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2127,CARLOS CONDE - Cmax,__export__.res_partner_1632,Juan Carlos Cobas,0.7,AA2224,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-06-19,,False,0.0,0.0,False,,True,,Mes(es),1,1,2020-01-25,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S - TIENDAS
+Servicios Gestionados ConectaMAX
+Intervalo de monitorización: cada 120/60 min.  PVP --- 0,35
+
+Control remoto MSP Anyview  PVP --- 0,6
+",25.0,Unidad(es),0.95,0.0,Transferencia,Contado,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S - CENTRAL
+Servicios Gestionados ConectaMAX
+
+Intervalo de monitorización: cada 120/60 min.  PVP --- 0,35 
+Control remoto MSP Anyview  PVP --- 0,6",3.0,Unidad(es),0.95,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_2388,"SERVICIOS CMAX MONITORIZACION SERVIDOR - CENTRAL
+
+- Control Remoto MSP Anyview 3,20 €/ mes
+- Agente Base 5,50 € / mes",1.0,Unidad(es),8.7,0.0,,,
+__export__.account_analytic_account_2128,MARITIMA - DOMINIO,__export__.res_partner_1415,Juan Carlos Cobas,0.7,AA2225,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-06-20,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-06-27,__export__.product_product_1357,"RENOVACION ANUAL  DE DOMINIO
+maritimajp.com",1.0,Unidad(es),25.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2129,BERASI SHOES - Dominios,__export__.res_partner_7731,Diego Lago,0.7,AA2226,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-06-20,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-11-27,__export__.product_product_1357,"COMPRA / RENOVACION DE DOMINIOS - 1 año
+""lunacalzados.es"" y ""lunacalzados.com""",2.0,Unidad(es),25.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2130,HERMETICA - Dominio,__export__.res_partner_3738,Juan Carlos Cobas,0.7,AA2227,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-06-20,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-01-27,__export__.product_product_1357,"RENOVACION ANUAL DE DOMINIO
+Renovación por 1 año del dominio ""ermetica.es""",1.0,Unidad(es),25.0,0.0,Transferencia,Contado,Mantenimientos - M
+__export__.account_analytic_account_2131,ZAPATERIA RIN - Dominio,__export__.res_partner_8485,Juan Carlos Cobas,0.7,AA2228,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-06-20,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-08-27,__export__.product_product_1357,"Renovación anual de dominio
+""zapateriasrin.com"" ",1.0,Unidad(es),25.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2134,FORTEMA - Hosting Profesional,__export__.res_partner_1577,Juan Carlos Cobas,0.7,AA2232,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-06-21,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-09-27,__export__.product_product_1309,"SERVICIO HOSTING PROFESIONAL
+Hosting Profesional 1.4/1.5/1.6, BBDD Mysql 5x, PHP 5.3/5.4/5.5
+- Transferencia mensual ilimitada (alerta 10Gb/Mes)
+- Espacio en disco SSD 3Gb (alerta a los 2,5Gb)
+- Subdominios ilimitados
+- Buzones de correo: 30 Tamaño max. Buzón: 1 Gb
+- 300 envíos de correo max. por hora.
+- BBDD máximas: 3 Mysql 5x
+- CPD en España con cumplimiento LOPD
+- Administración por parte del cliente con una cuenta de acceso Plesk.
+
+
+(Opcionales para contratar: Certificado SSL, Backups personalizados, módulos Premium, Tienda online, importación desde otras tiendas, TPV, …)
+",1.0,Unidad(es),140.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2135,FORTEMA - Dominio,__export__.res_partner_1577,Juan Carlos Cobas,0.7,AA2233,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-06-21,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-09-27,__export__.product_product_1357,RENOVACION ANUAL DE DOMINIO - fortema.es,1.0,Unidad(es),25.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2136,CARRACEDO - Hosting Basico,__export__.res_partner_1538,Juan Carlos Cobas,0.7,AA2234,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-06-21,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-08-27,__export__.product_product_1308,"SERVICIO HOSTING BASICO
+Prestashop 1.4/1.5/1.6, BBDD Mysql 5x, PHP 5.3/5.4/5.5
+- Transferencia mensual ilimitada (alerta 10Gb/Mes)
+- Espacio en disco SSD 1Gb (alerta a los 0,75Gb)
+- Subdominios ilimitados
+- Buzones de correo: 10 
+- Tamaño max. Buzón: 0,75 Gb
+- 300 envíos de correo max. por hora.
+- BBDD máximas: 1 Mysql 5x
+- CPD en España con cumplimiento LOPD
+- Administración por parte del cliente con una cuenta de acceso Plesk.
+
+(Opcionales para contratar: Certificado SSL, Backups personalizados, módulos Premium, Tienda online, importación desde otras tiendas, TPV, …)",1.0,Unidad(es),90.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2139,NOT. PEDRO RIOL - Dominio,__export__.res_partner_1385,Juan Carlos Cobas,0.7,AA2237,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-06-21,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-10-27,__export__.product_product_1357,"RENOVACION ANUAL DE DOMINIO
+""notariapedroriol.com""",1.0,Unidad(es),25.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2140,MARTINEZ ROSA - Dominio,__export__.res_partner_1063,Juan Carlos Cobas,0.7,AA2238,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-06-21,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-11-27,__export__.product_product_1357,"RENOVACION ANUAL DE DOMINIO
+""martinezrosa.com""",1.0,Unidad(es),25.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2141,NOT. RECONQUISTA - Dominio,__export__.res_partner_1072,Juan Carlos Cobas,0.7,AA2239,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-06-21,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-08-27,__export__.product_product_1357,"RENOVACION ANUAL DE DOMINIO - ""notariareconquista.com""",1.0,Unidad(es),25.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2142,SALCONALIMENTARIA - Hosting Basico,__export__.res_partner_8039,Juan Carlos Cobas,0.7,AA2240,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-06-21,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-10-27,__export__.product_product_1308,"SERVICIO HOSTING BASICO 
+SALCONALIMENTARIA
+Prestashop 1.4/1.5/1.6, BBDD Mysql 5x, PHP 5.3/5.4/5.5
+- Transferencia mensual ilimitada (alerta 10Gb/Mes)
+- Espacio en disco SSD 1Gb (alerta a los 0,75Gb)
+- Subdominios ilimitados
+- Buzones de correo: 10 
+- Tamaño max. Buzón: 0,75 Gb
+- 300 envíos de correo max. por hora.
+- BBDD máximas: 1 Mysql 5x
+- CPD en España con cumplimiento LOPD
+- Administración por parte del cliente con una cuenta de acceso Plesk.
+
+(Opcionales para contratar: Certificado SSL, Backups personalizados, módulos Premium, Tienda online, importación desde otras tiendas, TPV, …)",1.0,Unidad(es),120.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2146,BERASI SHOES- CMax (Softdil),__export__.res_partner_7731,Diego Lago,0.7,AA2248,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-06-27,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-06-26,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S ANUAL
+Berasi Shoes
+",12.0,Unidad(es),0.95,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2149,LEISTUNG - CMAX,__export__.res_partner_7974,Juan Carlos Cobas,0.7,AA2252,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-07-04,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-06-26,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S ANUAL
+Leistung",12.0,Unidad(es),0.95,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2150,ZAPATERIA RIN - Backup,__export__.res_partner_8485,Juan Carlos Cobas,0.7,AA2253,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-07-04,,False,0.0,0.0,False,,True,,Mes(es),1,1,2020-01-25,__export__.product_product_1501,"SERVICIOS MENSUALES DE MANTENIMIENTO DE LA COPIA REMOTA Y ALOJAMIENTO NAS
+
+BACKUP REMOTO SERVICIOS -Cuota Mensual
+- Acceso compartido Fibra Óptica Red Privada Datos a Internet - Housing Alojamiento de un dispositivo del cliente en CPD ISO27001
+- Monitorización y gestión de alertas, vigilancia del proceso y pruebas de recuperación",1.0,Unidad(es),60.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2158,ACESGAL - Dominios,__export__.res_partner_8002,Juan Carlos Cobas,0.7,AA2262,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-08-24,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-06-27,__export__.product_product_1357,"RENOVACION ANUAL DE DOMINIO
+acesgal.com
+acesgal.es",2.0,Unidad(es),25.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1357,"RENOVACION ANUAL  DE DOMINIO
+alvarinas.net",1.0,Unidad(es),25.0,0.0,,,
+__export__.account_analytic_account_2159,ACESGAL - CMax,__export__.res_partner_8002,Juan Carlos Cobas,0.7,AA2263,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-08-24,,False,0.0,0.0,False,,True,,Mes(es),1,3,2020-03-25,__export__.product_product_1228,"SERVICIOS CONECTA MAX MAIL
+1 cuenta de correo
+
+Trimestral
+",1.0,Unidad(es),3.6,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2162,CONGELADOS REDONDELA - Dominio,__export__.res_partner_1477,Juan Carlos Cobas,0.7,AA2269,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-09-11,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-07-27,__export__.product_product_1357,"RENOVACION ANUAL DE DOMINIO
+congeladosredondela.com",1.0,Unidad(es),25.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2169,JONATHAN GARDON - LOPD,__export__.res_partner_7757,Juan Carlos Cobas,0.7,AA2281,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-10-15,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-10-15,__export__.product_product_1468,SERVICIOS LOPD: MANTENIMIENTO TECNICO,1.0,Unidad(es),120.0,0.0,Transferencia,Contado,Mantenimientos - M
+__export__.account_analytic_account_2174,VALPORTA - CMAX,__export__.res_partner_8066,Jose Antonio,0.7,AA2286,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-10-24,,False,0.0,0.0,False,,True,,Mes(es),1,1,2020-01-25,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S
+Servicios Gestionados ConectaMAX
+Intervalo de monitorización: cada 120/60 min.  PVP --- 0,35 €
+Control remoto MSP Anyview  PVP --- 0,6 €
+Análisis de vulnerabilidades y ad. revisiones	PVP --- 0,8 €
+",5.0,Unidad(es),1.75,0.0,SEPA Conecta,Contado,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1474,"SERVICIOS CMAX ANTIVIRUS
+Servicios Gestionados ConectaMAX
+Antivirus administrado 2,35€ por Servidor-PC ",5.0,Unidad(es),2.35,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_2389,"SERVICIOS CMAX ADMON REMOTA
+Servicios Gestionados ConectaMAX:
+Mail Protection  PVP --- 1,20 euro buzon             ",5.0,Unidad(es),1.2,0.0,,,
+__export__.account_analytic_account_2176,VALPORTA - Hosting VPS Economico,__export__.res_partner_8066,Jose Antonio,0.7,AA2288,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-10-24,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-10-27,__export__.product_product_2413,"Servicio VPS Economico
+Hosting VPS compartido, BBDD Mysql 5x, PHP 5.3/5.4/5.5
+- Transferencia mensual ilimitada (alerta 10Gb/Mes)
+- Espacio en disco SSD 10Gb (alerta a los 7,5Gb)
+- Subdominios ilimitados
+- Buzones de correo: 30 Tamaño max. Buzón: 3 Gb
+- 300 envíos de correo max. por hora.
+- BBDD máximas: 10 Mysql 5x
+- CPD en España con cumplimiento LOPD
+- Administración por parte del cliente con una cuenta de acceso Plesk.",1.0,Unidad(es),336.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2177,Valporta - Backup,__export__.res_partner_8066,Jose Antonio,0.7,AA2289,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-10-27,,False,0.0,0.0,False,,True,,Mes(es),1,1,2020-01-25,__export__.product_product_1501,"BACKUP REMOTO SERVICIOS
+Acceso banda ancha internet fibra -compartida.
+Housing dispositivo del cliente en CPD Conecta
+- Servicio Mensual",1.0,Unidad(es),55.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1502,"BACKUP REMOTO MANO DE OBRA
+Monitorización y gestión de alertas, vigilancia del proceso y pruebas de recuperación.
+- Servicio Mensual",1.0,Unidad(es),30.0,0.0,,,
+__export__.account_analytic_account_2178,NOT. SANXENXO - Dominio,__export__.res_partner_840,Juan Carlos Cobas,0.7,AA2290,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-10-27,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-12-27,__export__.product_product_1357,"RENOVACION ANUAL DE DOMINIO
+ ""jdacunha.com""",1.0,Unidad(es),25.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2179,Chemasport - Dominio,__export__.res_partner_5726,Juan Carlos Cobas,0.7,AA2292,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-10-27,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-05-27,__export__.product_product_1357,"RENOVACION ANUAL DE DOMINIOS
+""chemasport.com""",1.0,Unidad(es),25.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2180,Montechico - SSL,__export__.res_partner_1191,Ramon Basadre,0.7,AA2293,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-10-27,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-07-27,__export__.product_product_1357,RENOVACION CERTIFICADO SSL - Renovacion anual del certificado SSL de seguridad para la web www.montechico.es,1.0,Unidad(es),106.25,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2181,Bidasoa - Dominios,__export__.res_partner_7755,Juan Carlos Cobas,0.7,AA2294,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-10-30,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-08-27,__export__.product_product_1357,"RENOVACION ANUAL DE DOMINIOS
+""hemeshops.com"" y ""hemeshops.es""",2.0,Unidad(es),25.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2182,Biotech - Dominios,__export__.res_partner_6574,Juan Carlos Cobas,0.7,AA2295,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-10-30,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-12-27,__export__.product_product_1357,"RENOVACION ANUAL DE DOMINIOS
+
+atlanticecosys.com
+fipobiotech.com
+fipobiotech.es",3.0,Unidad(es),25.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2183,Brexia - Dominio,__export__.res_partner_7636,Juan Carlos Cobas,0.7,AA2296,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-10-30,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-03-25,__export__.product_product_1357,"RENOVACION ANUAL DE DOMINIO 
+BREXIA.ES",1.0,Unidad(es),25.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2184,SALCONALIMENTARIA - Dominio,__export__.res_partner_8039,Juan Carlos Cobas,0.7,AA2297,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-10-30,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-11-30,__export__.product_product_1357,RENOVACION ANUAL DE DOMINIO salconalimentaria.es,1.0,Unidad(es),25.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2185,Aplauso Calzados - SSL,__export__.res_partner_8006,Juan Carlos Cobas,0.7,AA2298,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-10-30,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-06-27,__export__.product_product_1357,Certificado anual SSL de seguridad para la web de www.aplausocalzados.com,1.0,Unidad(es),90.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2186,Calzados Yolanda - Dominio .es,__export__.res_partner_5511,Juan Carlos Cobas,0.7,AA2299,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-10-30,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-04-27,__export__.product_product_1357,Renovación anual dominio calzadosyolanda.es,1.0,Unidad(es),25.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2187,DMM - Dominio,__export__.res_partner_1024,Juan Carlos Cobas,0.7,AA2300,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-10-30,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-11-27,__export__.product_product_1357,"RENOVACION ANUAL DE DOMINIO
+dmmservimark.com",1.0,Unidad(es),25.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2189,DS SALGADO - SSL,__export__.res_partner_7805,Juan Carlos Cobas,0.7,AA2302,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-10-30,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-09-27,__export__.product_product_1357,Certificado anual SSL de seguridad para sentibona.com,1.0,Unidad(es),90.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2192,TODO ESTOR - Dominio,__export__.res_partner_1557,Juan Carlos Cobas,0.7,AA2306,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-11-14,,False,0.0,0.0,False,,True,,Año(s),1,2,2021-10-27,__export__.product_product_1357,RENOVACION ANUAL DE DOMINIO todoestor.com,1.0,Unidad(es),8.95,0.0,SEPA Conecta,Contado,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1357,"RENOVACION ANUAL DE DOMINIO
+todoestor.es",1.0,Unidad(es),8.0,0.0,,,
+__export__.account_analytic_account_2194,Aplauso Calzados - Cmax,__export__.res_partner_8006,Juan Carlos Cobas,0.7,AA2309,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-11-17,,False,0.0,0.0,False,,True,,Mes(es),1,1,2020-01-25,__export__.product_product_2388,"SERVICIOS CMAX MONITORIZACION SERVIDOR
+Servicios Gestionados ConectaMAX:
+Agente Base 5,5 €
+Control Remoto MSP Anyview 3,2 €
+     
+",1.0,Unidad(es),8.7,0.0,SEPA Conecta,Contado,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S
+Servicios Gestionados ConectaMAX
+Intervalo de monitorización: cada 120/60 min.  0,35 €
+Control remoto MSP Anyview  0,6 €
+Análisis de vulnerabilidades y ad. revisiones  0,8 €",21.0,Unidad(es),1.75,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1474,"SERVICIOS CMAX ANTIVIRUS
+Servicios Gestionados ConectaMAX
+Antivirus administrado 2,35€ por Servidor-PC ",22.0,Unidad(es),2.35,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_2389,"SERVICIOS CMAX ADMON REMOTA
+Servicios Gestionados ConectaMAX:
+Mail Protection  PVP --- 1,2 euro buzon             
+",8.0,Unidad(es),1.2,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_2390,"SERVICIOS CMAX ACCESO CLIENTE
+Servicios Gestionados ConectaMAX
+Acceso de clientes al portal 10,5 €",1.0,Unidad(es),10.5,0.0,,,
+__export__.account_analytic_account_2195,Miriam Del Rio - Hosting Elite,__export__.res_partner_8069,Juan Carlos Cobas,0.7,AA2310,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-11-17,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-10-27,__export__.product_product_2371,"SERVICIO HOSTING ELITE
+Prestashop 1.4/1.5/1.6, BBDD Mysql 5x, PHP 5.3/5.4/5.5
+- Transferencia mensual ilimitada (alerta 10Gb/Mes)
+- Espacio en disco SSD 5Gb (alerta a los 4Gb)
+- Subdominios ilimitados
+- Buzones de correo: 50 Tamaño máx. Buzón: 2 Gb
+- 300 envios de correo max por hora.
+- BBDD máximas: 5 Mysql 5x
+- CPD en España con cumplimiento LOPD
+- Administración por parte del cliente con una cuenta de acceso Plesk.
+
+(Opcionales para contratar: Certificado SSL, Backups personalizados, módulos Premium, Tienda online, importación desde otras tiendas, TPV, …)
+",1.0,Unidad(es),180.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2196,DEHADES - Dominio,__export__.res_partner_8064,Juan Carlos Cobas,0.7,AA2311,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-11-17,,False,0.0,0.0,False,,True,,Año(s),1,1,2022-10-27,__export__.product_product_1357,"RENOVACION ANUAL DE DOMINIO dehades.com 
+",1.0,Unidad(es),25.0,0.0,Transferencia,Anticipado,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1357,"RENOVACION ANUAL DE DOMINIO 
+dehades.es ",1.0,Unidad(es),25.0,0.0,,,
+__export__.account_analytic_account_2205,SANCHEZ LANDERAS - Servidor Hosting VPS Semidedicado Avelon - Windows,__export__.res_partner_8073,Juan Carlos Cobas,0.7,AA2320,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-12-04,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-11-27,__export__.product_product_2434,"SERVICIO HOSTING VPS SEMIDEDICADO SSD
+
+Hosting VPS (Virtual Private Server) dedicado.
+- 5x3.5Ghz 
+- Espacio en disco SSD 80Gb 
+- Memoria Ram 8GB DDR4 Dedicadas
+- Prestashop 1.4/1.5/1.6, BBDD Mysql 5x, PHP 5.3/5.4/5.5
+- Transferencia mensual ilimitada
+- Cuentas de correo ilimitadas
+- Hasta 10 dominios.
+- Buzones de correo: ilimitados
+- BBDD máximas: ilimitados
+- CPD en España con cumplimiento RGPD
+- Administración por parte del cliente con una cuenta de acceso Plesk.
+
+Licencia Plesk: hasta 10 Dominios(Web Admin)  (80 €/año, incluida en el precio del servidor)",1.0,Unidad(es),1065.0,0.0,Transferencia,Contado,Mantenimientos - M
+__export__.account_analytic_account_2207,DS SALGADO - Dominios,__export__.res_partner_7805,Juan Carlos Cobas,0.7,AA2322,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-12-12,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-07-27,__export__.product_product_1357,"RENOVACIÓN ANUAL DE DOMINIO
+sentibona.com
+sentibona.es
+sentibona.net
+salgadoonline.com
+salgadoonline.es",5.0,Unidad(es),25.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2210,Aplauso Calzados - Dominios,__export__.res_partner_8006,Juan Carlos Cobas,0.7,AA2325,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-12-13,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-10-27,__export__.product_product_1357,"RENOVACION ANUAL DE DOMINIOS
+zapaoutlet.com
+zapaoutlet.es
+zapaoutlet.eu
+aplausocalzados.es",4.0,Unidad(es),25.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2211,Aplauso Calzados - Dominios,__export__.res_partner_8006,Juan Carlos Cobas,0.7,AA2326,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-12-13,,False,0.0,0.0,False,,True,,Año(s),1,5,2022-10-27,__export__.product_product_1357,"RENOVACION ANUAL DE DOMINIO
+aplausocalzados.com",1.0,Unidad(es),25.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2213,Carracedo - Dominio,__export__.res_partner_1538,Juan Carlos Cobas,0.7,AA2330,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-12-15,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-02-25,__export__.product_product_1357,RENOVACION ANUAL DE DOMINIO gonzalezcarracedo.com,1.0,Unidad(es),25.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2214,Valporta - Dominio,__export__.res_partner_8066,Jose Antonio,0.7,AA2331,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-12-15,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-12-27,__export__.product_product_1357,Renovación anual dominio valporta.es,1.0,Unidad(es),25.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2216,Calzados Yolanda - Dominio .com,__export__.res_partner_5511,Juan Carlos Cobas,0.7,AA2334,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-12-15,,False,0.0,0.0,False,,True,,Año(s),1,1,2022-10-27,__export__.product_product_1357,Renovación anual de dominio calzadosyolanda.com,1.0,Unidad(es),25.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2217,External - Dominio,__export__.res_partner_1012,Juan Carlos Cobas,0.7,AA2336,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-12-18,,False,0.0,0.0,False,,True,,Año(s),1,2,2020-01-27,__export__.product_product_1357, RENOVACION POR 2 AÑOS DE DOMINIO externaliberica.com,2.0,Unidad(es),8.95,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2218,Softdil - Dominio,__export__.res_partner_8060,Juan Carlos Cobas,0.7,AA2337,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-12-18,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-03-25,__export__.product_product_1357,RENOVACION ANUAL DE DOMINIO  softdil.com,1.0,Unidad(es),8.95,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2222,DMM - LOPD,__export__.res_partner_1024,Juan Carlos Cobas,0.7,AA2344,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2018-01-02,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-12-27,__export__.product_product_1467,"SERVICIOS LOPD: PLAN DE ADAPTACION EMPRESA:
+Adaptación básica RGPD y PCA",1.0,Unidad(es),580.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1349,SERVICIOS LOPD: Servicio de acceso al panel de cliente LOPD. 1 licencia,1.0,Unidad(es),50.0,0.0,,,
+__export__.account_analytic_account_2223,BREXIA - LOPD,__export__.res_partner_7636,Juan Carlos Cobas,0.7,AA2345,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2018-01-02,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-12-27,__export__.product_product_1467,"SERVICIOS LOPD: PLAN DE ADAPTACION EMPRESA:
+Adaptación básica RGPD y PCA",1.0,Unidad(es),580.0,20.0,SEPA Conecta,Contado,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1349,SERVICIOS LOPD: Servicio de acceso al panel de cliente LOPD. 1 licencia,1.0,Unidad(es),50.0,0.0,,,
+__export__.account_analytic_account_2225,CARRACEDO - SegP,__export__.res_partner_1538,Juan Carlos Cobas,0.7,AA2348,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2018-01-05,,False,0.0,0.0,False,,True,,Mes(es),1,1,2020-01-25,__export__.product_product_1301,ALQUILER DE FIREWALL WATCHGUARD NO COMPATIBLE CON CONEXION INTERNET FIBRA OPTICA,1.0,Unidad(es),12.5,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2226,ZAPATERIA RIN -Hosting VPS PROFESIONAL Windows Avelon,__export__.res_partner_8485,Juan Carlos Cobas,0.7,AA2349,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2018-01-09,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-08-27,__export__.product_product_2433,"SERVICIO HOSTING VPS PROFESIONAL - AVELON
+
+Hosting VPS (Virtual Private Server) dedicado.
+- 4x3.5Ghz 
+- Espacio en disco SSD 60Gb 
+- Memoria Ram 6GB DDR4 Dedicadas
+- Prestashop 1.4/1.5/1.6, BBDD Mysql 5x, PHP 5.3/5.4/5.5
+- Transferencia mensual ilimitada
+- Cuentas de correo ilimitadas
+- Hasta 10 dominios.
+- Buzones de correo: ilimitados
+- BBDD máximas: ilimitados
+- CPD en España con cumplimiento RGPD
+- Administración por parte del cliente con una cuenta de acceso Plesk.
+
+Licencia Plesk: hasta 10 Dominios(Web Admin)  (80 €/año, incluida en el precio del servidor)",1.0,Unidad(es),914.58,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2228,Aplauso Calzados - Dominio,__export__.res_partner_8006,Juan Carlos Cobas,0.7,AA2352,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2018-01-16,,False,0.0,0.0,False,,True,,Año(s),1,1,2024-07-27,__export__.product_product_1357,"RENOVACION ANUAL DE DOMINIO
+zapatooutlet.es",1.0,Unidad(es),25.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2233,CAPRIOLE - Hosting VPS Webmaster Avelon,__export__.res_partner_8103,Juan Carlos Cobas,0.7,AA2359,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2018-01-19,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-12-27,__export__.product_product_2432,"SERVICIO Virtual Private Server CUOTA ANUAL
+Hosting Windows Server Avelon
+CPU 2x3.5Ghz
+Memoria Ram 4GB
+Disco duro 50GB SSD
+Ancho de banda 100Mbps
+Transferencia mensual Ilimitada
+Datacenter España
+* Sin contrato de soporte *",1.0,Unidad(es),678.58,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2234,Miriam Del Rio - Dominio,__export__.res_partner_8069,Juan Carlos Cobas,0.7,AA2360,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2018-01-19,,False,0.0,0.0,False,,True,,Año(s),1,1,2023-01-27,__export__.product_product_1357,RENOVACION DE DOMINIO POR 5 AÑOS atipicokids.com ,5.0,Unidad(es),25.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2235,Miriam Del Rio - SSL,__export__.res_partner_8069,Juan Carlos Cobas,0.7,AA2361,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2018-01-19,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-12-27,__export__.product_product_1357,RENOVACION ANUAL SSL DE SEGURIDAD PARA LA WEB atipicokids.com,1.0,Unidad(es),90.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2239,INMOVEDRA - SSL,__export__.res_partner_7784,Juan Carlos Cobas,0.7,AA2367,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2018-01-26,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-02-27,__export__.product_product_1357,Renovación anual de certificado SSL de la web inmomichelena.com,1.0,Unidad(es),90.0,0.0,Transferencia,Contado,Mantenimientos - M
+__export__.account_analytic_account_2248,ANCHOAS DELUXE- Hosting VPS Economico Linux,__export__.res_partner_8102,Juan Carlos Cobas,0.7,AA2376,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2018-02-01,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-12-27,__export__.product_product_2413,"SERVICIO HOSTING VPS ESPECIALIZADO ODOO+PRESTASHOP - Facturacion anual.
+- Espacio en disco SSD 30Gb 
+- CPU 2x3.5Ghz
+- Memoria RAM 3GB
+
+Licencia Plesk: hasta 10 Dominios(Web Admin)  (80 €/año, incluida en el precio del servidor)",1.0,Unidad(es),590.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_2395,AMPLIACION SERVICIO HOSTING + 10GB,1.0,Unidad(es),96.0,0.0,,,
+__export__.account_analytic_account_2249,INVERSIONES ASAI - Dominio,__export__.res_partner_8096,Diego Lago,0.7,AA2377,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2018-02-06,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-05-27,__export__.product_product_1357,TRASLADO Y RENOVACIÓN DE DOMINIO asaizapaterias.com,1.0,Unidad(es),25.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2250,COMERCIAL SIA - Dominio,__export__.res_partner_1587,Juan Carlos Cobas,0.7,AA2378,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2018-02-06,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-09-27,__export__.product_product_1357, RENOVACION ANUAL DE DOMINIO comercialsia.com,1.0,Unidad(es),25.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2254,COMERCIAL SIA - SSL,__export__.res_partner_1587,Juan Carlos Cobas,0.7,AA2382,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2018-02-07,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-12-27,__export__.product_product_1357,RENOVACION ANUAL CERTIFICADO SSL DE LA WEB comercialsia.com,1.0,Unidad(es),90.0,0.0,Transferencia,,Mantenimientos - M
+__export__.account_analytic_account_2259,Aplauso Calzados -SSL,__export__.res_partner_8006,Juan Carlos Cobas,0.7,AA2387,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2018-02-08,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-12-27,__export__.product_product_1357,Certificado anual SSL de seguridad para la web de zapatooutlet.es - 1 año,1.0,Unidad(es),90.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2262,CAPRIOLE - Dominio,__export__.res_partner_8103,Juan Carlos Cobas,0.7,AA2390,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2018-02-22,,False,0.0,0.0,False,,True,,Año(s),1,5,2023-06-27,__export__.product_product_1357,RENOVACION DE DOMINIO pinkzapo.es,5.0,Unidad(es),25.0,8.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2263,Chemasport- Dominio,__export__.res_partner_5726,Juan Carlos Cobas,0.7,AA2392,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2018-02-22,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-01-27,__export__.product_product_1357,RENOVACION ANUAL DE DOMINIO chemasneakers.es,1.0,Unidad(es),25.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1357,RENOVACION ANUAL DE DOMINIO chemasneakers.com,1.0,Unidad(es),25.0,0.0,,,
+__export__.account_analytic_account_2265,CAPRIOLE - SSL,__export__.res_partner_8103,Juan Carlos Cobas,0.7,AA2394,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2018-02-22,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-01-27,__export__.product_product_1357,Renovacion anual certificado SSL pinkzapo.es,1.0,Unidad(es),110.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2266,ROGELIO - Hosting Profesional,__export__.res_partner_1104,Juan Carlos Cobas,0.7,AA2395,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2018-02-23,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-01-27,__export__.product_product_1309,"SERVICIO HOSTING PROFESIONAL
+Hosting Profesional 1.4/1.5/1.6, BBDD Mysql 5x, PHP 5.3/5.4/5.5
+- Transferencia mensual ilimitada (alerta 10Gb/Mes)
+- Espacio en disco SSD 3Gb (alerta a los 2,5Gb)
+- Subdominios ilimitados
+- Buzones de correo: 30 Tamaño max. Buzón: 1 Gb
+- 300 envíos de correo max. por hora.
+- BBDD máximas: 3 Mysql 5x
+- CPD en España con cumplimiento LOPD
+- Administración por parte del cliente con una cuenta de acceso Plesk.",1.0,Unidad(es),140.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2319,KAUMAN - ZIMBRA,__export__.res_partner_1285,Juan Carlos Cobas,0.7,AA2448,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2018-02-27,,False,0.0,0.0,False,,True,,Mes(es),1,1,2020-01-25,__export__.product_product_1494,"SOFTWARE Archivado de correo para 21 usuarios
+- Archivo del correo anterior a dos años.
+- Acceso via web o desde complemento de outlook a todos los correos archivados.
+- Copia de los correos alojados en el servidor Zimbra Cloud en local.
+- Alojamiento en los servidores fisicos de Kauman.
+- Servidor Windows con espacio en disco (hasta 1 Tb)",21.0,Unidad(es),3.9,0.0,Transferencia,Anticipado,Mantenimientos - M
+__export__.account_analytic_account_2320,DEHADES - Hosting Elite,__export__.res_partner_8064,Juan Carlos Cobas,0.7,AA2449,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2018-03-01,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-01-27,__export__.product_product_2371,"SERVICIO HOSTING ELITE
+Prestashop 1.4/1.5/1.6, BBDD Mysql 5x, PHP 5.3/5.4/5.5
+- Transferencia mensual ilimitada (alerta 10Gb/Mes)
+- Espacio en disco SSD 5Gb (alerta a los 4Gb)
+- Subdominios ilimitados
+- Buzones de correo: 50 Tamaño máx. Buzón: 2 Gb
+- 300 envios de correo max por hora.
+- BBDD máximas: 5 Mysql 5x
+- CPD en España con cumplimiento LOPD
+- Administración por parte del cliente con una cuenta de acceso Plesk.",1.0,Unidad(es),180.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2322,Bidasoa - Hosting Premium,__export__.res_partner_7755,Juan Carlos Cobas,0.7,AA2452,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2018-03-02,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-10-27,__export__.product_product_2373,"SERVICIO HOSTING PREMIUM
+Prestashop 1.4/1.5/1.6, BBDD Mysql 5x, PHP 5.3/5.4/5.5
+- Transferencia mensual ilimitada (alerta 10Gb/Mes)
+- Espacio en disco SSD 10Gb (alerta a los 8Gb)
+- Subdominios ilimitados
+- Buzones de correo: 70 Tamaño máx. Buzón: 3 Gb
+- 300 envios de correo max por hora.
+- BBDD máximas: 7 Mysql 5x
+- CPD en España con cumplimiento LOPD
+- Administración por parte del cliente con una cuenta de acceso Plesk.
+
+
+(Opcionales para contratar: Certificado SSL, Backups personalizados, módulos Premium, Tienda online, importación desde otras tiendas, TPV, …)
+",1.0,Unidad(es),250.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2323,Calzados Yolanda - SSL,__export__.res_partner_5511,Juan Carlos Cobas,0.7,AA2453,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2018-03-07,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-01-27,__export__.product_product_1357,RENOVACION ANUAL CERTIFICADO SSL DE SEGURIDAD www.calzadosyolanda.com,1.0,Unidad(es),90.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2327,2PM - Dominio,__export__.res_partner_1416,Ramon Basadre,0.7,AA2460,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2018-03-22,,False,0.0,0.0,False,,True,,Año(s),1,5,2023-02-27,__export__.product_product_1357,RENOVACION DE DOMINIO coolabora.es - 5 años,1.0,Unidad(es),40.14,0.0,Transferencia,Contado,Mantenimientos - M
+__export__.account_analytic_account_2338,CAPRIOLE - Dominio,__export__.res_partner_8103,Juan Carlos Cobas,0.7,AA2472,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2018-04-12,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-05-27,__export__.product_product_1357,RENOVACION ANUAL DE DOMINIO pinkzapo.com,1.0,Unidad(es),25.0,0.0,SEPA Conecta,,Mantenimientos - M
+__export__.account_analytic_account_2353,Kauman - Dominios,__export__.res_partner_1285,Juan Carlos Cobas,0.7,AA2488,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2018-05-09,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-03-27,__export__.product_product_1357,"RENOVACIÓN ANUAL DE DOMINIOS
+kauman.es
+kauman.net
+kauman.eu",3.0,Unidad(es),25.0,0.0,Transferencia,Anticipado,Mantenimientos - M
+__export__.account_analytic_account_2355,SANCHEZ LANDERAS - Dominio,__export__.res_partner_8073,Juan Carlos Cobas,0.7,AA2490,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2018-05-16,,False,0.0,0.0,False,,True,,Año(s),1,3,2020-12-27,__export__.product_product_1357,RENOVACION DE DOMINIO POR 3 AÑOS - vaszapatos.com,3.0,Unidad(es),25.0,0.0,Transferencia,,Mantenimientos - M
+__export__.account_analytic_account_2356,XUNCA XESTION - Cmax,__export__.res_partner_8255,Juan Carlos Cobas,0.7,AA2492,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2018-05-18,,False,0.0,0.0,False,,True,,Mes(es),1,1,2020-01-27,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S
+Servicios Gestionados ConectaMAX
+Intervalo de monitorización: cada 120/60 min.  PVP --- 0,35€
+Tareas automatizadas  PVP --- 0,25€
+Control remoto MSP Anyview  PVP --- 0,6€
+",9.0,Unidad(es),1.2,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2359,DSTILO - CMax,__export__.res_partner_1594,Juan Carlos Cobas,0.7,AA2498,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2018-05-23,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-04-27,__export__.product_product_2389,"SERVICIOS CMAX ADMON REMOTA
+Servicios Gestionados ConectaMAX:
+Mail Protection PVP --- 1,2 euro buzon/ mes. Facturación anual",1.0,Unidad(es),14.4,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2360,DSALGADO - Hosting VPS Economico Linux,__export__.res_partner_7805,Juan Carlos Cobas,0.7,AA2499,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2018-05-24,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-04-27,__export__.product_product_2413,"SERVICIO HOSTING VPS ECONOMICO
+Hosting VPS compartido, BBDD Mysql 5x, PHP 5.3/5.4/5.5
+- Transferencia mensual ilimitada (alerta 10Gb/Mes)
+- Espacio en disco SSD 30Gb (alerta a los 25Gb)
+- Subdominios ilimitados
+- Buzones de correo: 30 Tamaño max. Buzón: 3 Gb
+- 300 envíos de correo max. por hora.
+- BBDD máximas: 10 Mysql 5x
+- CPD en España con cumplimiento LOPD
+- Administración por parte del cliente con una cuenta de acceso Plesk.
+
+Licencia Plesk: hasta 10 Dominios(Web Admin)  (80 €/año, incluida en el precio del servidor)",1.0,Unidad(es),430.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2364,BERASI SHOES - SSL,__export__.res_partner_7731,Diego Lago,0.7,AA2504,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2018-06-06,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-04-27,__export__.product_product_1357,Certificado SSL para fichaje.lunacalzados.es,1.0,Unidad(es),90.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2369,INVERSIONES ASAI - Hosting VPS Economico Linux,__export__.res_partner_8096,Diego Lago,0.7,AA2511,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2018-06-20,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-05-27,__export__.product_product_2413,"SERVICIO HOSTING VPS ECONOMICO 
+
+Hosting VPS compartido, BBDD Mysql 5x, PHP 5.3/5.4/5.5
+- Transferencia mensual ilimitada (alerta 10Gb/Mes)
+- Espacio en disco SSD 30Gb (alerta a los 25Gb)
+- Subdominios ilimitados
+- Buzones de correo: 30 Tamaño max. Buzón: 3 Gb
+- 300 envíos de correo max. por hora.
+- BBDD máximas: 10 Mysql 5x
+- CPD en España con cumplimiento LOPD
+- Administración por parte del cliente con una cuenta de acceso Plesk.
+
+Licencia Plesk: hasta 10 Dominios(Web Admin)  (80 €/año, incluida en el precio del servidor)",1.0,Unidad(es),510.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2378,ZAPATERIA RIN - CMax,__export__.res_partner_8485,Juan Carlos Cobas,0.7,AA2522,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2018-07-10,,False,0.0,0.0,False,,True,,Mes(es),1,1,2020-01-27,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S
+Servicios Gestionados ConectaMAX
+Intervalo de monitorización: cada 120/60 min.  PVP --- 0,35
+Tareas automatizadas  PVP --- 0,25
+Control remoto MSP Anyview  PVP --- 0,6",18.0,Unidad(es),1.2,0.0,SEPA Conecta,Contado,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_2389,"SERVICIOS CMAX ADMON REMOTA
+Servicios Gestionados ConectaMAX
+
+Web Protection PVP --- 2,40€ /mes ",10.0,Unidad(es),2.4,0.0,,,
+__export__.account_analytic_account_2380,SSL - SANCHEZ LANDERAS,__export__.res_partner_8073,Juan Carlos Cobas,0.7,AA2525,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2018-07-13,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-05-27,__export__.product_product_1357,RENOVACION ANUAL DE CERTIFICADO SSL sense.zapatosvas.com,1.0,Unidad(es),90.0,0.0,Transferencia,Anticipado,Mantenimientos - M
+__export__.account_analytic_account_2381,ROGELIO IGLESIAS - SSL,__export__.res_partner_1104,Juan Carlos Cobas,0.7,AA2527,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2018-07-17,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-05-27,__export__.product_product_1357,Renovacion anual de certificado SSL de seguridad para la web de riglesias.es,1.0,Unidad(es),90.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2383,LOCALWINGS - Hosting Elite,__export__.res_partner_8283,Juan Carlos Cobas,0.7,AA2531,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2018-07-17,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-07-27,__export__.product_product_2371,"SERVICIO HOSTING ELITE - ANUAL
+Prestashop 1.4/1.5/1.6, BBDD Mysql 5x, PHP 5.3/5.4/5.5
+- Transferencia mensual ilimitada (alerta 10Gb/Mes)
+- Espacio en disco SSD 5Gb (alerta a los 4Gb)
+- Subdominios ilimitados
+- Buzones de correo: 50 Tamaño máx. Buzón: 2 Gb
+- 300 envios de correo max por hora.
+- BBDD máximas: 5 Mysql 5x
+- CPD en España con cumplimiento LOPD
+- Administración por parte del cliente con una cuenta de acceso Plesk.
+",1.0,Unidad(es),180.0,0.0,Transferencia,Anticipado,Mantenimientos - M
+__export__.account_analytic_account_2385,DS SALGADO - Dominio,__export__.res_partner_7805,Juan Carlos Cobas,0.7,AA2534,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2018-07-20,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-05-27,__export__.product_product_1357,Renovación anual del dominio ds-salgado.com,1.0,Unidad(es),25.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2387,DS SALGADO - Dominio,__export__.res_partner_7805,Juan Carlos Cobas,0.7,AA2537,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2018-07-24,,False,0.0,0.0,False,,True,,Año(s),1,1,2021-05-27,__export__.product_product_1357,RENOVACION ANUAL DE DOMINIO albafor.com,1.0,Unidad(es),25.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2393,MARIA DIZ REY - Hosting Elite,__export__.res_partner_8313,Juan Carlos Cobas,0.7,AA2543,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2018-08-20,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-07-27,__export__.product_product_2371,"SERVICIO HOSTING ELITE
+Prestashop 1.4/1.5/1.6, BBDD Mysql 5x, PHP 5.3/5.4/5.5
+- Transferencia mensual ilimitada (alerta 10Gb/Mes)
+- Espacio en disco SSD 5Gb (alerta a los 4Gb)
+- Subdominios ilimitados
+- Buzones de correo: 50 Tamaño máx. Buzón: 2 Gb
+- 300 envios de correo max por hora.
+- BBDD máximas: 5 Mysql 5x
+- CPD en España con cumplimiento LOPD
+- Administración por parte del cliente con una cuenta de acceso Plesk.",1.0,Unidad(es),180.0,0.0,Transferencia,Anticipado,Mantenimientos - M
+__export__.account_analytic_account_2395,BMC - Hosting Elite,__export__.res_partner_8417,Juan Carlos Cobas,0.7,AA2546,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2018-09-04,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-05-27,__export__.product_product_2371,"SERVICIO HOSTING ELITE
+Prestashop 1.4/1.5/1.6, BBDD Mysql 5x, PHP 5.3/5.4/5.5
+- Transferencia mensual ilimitada (alerta 10Gb/Mes)
+- Espacio en disco SSD 5Gb (alerta a los 4Gb)
+- Subdominios ilimitados
+- Buzones de correo: 50 Tamaño máx. Buzón: 2 Gb
+- 300 envios de correo max por hora.
+- BBDD máximas: 5 Mysql 5x
+- CPD en España con cumplimiento LOPD
+- Administración por parte del cliente con una cuenta de acceso Plesk.",1.0,Unidad(es),180.0,0.0,Transferencia,Anticipado,Mantenimientos - M
+__export__.account_analytic_account_2397,Chemasport - Dominio,__export__.res_partner_5726,Juan Carlos Cobas,0.7,AA2548,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-10-27,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-07-27,__export__.product_product_1357,"RENOVACION ANUAL DE DOMINIOS
+""chemasport.es""",1.0,Unidad(es),25.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2402,BMC - Dominio,__export__.res_partner_8417,Juan Carlos Cobas,0.7,AA2553,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2018-10-05,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-10-27,__export__.product_product_1357,"RENOVACION ANUAL DE DOMINIO 
+bmcec-store.com ",1.0,Unidad(es),25.0,0.0,,Anticipado,Mantenimientos - M
+__export__.account_analytic_account_2403,VIGO ACUARIO - Dominios,__export__.res_partner_821,Juan Carlos Cobas,0.7,AA2554,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2018-10-08,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-08-27,__export__.product_product_1357,"RENOVACION ANUAL DE DOMINIO
+relatoscompulsivos.com",1.0,Unidad(es),8.95,0.0,SEPA Conecta,,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1357,"RENOVACION ANUAL DE DOMINIO
+relatoscompulsivos.es",1.0,Unidad(es),8.45,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1357,"RENOVACION ANUAL DE DOMINIO
+vigoacuario.com",1.0,Unidad(es),8.95,0.0,,,
+__export__.account_analytic_account_2405,FORTEMA - SSL,__export__.res_partner_1577,Juan Carlos Cobas,0.7,AA2556,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2018-10-10,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-08-25,__export__.product_product_1357,RENOVACION ANUAL CERTIFICADO SSL fortema.es,1.0,Unidad(es),90.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2411,LEISTUNG - Hosting VPS Dedicado,__export__.res_partner_7974,Juan Carlos Cobas,0.7,AA2561,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2018-10-18,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-09-27,__export__.product_product_2413,"SERVICIO HOSTING Dedicado - Renovación Anual
+Caracteristicas principales:
+- CPU: E3-1230v5 (4 nucleos, 8 subprocesos) a 3,40 GHz
+- Intel Smart Cache: 8mb
+- Memoria Ram: 24GB DDR4
+- Disco duro: 2x240GB SSD + Disco 2TB SATA
+- CDN: CloudFlare (Aceleración de carga de la pagina en otros países)
+- Acceso SSH y Acceso ROOT
+- 2 IPs publicas
+- CPD en España con cumplimiento RGPD
+- Administración por parte del cliente con una cuenta de acceso Plesk.
+- Licencia Plesk: Panel de control plesk con dominios ilimitados",1.0,Unidad(es),2499.0,0.0,Transferencia,Contado,Mantenimientos - M
+__export__.account_analytic_account_2412,RKS - Cmax,__export__.res_partner_8285,Juan Carlos Cobas,0.7,AA2562,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2018-10-19,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-09-27,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S - Anual - 2 Pc´s
+Servicios Gestionados ConectaMAX
+Intervalo de monitorización: cada 120/60 min.  PVP --- 0,35€/ mes
+Intervalo de monitorización: cada 30 min.  PVP --- 0,6 € / mes",2.0,Unidad(es),11.4,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2414,LEISTUNG - Backup,__export__.res_partner_7974,Juan Carlos Cobas,0.7,AA2564,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2018-10-23,,False,0.0,0.0,False,,True,,Mes(es),1,1,2020-01-27,__export__.product_product_1501,"BACKUP REMOTO SERVICIOS
+Acceso banda ancha internet fibra -compartida.
+Housing dispositivo del cliente en CPD Conecta
+- Servicio Mensual",1.0,Unidad(es),40.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1502,"BACKUP REMOTO MANO DE OBRA
+Monitorización y gestión de alertas, vigilancia del proceso y pruebas de recuperación.
+- Servicio Mensual",1.0,Unidad(es),25.0,0.0,,,
+__export__.account_analytic_account_2415,UNIVERSIDAD DE JAEN - BACKUP,__export__.res_partner_923,Juan Carlos Cobas,0.7,AA2565,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2018-10-23,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-12-27,__export__.product_product_1502,"BACKUP REMOTO MANO DE OBRA
+Monitorización y gestión de alertas, vigilancia del proceso y pruebas de recuperación
+
+12 meses",12.0,Unidad(es),25.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1501,"BACKUP REMOTO SERVICIOS
+Acceso banda ancha internet fibra -compartida.
+Housing dispositivo del cliente en CPD Conecta
+
+12 meses",12.0,Unidad(es),45.0,0.0,,,
+__export__.account_analytic_account_2418,External - IP Posicionamiento,__export__.res_partner_1012,Juan Carlos Cobas,0.7,AA2568,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2018-10-25,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-09-27,__export__.product_product_2413,IP DEDICADA PARA POSICIONAMIENTO SEO,1.0,Unidad(es),33.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2421,VIGO ACUARIO - Cmax,__export__.res_partner_821,Juan Carlos Cobas,0.7,AA2571,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2018-11-07,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-10-27,__export__.product_product_2389,"SERVICIOS CMAX ADMON REMOTA - ANUAL
+Servicios Gestionados ConectaMAX:
+Mail Protection PVP --- 1,20 € X 12 Meses",2.0,Unidad(es),14.4,0.0,SEPA Conecta,Contado,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1474,"SERVICIOS CMAX ANTIVIRUS - ANUAL
+Servicios Gestionados ConectaMAX
+Antivirus administrado 2,35€ x 12 meses por Servidor-PC ",1.0,Unidad(es),28.2,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S - ANUAL
+Servicios Gestionados ConectaMAX
+Intervalo de monitorización: cada 120/60 min.  PVP --- 0,35 € x 12 meses
+Control remoto MSP Anyview  PVP --- 0,6 € x 12 meses",1.0,Unidad(es),11.4,0.0,,,
+__export__.account_analytic_account_2424,LEISTUNG - Dominio,__export__.res_partner_7974,Juan Carlos Cobas,0.7,AA2574,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2018-11-08,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-09-27,__export__.product_product_1357,"RENOVACION ANUAL DE DOMINIOS outletseguridad.es
+outletsecurite.com",2.0,Unidad(es),25.0,0.0,SEPA Conecta,,Mantenimientos - M
+__export__.account_analytic_account_2425,LEISTUNG - Dominio,__export__.res_partner_7974,Juan Carlos Cobas,0.7,AA2575,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2018-11-08,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-01-27,__export__.product_product_1357,"RENOVACION ANUAL DE DOMINIOS outlet-segurity.com
+outletseguranca.com",2.0,Unidad(es),25.0,0.0,SEPA Conecta,,Mantenimientos - M
+__export__.account_analytic_account_2426,LEISTUNG - Dominio,__export__.res_partner_7974,Juan Carlos Cobas,0.7,AA2576,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2018-11-08,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-11-27,__export__.product_product_1357,RENOVACION ANUAL DE DOMINIOS sicherheitoutlet.com,1.0,Unidad(es),25.0,0.0,SEPA Conecta,,Mantenimientos - M
+__export__.account_analytic_account_2427,LEISTUNG - Dominio,__export__.res_partner_7974,Juan Carlos Cobas,0.7,AA2577,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2018-11-08,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-03-27,__export__.product_product_1357,"RENOVACION ANUAL DE DOMINIOS outletsicurezza.com
+legeneral.com
+a-sec.es
+a-sec.fr
+a-sec.it
+a-time.es
+",6.0,Unidad(es),25.0,0.0,SEPA Conecta,,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1357,"RENOVACION ANUAL DE DOMINIO
+a-sec.pt",1.0,Unidad(es),45.0,0.0,,,
+__export__.account_analytic_account_2432,BMC - SSL,__export__.res_partner_8417,Juan Carlos Cobas,0.7,AA2583,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2018-11-22,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-10-27,__export__.product_product_1357,"Renovación anual Certificado SSL Empresarial.
+Certificado TrueBusiness ID EV by GeoTrust
+Validación extendida.
+Encriptación hasta 256 bits
+Deje clara su idea de la seguridad mediante la barra de direcciones verde. GeoTrust® True BusinessID con EV (Extended Validation) para empresas es nuestro producto premium de seguridad SSL de clase empresarial, que confirma de forma visual el más alto nivel de autenticación disponible entre los certificados SSL.",1.0,Unidad(es),249.95,0.0,Transferencia,Anticipado,Mantenimientos - M
+__export__.account_analytic_account_2436,BMC - Dominio,__export__.res_partner_8417,Juan Carlos Cobas,0.7,AA2588,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2018-12-10,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-11-27,__export__.product_product_1357,RENOVACION ANUAL DE DOMINIO bmcec.com,1.0,Unidad(es),25.0,0.0,,,Mantenimientos - M
+__export__.account_analytic_account_2439,XUNCA XESTION - HOSTING BASICO Y PROFESIONAL,__export__.res_partner_8255,Juan Carlos Cobas,0.7,AA2591,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2018-12-17,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-10-27,__export__.product_product_1308,"SERVICIO HOSTING BASICO RENOVACION ANUAL- xuncaxestion.es
+Prestashop 1.4/1.5/1.6, BBDD Mysql 5x, PHP 5.3/5.4/5.5
+- Transferencia mensual ilimitada (alerta 10Gb/Mes)
+- Espacio en disco SSD 1Gb (alerta a los 0,75Gb)
+- Subdominios ilimitados
+- Buzones de correo: 10 
+- Tamaño max. Buzón: 0,75 Gb
+- 300 envíos de correo max. por hora.
+- BBDD máximas: 1 Mysql 5x
+- CPD en España con cumplimiento LOPD
+- Administración por parte del cliente con una cuenta de acceso Plesk.",1.0,Unidad(es),90.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1309,"SERVICIO HOSTING PROFESIONAL RENMOVACION ANUAL- aventurariasbaixas.com
+Hosting Profesional 1.4/1.5/1.6, BBDD Mysql 5x, PHP 5.3/5.4/5.5
+- Transferencia mensual ilimitada (alerta 10Gb/Mes)
+- Espacio en disco SSD 3Gb (alerta a los 2,5Gb)
+- Subdominios ilimitados
+- Buzones de correo: 30 Tamaño max. Buzón: 1 Gb
+- 300 envíos de correo max. por hora.
+- BBDD máximas: 3 Mysql 5x
+- CPD en España con cumplimiento LOPD
+- Administración por parte del cliente con una cuenta de acceso Plesk.",1.0,Unidad(es),140.0,0.0,,,
+__export__.account_analytic_account_2440,Xunca Xestion - Dominio,__export__.res_partner_8255,Juan Carlos Cobas,0.7,AA2593,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2018-12-19,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-01-27,__export__.product_product_1357,RENOVACION ANUAL DE DOMINIO aventuramarin.com,1.0,Unidad(es),25.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2441,Xunca Xestion - Dominio,__export__.res_partner_8255,Juan Carlos Cobas,0.7,AA2594,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2018-12-19,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-07-27,__export__.product_product_1357,RENOVACION ANUAL DE DOMINIO aventurariasbaixas.com,1.0,Unidad(es),25.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1357,RENOVACION ANUAL DE DOMINIO xuncaxestion.es,1.0,Unidad(es),25.0,0.0,,,
+__export__.account_analytic_account_2442,Xunca Xestion - Dominio,__export__.res_partner_8255,Juan Carlos Cobas,0.7,AA2595,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2019-01-08,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-11-27,__export__.product_product_1357,RENOVACION ANUAL DE DOMINIO aventurariasbaixas.es,1.0,Unidad(es),25.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2444,VARELA & LEON - Cmax,__export__.res_partner_8353,Juan Carlos Cobas,0.7,AA2597,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2019-01-15,,False,0.0,0.0,False,,True,,Mes(es),1,1,2020-01-27,__export__.product_product_2389,"SERVICIOS CMAX ADMON REMOTA
+Mail Protection - 1,2 euro / buzón. Cuota mensual",1.0,Unidad(es),1.2,0.0,SEPA Conecta,Contado,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S
+Servicios Gestionados ConectaMAX
+Intervalo de monitorización: cada 120/60 min. 0,35 €
+Control remoto 0,6 €",17.0,Unidad(es),0.95,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1474,"SERVICIOS CMAX ANTIVIRUS
+Servicios Gestionados ConectaMAX
+Antivirus administrado 2,35 € por Servidor-PC",17.0,Unidad(es),2.35,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_2388,"SERVICIOS CMAX MONITORIZACION SERVIDOR
+Servicios Gestionados ConectaMAX:
+Agente Base 5,5 €
+Control Remoto MSP Anyview  	3,2 €",1.0,Unidad(es),8.7,0.0,,,
+__export__.account_analytic_account_2446,VARELA&LEON - Disp5M,__export__.res_partner_8353,Juan Carlos Cobas,0.7,AA2599,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2019-10-01,2019-12-31,False,0.0,15.0,False,Exceso horas Nivel 2,True,,Mes(es),1,1,2020-01-25,__export__.product_product_1350,DISPONIBILIDAD TECNICA 5 HORAS MENSUALES,1.0,Unidad(es),200.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2450,LOCALWINGS - Dominio,__export__.res_partner_8283,Juan Carlos Cobas,0.7,AA2604,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2018-11-08,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-09-27,__export__.product_product_1357,RENOVACION ANUAL DE DOMINIOS dbarrio.com,1.0,Unidad(es),30.0,0.0,SEPA Conecta,,Mantenimientos - M
+__export__.account_analytic_account_2451,LOCALWINGS - SSL,__export__.res_partner_8283,Juan Carlos Cobas,0.7,AA2606,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2019-01-31,,False,0.0,0.0,False,,True,,Mes(es),1,1,2020-01-25,__export__.product_product_1357,CERTIFICADO ANUAL SSL DE SEGURIDAD PARA dbarrio.com,1.0,Unidad(es),110.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2452,VARELA&LEON - Hosting Basico,__export__.res_partner_8353,Juan Carlos Cobas,0.7,AA2607,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2014-12-01,,False,0.0,0.0,False,,True,,Mes(es),1,1,2020-01-25,__export__.product_product_1355,SERVICIO INTERNET BASICO,1.0,Unidad(es),15.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2453,VARELA&LEON - Dominio,__export__.res_partner_8353,Juan Carlos Cobas,0.7,AA2608,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-03-13,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-01-27,__export__.product_product_1357,"RENOVACION ANUAL DE DOMINIO
+Renovación anual del dominio
+jmgomezvarela.com
+",1.0,Unidad(es),25.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2454,VARELA&LEON - SegP,__export__.res_partner_8353,Juan Carlos Cobas,0.7,AA2609,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2014-12-01,,False,0.0,0.0,False,,True,,Mes(es),1,1,2020-01-25,__export__.product_product_1478,SERVICIOS SEGURIDAD PERIMETRAL,1.0,Unidad(es),75.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2455,VARELA&LEON - Dominio,__export__.res_partner_8353,Juan Carlos Cobas,0.7,AA2610,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-06-21,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-06-27,__export__.product_product_1357,"RENOVACION DE DOMINIO
+Renovación anual del dominio ""notariafleon.com""",1.0,Unidad(es),25.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2456,PORTALCONSA - Cmax,__export__.res_partner_8346,Juan Carlos Cobas,0.7,AA2611,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2019-02-07,,False,0.0,0.0,False,,True,,Mes(es),1,1,2020-01-25,__export__.product_product_2389,"SERVICIOS CMAX ADMON REMOTA
+Servicios Gestionados ConectaMAX:
+Mail Protection  PVP --- 1,5 euros al mes/ buzon             
+",6.0,Unidad(es),1.5,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2462,Softdil - 24x7 (Statuscake),__export__.res_partner_8060,Juan Carlos Cobas,0.7,AA2619,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2019-02-14,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-01-25,__export__.product_product_1420,Renovación anual para monitorización 24x7,1.0,Unidad(es),150.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2463,External - 24x7 (Statuscake),__export__.res_partner_1012,Juan Carlos Cobas,0.7,AA2620,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2019-02-14,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-01-25,__export__.product_product_1420,Renovación anual para monitorización 24x7,1.0,Unidad(es),100.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2464,CHEVERE - Cmax,__export__.res_partner_8398,Jose Higinio,0.7,AA2621,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2019-02-14,,False,0.0,0.0,False,,True,,Mes(es),1,1,2020-01-25,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S
+Servicios Gestionados ConectaMAX
+Intervalo de monitorización: cada 120/60 min.  PVP --- 0,35€
+Control remoto MSP Anyview  PVP --- 0,6 €
+",2.0,Unidad(es),0.95,0.0,SEPA Conecta,Contado,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_2390,"SERVICIOS CMAX ACCESO CLIENTE
+Servicios Gestionados ConectaMAX
+Acceso de clientes al portal   PVP --- 10€",1.0,Unidad(es),10.0,0.0,,,
+__export__.account_analytic_account_2465,CHEVERE - Hosting Basico,__export__.res_partner_8398,Jose Higinio,0.7,AA2622,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2019-02-14,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-01-25,__export__.product_product_1308,"SERVICIO HOSTING BASICO
+Prestashop 1.4/1.5/1.6, BBDD Mysql 5x, PHP 5.3/5.4/5.5
+- Transferencia mensual ilimitada (alerta 10Gb/Mes)
+- Espacio en disco SSD 1Gb (alerta a los 0,75Gb)
+- Subdominios ilimitados
+- Buzones de correo: 10 
+- Tamaño max. Buzón: 0,75 Gb
+- 300 envíos de correo max. por hora.
+- BBDD máximas: 1 Mysql 5x
+- CPD en España con cumplimiento LOPD
+- Administración por parte del cliente con una cuenta de acceso Plesk.
+",1.0,Unidad(es),90.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2466,VARELA&LEON - Internet (2),__export__.res_partner_8353,Juan Carlos Cobas,0.7,AA2623,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2014-12-01,,False,0.0,0.0,False,,True,,Mes(es),1,1,2020-01-25,__export__.product_product_1355,SERVICIO INTERNET BASICO,1.0,Unidad(es),15.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2476,ACESGAL - INTERNET,__export__.res_partner_8002,Juan Carlos Cobas,0.7,AA2632,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2019-03-08,,False,0.0,0.0,False,,True,,Mes(es),1,3,2020-03-25,__export__.product_product_1359,"SERVICIO INTERNET PROFESIONAL - IMPORTE TRIMESTRAL
+Hosting administrado por personal especializado.
+- Se incluyen todas las gestiones de ampliación, modificación o gestión de incidencias del servicio.
+- Transferencia mensual ilimitada (alerta 10Gb/Mes) 
+- Espacio en disco SSD 3Gb (alerta a los 2,5Gb) 
+- Subdominios ilimitados 
+- Buzones de correo: 30 
+- Tamaño máx. Buzón: 1 Gb 
+- 300 envíos de correo max. por hora.
+- BBDD máximas: 3 Mysql 5x 
+- CPD en España con cumplimiento LOPD ",1.0,Unidad(es),50.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2482,SALON CASABLANCA - Hosting Profesional,__export__.res_partner_8533,Juan Carlos Cobas,0.7,AA2638,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2019-03-29,,False,0.0,0.0,False,,True,,Mes(es),1,1,2020-02-27,__export__.product_product_1309,"SERVICIO HOSTING PROFESIONAL
+Hosting Profesional 1.4/1.5/1.6, BBDD Mysql 5x, PHP 5.3/5.4/5.5
+- Transferencia mensual ilimitada (alerta 10Gb/Mes)
+- Espacio en disco SSD 3Gb (alerta a los 2,5Gb)
+- Subdominios ilimitados
+- Buzones de correo: 30 Tamaño max. Buzón: 1 Gb
+- 300 envíos de correo max. por hora.
+- BBDD máximas: 3 Mysql 5x
+- CPD en España con cumplimiento LOPD
+- Administración por parte del cliente con una cuenta de acceso Plesk.
+",1.0,Unidad(es),140.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2483,COMERCIAL SIA - Hosting VPS Empresa,__export__.res_partner_1587,Juan Carlos Cobas,0.7,AA2639,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2019-03-29,,False,0.0,0.0,False,,True,,Mes(es),1,1,2020-02-26,__export__.product_product_2431,"SERVICIO HOSTING VPS- (Coste Anual)
+Características principales:
+- CPU: 3 Cores a 3,50 GHz, - Memoria Ram: 4 GB DDR4 - Disco: 40 GB SSD - CDN: CloudFlare (Aceleración de carga de la pagina en otros países)
+- Acceso SSH y Acceso ROOT - 1 IPs publicas - CPD en España con cumplimiento RGPD - Administración por parte del cliente con una cuenta de acceso Plesk. - Licencia Plesk: Panel de control plesk con hasta 10 dominios.",1.0,Unidad(es),575.0,0.0,SEPA Conecta,Anticipado,Mantenimientos - M
+__export__.account_analytic_account_2485,FEELING STREET - Dominios,__export__.res_partner_8526,Juan Carlos Cobas,0.7,AA2641,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2019-04-03,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-04-27,__export__.product_product_1357,"RENOVACION ANUAL DE DOMINIOS keslem.es
+keslem.com",2.0,Unidad(es),25.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2486,BERASI - Hosting VPS Webmaster Linux,__export__.res_partner_7731,Diego Lago,0.7,AA2642,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2019-04-03,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-02-27,__export__.product_product_2432,"SERVICIO HOSTING VPS WEBMASTER
+
+Hosting VPS (Virtual Private Server) dedicado.
+- 3x3.5Ghz 
+- Espacio en disco SSD 50Gb 
+- Memoria Ram 5GB DDR4 Dedicadas
+- Prestashop 1.4/1.5/1.6, BBDD Mysql 5x, PHP 5.3/5.4/5.5
+- Transferencia mensual ilimitada
+- Cuentas de correo ilimitadas
+- Hasta 10 dominios.
+- Buzones de correo: ilimitados
+- BBDD máximas: ilimitados
+- CPD en España con cumplimiento RGPD
+- Administración por parte del cliente con una cuenta de acceso Plesk.
+
+Licencia Plesk: hasta 10 Dominios(Web Admin)  (80 €/año, incluida en el precio del servidor)",1.0,Unidad(es),650.0,0.0,SEPA Conecta,Anticipado,Mantenimientos - M
+__export__.account_analytic_account_2488,BICI O CON - CMAX,__export__.res_partner_8322,Juan Carlos Cobas,0.7,AA2644,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2019-04-04,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-03-27,__export__.product_product_2389,"SERVICIOS CMAX ADMON REMOTA - ANUAL
+Servicios Gestionados ConectaMAX: Mail Protection PVP --- 1,20 € buzón/ mes",1.0,Unidad(es),14.4,0.0,Transferencia,Anticipado,Mantenimientos - M
+__export__.account_analytic_account_2492,CONSULADO VENEZUELA - Cmax AV,__export__.res_partner_1253,Juan Carlos Cobas,0.7,AA2648,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2019-04-11,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-03-27,__export__.product_product_1474,"SERVICIOS CMAX ANTIVIRUS - IMPORTE ANUAL
+Servicios Gestionados ConectaMAX
+Antivirus administrado 2,35€/ mes por Servidor-PC 
+
+8 equipos x 28,20€ (2,35 €/mes x 12 meses)",8.0,Unidad(es),28.2,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2493,MEGACALZADO - Hosting VPS Dedicado Gama Plata,__export__.res_partner_8489,Juan Carlos Cobas,0.7,AA2649,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2019-04-12,,False,0.0,0.0,False,,True,,Año(s),1,2,2021-02-27,__export__.product_product_2413,"SERVICIO HOSTING DEDICADO
+
+Características principales:
+- CPU: E5-1650v4 (6 nucleos, 12 subprocesos) a 3,20 GHz.
+- Intel Smart Cache: 8mb.
+- Memoria Ram: 64 GB DDR4.
+- Disco duro: 2x512GB SSD + 2X512GB nVME Disco 2TB SATA.
+- CDN: CloudFlare (Aceleración de carga de la pagina en otros países).
+- Acceso SSH y Acceso ROOT.
+- 2 IPs publicas.
+- CPD en España con cumplimiento RGPD.
+- Administración por parte del cliente con una cuenta de acceso Plesk.
+- Licencia Plesk: Panel de control plesk con dominios ilimitados.
+- Aplicación de actualizaciones de seguridad de los distintos servicios del servidor.
+- Monitorización de los recursos físicos. Uso de CPU, Memoria, Disco, Conexiones,...
+- Backup local de los datos en el disco de 2 Tb SATA",2.0,Unidad(es),6201.6,0.0,SEPA Conecta,Anticipado,Mantenimientos - M
+__export__.account_analytic_account_2495,HERMETICA - Hosting VPS Economico,__export__.res_partner_3738,Juan Carlos Cobas,0.7,AA2650,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2020-02-27,,False,0.0,0.0,False,,True,,Mes(es),1,1,2020-02-27,__export__.product_product_2413,"SERVICIO HOSTING DEDICADO PRESTASHOP ECONOMICO
+CPU 2x3.5Ghz 
+Espacio en disco SSD 30Gb 
+Memoria Ram 3GB DDR4 Dedicadas
+Prestashop 1.4/1.5/1.6, BBDD Mysql 5x, PHP 5.3/5.4/5.5
+Transferencia mensual ilimitada
+Cuentas de correo ilimitadas
+Subdominios ilimitados
+Buzones de correo: ilimitados
+BBDD máximas: ilimitados",1.0,Unidad(es),350.0,0.0,Transferencia,Anticipado,Mantenimientos - M
+__export__.account_analytic_account_2500,Bici o Con - Hosting Elite,__export__.res_partner_8322,Juan Carlos Cobas,0.7,AA2655,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2018-06-06,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-04-27,__export__.product_product_2371,"SERVICIO HOSTING ELITE - Bici o con
+Prestashop 1.4/1.5/1.6, BBDD Mysql 5x, PHP 5.3/5.4/5.5
+- Transferencia mensual ilimitada (alerta 10Gb/Mes)
+- Espacio en disco SSD 5Gb (alerta a los 4Gb)
+- Subdominios ilimitados
+- Buzones de correo: 50 Tamaño máx. Buzón: 2 Gb
+- 300 envios de correo max por hora.
+- BBDD máximas: 5 Mysql 5x
+- CPD en España con cumplimiento LOPD
+- Administración por parte del cliente con una cuenta de acceso Plesk.
+",1.0,Unidad(es),180.0,0.0,,,Mantenimientos - M
+__export__.account_analytic_account_2501,Bici o con - Dominio,__export__.res_partner_8322,Juan Carlos Cobas,0.7,AA2656,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2018-06-06,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-02-27,__export__.product_product_1357,RENOVACIÓN ANUAL DE DOMINIO biciocon.com,1.0,Unidad(es),25.0,0.0,,,Mantenimientos - M
+__export__.account_analytic_account_2502,INVICTUM - Cmax Av´s,__export__.res_partner_8549,Juan Carlos Cobas,0.7,AA2657,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2019-05-02,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-04-27,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S - PAQUETE BÁSICO
+Servicios Gestionados ConectaMAX
+Intervalo de monitorización: cada 120/60 min. PVP --- 0,35
+Control remoto MSP Anyview PVP --- 0,6
+Análisis de vulnerabilidades y ad. revisiones	PVP --- 0,8
+
+Total: 1,75 €/mes x 12 meses = 21 €/ año por equipo",11.0,Unidad(es),21.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1474,"SERVICIOS CMAX ANTIVIRUS
+Servicios Gestionados ConectaMAX
+Antivirus administrado 2,35€ por Servidor-PC 
+
+Total: 2,35€/mes x 12 meses = 28,20 €/año por equipo",11.0,Unidad(es),28.2,0.0,,,
+__export__.account_analytic_account_2509,BREXIA - Hosting Elite,__export__.res_partner_7636,Juan Carlos Cobas,0.7,AA2665,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-06-20,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-10-27,__export__.product_product_2371,"SERVICIO HOSTING ELITE
+BREXIA. ES
+
+Prestashop 1.4/1.5/1.6, BBDD Mysql 5x, PHP 5.3/5.4/5.5
+- Transferencia mensual ilimitada (alerta 10Gb/Mes)
+- Espacio en disco SSD 5Gb (alerta a los 4Gb)
+- Subdominios ilimitados
+- Buzones de correo: 50 Tamaño máx. Buzón: 2 Gb
+- 300 envios de correo max por hora.
+- BBDD máximas: 5 Mysql 5x
+- CPD en España con cumplimiento LOPD
+- Administración por parte del cliente con una cuenta de acceso Plesk.
+",1.0,Unidad(es),180.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2510,DMM - Hosting Elite,__export__.res_partner_1024,Juan Carlos Cobas,0.7,AA2666,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-02-08,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-10-27,__export__.product_product_2371,"SERVICIO HOSTING ELITE
+DMMSERVIMARK.COM
+
+Prestashop 1.4/1.5/1.6, BBDD Mysql 5x, PHP 5.3/5.4/5.5
+- Transferencia mensual ilimitada (alerta 10Gb/Mes)
+- Espacio en disco SSD 5Gb (alerta a los 4Gb)
+- Subdominios ilimitados
+- Buzones de correo: 50 Tamaño máx. Buzón: 2 Gb
+- 300 envios de correo max por hora.
+- BBDD máximas: 5 Mysql 5x
+- CPD en España con cumplimiento LOPD
+- Administración por parte del cliente con una cuenta de acceso Plesk.
+",1.0,Unidad(es),180.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2513,INVICTUM - Disp2M,__export__.res_partner_8549,Juan Carlos Cobas,0.7,AA2670,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2019-10-01,2019-12-31,False,0.0,6.0,False,Exceso horas Nivel 1,True,,Mes(es),1,1,2020-01-26,__export__.product_product_1514,DISPONIBILIDAD TECNICA 2 HORAS MENSUALES,1.0,Unidad(es),86.0,0.0,Transferencia,Contado,Mantenimientos - M
+__export__.account_analytic_account_2515,PESQUERA INTER - Dominio y Hosting Profesional,__export__.res_partner_1128,Juan Carlos Cobas,0.7,AA2672,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2019-06-06,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-04-25,__export__.product_product_1357,RENOVACION ANUAL DE DOMINIO pesquerainter.es,1.0,Unidad(es),25.0,0.0,SEPA Conecta,15 días,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1309,"SERVICIO HOSTING PROFESIONAL
+Hosting Profesional 1.4/1.5/1.6, BBDD Mysql 5x, PHP 5.3/5.4/5.5
+- Transferencia mensual ilimitada (alerta 10Gb/Mes)
+- Espacio en disco SSD 3Gb (alerta a los 2,5Gb)
+- Subdominios ilimitados
+- Buzones de correo: 30 Tamaño max. Buzón: 1 Gb
+- 300 envíos de correo max. por hora.
+- BBDD máximas: 3 Mysql 5x
+- CPD en España con cumplimiento LOPD
+- Administración por parte del cliente con una cuenta de acceso Plesk.",1.0,Unidad(es),140.0,0.0,,,
+__export__.account_analytic_account_2516,MEGACALZADO - SSL,__export__.res_partner_8489,Juan Carlos Cobas,0.7,AA2673,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2019-06-07,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-04-26,__export__.product_product_1357,"RENOVACION ANUAL DE CERTIFICADO SSL DE SEGURIDAD PARA LAS WEB:
+megacalzado.com
+loogo.es
+mgcshoes.com",3.0,Unidad(es),90.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2519,BERASI SHOES - Cmax,__export__.res_partner_7731,Diego Lago,0.7,AA2678,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2019-06-14,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-05-27,__export__.product_product_2388,"SERVICIOS CMAX MONITORIZACION SERVIDOR - Importe Anual
+
+- Control Remoto MSP Anyview 3,2 €/ mes por equipo. 1 Pc x 12 meses
+- Agente Base: 5,5€/ mes 1 Pc x 12 meses",1.0,Unidad(es),104.4,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2521,FEELING STREET - Hosting Dedicado Economico,__export__.res_partner_8526,Juan Carlos Cobas,0.7,AA2680,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2019-06-24,,True,0.0,0.0,True,Tarifa pública,True,,Año(s),1,1,2020-04-27,__export__.product_product_2413,"SERVICIO HOSTING VPS ECONOMICO - ANUAL
+
+Hosting VPS (Virtual Private Server) dedicado.
+- CPU: 2x3.5Ghz
+- Memoria Ram: 3GB DDR4
+- Espacio en disco SSD 30Gb (alerta a los 25Gb)
+- Transferencia mensual ilimitada (alerta 10Gb/Mes)
+- Subdominios ilimitados
+- Buzones de correo: 30 Tamaño max. Buzón: 3 Gb
+- 300 envíos de correo max. por hora.
+- BBDD máximas: 10 Mysql 5x
+- CPD en España con cumplimiento RGPD
+- Administración por parte del cliente con una cuenta de acceso Plesk.
+
+Licencia Plesk: hasta 10 Dominios(Web Admin) (80 €/año, incluida en el precio del servidor)…)",1.0,Unidad(es),350.0,0.0,SEPA Conecta,Anticipado,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1329,"Aplicación de actualizaciones de seguridad de los distintos servicios del servidor
+Monitorización de rendimiento del servidor
+Monitorización de actividad y tiempo de carga de la web principal
+Monitorización de los recursos. Uso de CPU, Memoria, Disco.
+(Coste mensual, Facturación anual)",12.0,Unidad(es),18.0,0.0,,,
+__export__.account_analytic_account_2523,PESQUERA - Cmax,__export__.res_partner_1128,Juan Carlos Cobas,0.7,AA2682,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2019-07-10,,False,0.0,0.0,False,,True,,Mes(es),1,1,2020-01-26,__export__.product_product_2388,"SERVICIOS CMAX MONITORIZACION SERVIDOR - Importe Mensual
+- Agente Base: 5,50 E/mes
+- Control Remoto MSP Anyview  3,2 €/ mes.",1.0,Unidad(es),8.7,0.0,SEPA Conecta,Contado,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1474,"SERVICIOS CMAX ANTIVIRUS - Importe Mensual para 6 equipos
+Antivirus administrado 2,35€ por Servidor-PC / mes",7.0,Unidad(es),2.35,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1228,"SERVICIOS CMAX MONITORIZACION PC'S - Importe Mensual para 6 equipos
+Servicios Gestionados ConectaMAX
+Intervalo de monitorización: cada 120/60 min. PVP --- 0,35 €/mes por equipo
+Control remoto MSP Anyview PVP --- 0,60 €/mes por equipo",7.0,Unidad(es),0.95,0.0,,,
+__export__.account_analytic_account_2531,MEGACALZADO - Dominios,__export__.res_partner_8489,Juan Carlos Cobas,0.7,AA2692,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2019-08-06,,False,0.0,0.0,False,,True,,Mes(es),1,1,2020-12-27,__export__.product_product_1357,"RENOVACION ANUAL DE DOMINIOS
+logoo.es
+logoo.fr
+masterplus.es
+megacalzados.com
+mgcshoes.com",5.0,Unidad(es),25.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1357,"RENOVACION ANUAL DE DOMINIO
+loogo.shoes",1.0,Unidad(es),60.0,0.0,,,
+__export__.account_analytic_account_2532,MEGACALZADO - Dominios,__export__.res_partner_8489,Juan Carlos Cobas,0.7,AA2693,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2019-08-06,,False,0.0,0.0,False,,True,,Mes(es),1,1,2020-05-27,__export__.product_product_1357,"RENOVACION ANUAL DE DOMINIO
+megacalzado.es",1.0,Unidad(es),25.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1357,"RENOVACION ANUAL DE DOMINIO
+mgc.shoes",1.0,Unidad(es),60.0,0.0,,,
+__export__.account_analytic_account_2533,BERMELLO - Hosting,__export__.res_partner_8577,Juan Carlos Cobas,0.7,AA2694,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2019-08-12,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-03-27,__export__.product_product_2371,"SERVICIO HOSTING ELITE - RENOVACIÓN ANUAL
+Prestashop 1.4/1.5/1.6, BBDD Mysql 5x, PHP 5.3/5.4/5.5
+- Transferencia mensual ilimitada (alerta 10Gb/Mes)
+- Espacio en disco SSD 5Gb (alerta a los 4Gb)
+- Subdominios ilimitados
+- Buzones de correo: 50 Tamaño máx. Buzón: 2 Gb
+- 300 envios de correo max por hora.
+- BBDD máximas: 5 Mysql 5x
+- CPD en España con cumplimiento LOPD
+- Administración por parte del cliente con una cuenta de acceso Plesk.
+",1.0,Unidad(es),180.0,0.0,Transferencia,Anticipado,Mantenimientos - M
+__export__.account_analytic_account_2537,CARCELLER - Bono 20h,__export__.res_partner_1052,Juan Carlos Cobas,0.7,AA2699,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2019-08-30,2020-08-30,False,0.0,20.0,False,Tarifa pública,True,,Año(s),1,1,2020-12-27,__export__.product_product_1363,SAT BONO 20 HORAS,1.0,Unidad(es),900.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2546,LEISTUNG - Hosting VPS Empresa,__export__.res_partner_7974,Juan Carlos Cobas,0.7,AA2708,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2019-09-24,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-08-26,__export__.product_product_2431,"SERVICIO HOSTING VPS EMPRESA
+
+Hosting VPS (Virtual Private Server) dedicado.
+- 3x3.5Ghz 
+- Espacio en disco SSD 40Gb 
+- Memoria Ram 4GB DDR4 Dedicadas
+- Prestashop 1.4/1.5/1.6, BBDD Mysql 5x, PHP 5.3/5.4/5.5
+- Transferencia mensual ilimitada
+- Cuentas de correo ilimitadas
+- Hasta 10 dominios.
+- Buzones de correo: ilimitados
+- BBDD máximas: ilimitados
+- CPD en España con cumplimiento RGPD
+- Administración por parte del cliente con una cuenta de acceso Plesk.
+
+Licencia Plesk: hasta 10 Dominios(Web Admin)  (80 €/año, incluida en el precio del servidor)",1.0,Unidad(es),410.0,0.0,,,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1329,"SERVICIOS VARIOS: MANO DE OBRA
+Mantenimiento y soporte del servidor para la resolución de incidencias del cliente y de la compañia de soporte de Odoo",1.0,Unidad(es),120.0,0.0,,,
+__export__.account_analytic_account_2548,Aplauso - Hosting semidedicado,__export__.res_partner_8006,Juan Carlos Cobas,0.7,AA2710,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2019-09-27,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-09-27,__export__.product_product_2434,"SERVICIO HOSTING VPS SEMIDEDICADO
+
+Hosting VPS (Virtual Private Server) dedicado.
+- 5x3.5Ghz 
+- Espacio en disco SSD 80Gb 
+- Memoria Ram 8GB DDR4 Dedicadas
+- Prestashop 1.4/1.5/1.6, BBDD Mysql 5x, PHP 5.3/5.4/5.5
+- Transferencia mensual ilimitada
+- Cuentas de correo ilimitadas
+- Hasta 10 dominios.
+- Buzones de correo: ilimitados
+- BBDD máximas: ilimitados
+- CPD en España con cumplimiento RGPD
+- Administración por parte del cliente con una cuenta de acceso Plesk.
+
+Licencia Plesk: hasta 10 Dominios(Web Admin)  (80 €/año, incluida en el precio del servidor)",1.0,Unidad(es),973.0,0.0,SEPA Conecta,,Mantenimientos - M
+__export__.account_analytic_account_2550,Calzados Yolanda - Dominio .net,__export__.res_partner_5511,Juan Carlos Cobas,0.7,AA2714,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2017-10-30,,False,0.0,0.0,False,,True,,Año(s),1,1,2023-05-27,__export__.product_product_1357,Renovación anual dominio calzadosyolanda.net,1.0,Unidad(es),25.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2551,MARIA DIZ REY - Dominio,__export__.res_partner_8313,Juan Carlos Cobas,0.7,AA2715,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2019-10-03,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-09-27,__export__.product_product_1357,RENOVACION ANUAL DE DOMINIO aquelarre.es,1.0,Unidad(es),25.0,0.0,SEPA Conecta,,Mantenimientos - M
+__export__.account_analytic_account_2553,"BUBOT - Hosting Elite, dominio y SSL",__export__.res_partner_8727,Juan Carlos Cobas,0.7,AA2717,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2019-10-15,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-08-27,__export__.product_product_2371,"SERVICIO HOSTING ELITE
+Prestashop 1.4/1.5/1.6, BBDD Mysql 5x, PHP 5.3/5.4/5.5
+- Transferencia mensual ilimitada (alerta 10Gb/Mes)
+- Espacio en disco SSD 5Gb (alerta a los 4Gb)
+- Subdominios ilimitados
+- Buzones de correo: 50 Tamaño máx. Buzón: 2 Gb
+- 300 envios de correo max por hora.
+- BBDD máximas: 5 Mysql 5x
+- CPD en España con cumplimiento LOPD
+- Administración por parte del cliente con una cuenta de acceso Plesk.
+",1.0,Unidad(es),185.0,0.0,Transferencia,Anticipado,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1357,RENOVACION ANUAL DE DOMINIO stellamare.es,1.0,Unidad(es),25.0,0.0,,,
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1357,RENOVACION ANUAL DE CERTIFICADO SSL stellamare.es,1.0,Unidad(es),90.0,0.0,,,
+__export__.account_analytic_account_2556,YOLANDA ZAPATERIAS - Cmax,__export__.res_partner_5511,Juan Carlos Cobas,0.7,AA2720,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2019-10-22,,False,0.0,0.0,False,,True,,Mes(es),1,1,2020-01-26,__export__.product_product_2388,"SERVICIOS CMAX MONITORIZACION SERVIDOR
+Servicios Gestionados ConectaMAX:
+
+Agente Base 5,5 €/mes
+Control Remoto MSP Anyview 3,2 €/mes
+",1.0,Unidad(es),8.7,0.0,,,Mantenimientos - M
+__export__.account_analytic_account_2557,CAPRIOLE - Hosting Elite,__export__.res_partner_8103,Juan Carlos Cobas,0.7,AA2721,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2019-10-29,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-01-27,__export__.product_product_2371,"SERVICIO HOSTING ELITE
+Prestashop 1.4/1.5/1.6, BBDD Mysql 5x, PHP 5.3/5.4/5.5
+- Transferencia mensual ilimitada (alerta 10Gb/Mes)
+- Espacio en disco SSD 5Gb (alerta a los 4Gb)
+- Subdominios ilimitados
+- Buzones de correo: 50 Tamaño máx. Buzón: 2 Gb
+- 300 envios de correo max por hora.
+- BBDD máximas: 5 Mysql 5x
+- CPD en España con cumplimiento LOPD
+- Administración por parte del cliente con una cuenta de acceso Plesk.
+
+(Opcionales para contratar: Certificado SSL, Backups personalizados, módulos Premium, Tienda online, importación desde otras tiendas, TPV, …)
+",1.0,Unidad(es),180.0,0.0,,,Mantenimientos - M
+__export__.account_analytic_account_2559,Aplauso Calzados - Hosting VPS Profesional Linux,__export__.res_partner_8006,Juan Carlos Cobas,0.7,AA2723,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2019-11-11,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-03-27,__export__.product_product_2433,"SERVICIO HOSTING VPS PROFESIONAL
+
+Hosting VPS (Virtual Private Server) dedicado.
+- 4x3.5Ghz 
+- Espacio en disco SSD 60Gb 
+- Memoria Ram 6GB DDR4 Dedicadas
+- Prestashop 1.4/1.5/1.6, BBDD Mysql 5x, PHP 5.3/5.4/5.5
+- Transferencia mensual ilimitada
+- Cuentas de correo ilimitadas
+- Hasta 10 dominios.
+- Buzones de correo: ilimitados
+- BBDD máximas: ilimitados
+- CPD en España con cumplimiento RGPD
+- Administración por parte del cliente con una cuenta de acceso Plesk.",1.0,Unidad(es),915.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2561,DSTILO - Hosting VPS Economico,__export__.res_partner_1594,Juan Carlos Cobas,0.7,AA2725,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2019-11-12,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-09-27,__export__.product_product_2413,"SERVICIO HOSTING VPS ECONOMICO
+
+Hosting VPS (Virtual Private Server) dedicado.
+- CPU: 2x3.5Ghz
+- Memoria Ram: 3GB DDR4
+- Espacio en disco SSD 30Gb (alerta a los 25Gb)
+- Transferencia mensual ilimitada (alerta 10Gb/Mes)
+- Subdominios ilimitados
+- Buzones de correo: 30 Tamaño max. Buzón: 3 Gb
+- 300 envíos de correo max. por hora.
+- BBDD máximas: 10 Mysql 5x
+- CPD en España con cumplimiento RGPD
+- Administración por parte del cliente con una cuenta de acceso Plesk.
+
+Licencia Plesk: hasta 10 Dominios(Web Admin)  (80 €/año, incluida en el precio del servidor)
+
+
+(Opcionales para contratar: Certificado SSL, Backups personalizados, módulos Premium, Tienda online, importación desde otras tiendas, TPV, …)",1.0,Unidad(es),350.0,0.0,SEPA Conecta,Anticipado,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1329,"Mantenimiento avanzado del servidor. (coste mensual)
+Aplicación de actualizaciones de seguridad de los distintos servicios del servidor
+Monitorización de rendimiento del servidor
+Monitorización de actividad y tiempo de carga de la web principal
+Monitorización de los recursos. Uso de CPU, Memoria, Disco.",12.0,Unidad(es),13.0,0.0,,,
+__export__.account_analytic_account_2562,DSTILO - Dominio + SSL,__export__.res_partner_1594,Juan Carlos Cobas,0.7,AA2726,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2019-11-12,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-09-27,__export__.product_product_1357,RENOVACION ANUAL DE DOMINIO dstilohome.com,1.0,Unidad(es),25.0,0.0,SEPA Conecta,Anticipado,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1357,RENOVACION ANUAL DE CERTIFICADO SSL dstilohome.com,1.0,Unidad(es),90.0,0.0,,,
+__export__.account_analytic_account_2563,GALIMU - Hosting VPS Economico,__export__.res_partner_8776,Juan Carlos Cobas,0.7,AA2727,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2019-11-12,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-09-27,__export__.product_product_2413,"SERVICIO HOSTING VPS ECONOMICO
+
+Hosting VPS (Virtual Private Server) dedicado.
+- CPU: 2x3.5Ghz
+- Memoria Ram: 3GB DDR4
+- Espacio en disco SSD 30Gb (alerta a los 25Gb)
+- Transferencia mensual ilimitada (alerta 10Gb/Mes)
+- Subdominios ilimitados
+- Buzones de correo: 30 Tamaño max. Buzón: 3 Gb
+- 300 envíos de correo max. por hora.
+- BBDD máximas: 10 Mysql 5x
+- CPD en España con cumplimiento RGPD
+- Administración por parte del cliente con una cuenta de acceso Plesk.
+
+Licencia Plesk: hasta 10 Dominios(Web Admin)  (80 €/año, incluida en el precio del servidor)
+
+
+(Opcionales para contratar: Certificado SSL, Backups personalizados, módulos Premium, Tienda online, importación desde otras tiendas, TPV, …)",1.0,Unidad(es),350.0,0.0,SEPA Conecta,Anticipado,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1329,"Mantenimiento avanzado del servidor. (coste mensual)
+Aplicación de actualizaciones de seguridad de los distintos servicios del servidor
+Monitorización de rendimiento del servidor
+Monitorización de actividad y tiempo de carga de la web principal
+Monitorización de los recursos. Uso de CPU, Memoria, Disco.",12.0,Unidad(es),13.0,0.0,,,
+__export__.account_analytic_account_2564,Chemasport - Hosting VPS Empresa,__export__.res_partner_5726,Juan Carlos Cobas,0.7,AA2728,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2019-11-14,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-10-25,__export__.product_product_2431,"SERVICIO HOSTING VPS EMPRESA
+
+Hosting VPS (Virtual Private Server) dedicado.
+- 3x3.5Ghz 
+- Espacio en disco SSD 40Gb 
+- Memoria Ram 4GB DDR4 Dedicadas
+- Prestashop 1.4/1.5/1.6, BBDD Mysql 5x, PHP 5.3/5.4/5.5
+- Transferencia mensual ilimitada
+- Cuentas de correo ilimitadas
+- Hasta 10 dominios.
+- Buzones de correo: ilimitados
+- BBDD máximas: ilimitados
+- CPD en España con cumplimiento RGPD
+- Administración por parte del cliente con una cuenta de acceso Plesk.
+
+Licencia Plesk: hasta 10 Dominios(Web Admin)  (80 €/año, incluida en el precio del servidor)",1.0,Unidad(es),575.0,0.0,,,Mantenimientos - M
+__export__.account_analytic_account_2565,RKS FOOTWEAR - Hosting VPS Profesional,__export__.res_partner_8285,Juan Carlos Cobas,0.7,AA2729,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2019-11-15,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-09-25,__export__.product_product_2433,"SERVICIO HOSTING VPS PROFESIONAL
+Características principales:
+- CPU: 4 Cores a 3,50 GHz, - Memoria Ram: 6 GB DDR4 - Disco: 60 GB SSD - CDN: CloudFlare (Aceleración de carga de la pagina en otros países)
+- Acceso SSH y Acceso ROOT - 1 IPs publicas - CPD en España con cumplimiento RGPD - Administración por parte del cliente con una cuenta de acceso Plesk. - Licencia Plesk: Panel de control plesk con hasta 10 dominios.",1.0,Unidad(es),690.0,0.0,SEPA Conecta,,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1329,"Aplicación de actualizaciones de seguridad de los distintos servicios del servidor
+Monitorización de rendimiento del servidor
+Monitorización de actividad y tiempo de carga de la web principal
+Monitorización de los recursos. Uso de CPU, Memoria, Disco.
+(Coste mensual, Facturación anual)",12.0,Unidad(es),18.0,15.0,,,
+__export__.account_analytic_account_2568,RUMBO - Hosting VPS Economico,__export__.res_partner_8787,Juan Carlos Cobas,0.7,AA2732,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2019-11-26,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-09-26,__export__.product_product_2413,"SERVICIO HOSTING VPS PRESTASHOP ECONOMICO
+CPU 2x3.5Ghz
+Espacio en disco SSD 30Gb
+Memoria Ram 3GB DDR4 Dedicadas
+S.O. Debian 9
+Prestashop 1.6 - 1.7, Mysql 5, PHP 5/7
+Transferencia mensual ilimitada
+Subdominios ilimitados
+BBDD máximas: ilimitados
+Administración por parte del cliente con una cuenta de acceso Plesk.
+(no se incluye la migración y gestión del correo electrónico)
+- Licencia Plesk: Panel de control plesk con hasta 10 dominios.",1.0,Unidad(es),380.0,0.0,Transferencia,,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1329,"Mantenimiento avanzado del servidor. (coste mensual)
+Aplicación de actualizaciones de seguridad de los distintos servicios del servidor
+Monitorización de rendimiento del servidor
+Monitorización de actividad y tiempo de carga de la web principal
+Monitorización de los recursos. Uso de CPU, Memoria, Disco",12.0,Unidad(es),13.0,0.0,,,
+__export__.account_analytic_account_2570,Yolanda Zapaterias - Hosting dedicado Empresa,__export__.res_partner_5511,Juan Carlos Cobas,0.7,AA2734,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2019-06-05,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-05-25,__export__.product_product_2431,"SERVICIO HOSTING VPS EMPRESA
+
+Hosting VPS (Virtual Private Server) dedicado.
+- 3x3.5Ghz 
+- Espacio en disco SSD 40Gb 
+- Memoria Ram 4GB DDR4 Dedicadas
+- Prestashop 1.4/1.5/1.6, BBDD Mysql 5x, PHP 5.3/5.4/5.5
+- Transferencia mensual ilimitada
+- Cuentas de correo ilimitadas
+- Hasta 10 dominios.
+- Buzones de correo: ilimitados
+- BBDD máximas: ilimitados
+- CPD en España con cumplimiento RGPD
+- Administración por parte del cliente con una cuenta de acceso Plesk.
+
+Licencia Plesk: hasta 10 Dominios(Web Admin)  (80 €/año, incluida en el precio del servidor)",1.0,Unidad(es),575.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1329,"Mantenimiento avanzado del servidor. (coste mensual)
+Aplicación de actualizaciones de seguridad de los distintos servicios del servidor
+Monitorización de rendimiento del servidor
+Monitorización de actividad y tiempo de carga de la web principal
+Monitorización de los recursos. Uso de CPU, Memoria, Disco.",12.0,Unidad(es),13.0,0.0,,,
+__export__.account_analytic_account_2572,ZAPATERIA RIN - Hosting dedicado Bronce,__export__.res_partner_8485,Juan Carlos Cobas,0.7,AA2736,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2019-12-04,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-10-26,__export__.product_product_2434,"SERVICIO HOSTING Dedicado - A facturar con la aceptación del presupuesto.
+Caracteristicas principales:
+- CPU: E-2134 (4 nucleos, 8 subprocesos) a 3,50 GHz
+- Intel Smart Cache: 8mb
+- Memoria Ram: 16GB DDR4
+- Disco duro: 2x240GB SSD + Disco 2TB SATA
+- CDN: CloudFlare (Aceleración de carga de la pagina en otros países)
+- Acceso SSH y Acceso ROOT
+- 2 IPs publicas
+- CPD en España con cumplimiento RGPD
+- Administración por parte del cliente con una cuenta de acceso Plesk.
+- Licencia Plesk: Panel de control plesk con 10 dominios",1.0,Unidad(es),2499.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_1329,"# Servicios de mantenimiento y monitorización de plataforma 1 servidor físico.
+- Actualización y reconfiguración de los distintos componentes de los servidores: S.O., Apache, Plesk, Mysql, ...
+- Monitorización proactiva de recursos físicos del servidor.
+- Detección de anomalías de rendimiento.
+- Monitorización de realización de Backups.
+- Monitorización del panel de gestión.",12.0,Unidad(es),110.0,0.0,,,
+__export__.account_analytic_account_2573,RUMBO - SSÑ,__export__.res_partner_8787,Juan Carlos Cobas,0.7,AA2737,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2019-12-05,,False,0.0,0.0,False,,True,,Año(s),1,1,2020-10-26,__export__.product_product_1357,RENOVACION ANUAL DE DOMINIO CERTIFICADO SSL calzadosrumbo.com,1.0,Unidad(es),90.0,0.0,SEPA Conecta (Abanca),Contado,Mantenimientos - M
+__export__.account_analytic_account_2575,ZAPATERIA RIN - Mantenimiento Hosting Dedicado,__export__.res_partner_8485,Juan Carlos Cobas,0.7,AA2739,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2019-12-11,,False,0.0,0.0,False,,True,,Mes(es),1,1,2020-01-25,__export__.product_product_1329,"Servicios de mantenimiento y monitorización de plataforma 1 servidor físico.
+- Actualización y reconfiguración de los distintos componentes de los servidores: S.O., Apache, Plesk, Mysql, ...
+- Monitorización proactiva de recursos físicos del servidor.
+- Detección de anomalías de rendimiento.
+- Monitorización de realización de Backups.
+- Monitorización del panel de gestión.",1.0,Unidad(es),110.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2435,ALFRIO VIGO - Ext Mant Videovigilancia,__export__.res_partner_6761,Administrador,0.7,,Externalware Ibérica,2018-12-01,,True,3360.0,0.0,False,Tarifa pública,True,,Mes(es),1,1,2020-01-27,__export__.product_product_2298,"Servicios de Mantenimiento y Revisión de videograbacion y control de accesos.
+- Según proyecto firmado ALFRIO VIGO-",1.0,Unidad(es),280.0,0.0,Transferencia E,Contado,External - E
+__export__.account_analytic_account_2407,CUVIDASA - Direccion Dpto,__export__.res_partner_8357,Sonia Bautista,0.7,,Externalware Ibérica,2018-10-01,2018-12-31,False,0.0,0.0,False,,True,,Mes(es),1,1,2019-02-01,__export__.product_product_2298,SERVICIOS DE DIRECCION DEPARTAMENTO INFORMATICO - según PY -,1.0,Unidad(es),750.0,0.0,Transferencia E,Contado,External - E
+__export__.account_analytic_account_2471,KAUMAN - Ext 19,__export__.res_partner_6763,Administrador,0.7,,Externalware Ibérica,2019-03-01,2020-02-25,True,1250.0,0.0,False,Tarifa pública,True,,Mes(es),1,1,2020-01-27,__export__.product_product_2298,"Servicio External del Area de Sistemas
 - Según contrato -",1.0,Unidad(es),1250.0,0.0,SEPA External,Contado,External - E
-__export__.account_analytic_account_2525,MEGACALZADO Servidores Cloud,,Juan Carlos Cobas,0.7,,Externalware Ibérica,2019-07-19,2021-07-10,False,0.0,0.0,False,,True,,Mes(es),1,1,2019-07-26,__export__.product_product_2298,Mantenimiento y revisión de los servidores Cloud,1.0,Unidad(es),300.0,0.0,SEPA External,Contado,Mantenimientos - M
-__export__.account_analytic_account_2522,ROGELIO - External ,__export__.res_partner_8666,Juan Carlos Cobas,0.7,,Externalware Ibérica,2019-07-01,,True,15000.0,0.0,False,Tarifa pública,True,,Mes(es),1,1,2020-01-25,__export__.product_product_2299,"Cuota de Servicios Integral
-- Según contrato -",1.0,Unidad(es),1250.0,0.0,SEPA External,Contado,External - E
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Faltaba partner,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Faltaba partner,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Producto no reconocido,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Sin partner,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Producto no reconocido,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Juan por Juan Carlos Vobas,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Creado usuario diego lago,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+__export__.account_analytic_account_2494,MEGACALZADO,__export__.res_partner_8542,Juan Carlos Cobas,0.7,,Externalware Ibérica,2019-04-12,2019-05-17,False,0.0,0.0,False,,True,,Mes(es),1,1,2019-06-12,__export__.product_product_2298,Servicios de análisis y auditoría bajo parámetros ISO 2700,1.0,Unidad(es),1350.0,0.0,Transferencia E,Anticipado,Mantenimientos - M
+,,,,,,,,,,,,,,,,,,,,__export__.product_product_2298,Dietas y desplazamientos,1.0,Unidad(es),600.0,0.0,,,
+__export__.account_analytic_account_81,NOT. SANXENXO - Disp2M,__export__.res_partner_840,Mónica Pérez,0.7,,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",2019-10-01,2019-12-31,False,0.0,6.0,False,Exceso horas Nivel 1,True,,Mes(es),1,1,2020-01-25,__export__.product_product_1375,DISPONIBILIDAD 2 HORAS MENSUALES,1.0,Unidad(es),86.0,0.0,SEPA Conecta,Contado,Mantenimientos - M
+__export__.account_analytic_account_2419,Portalconsa - Outsourcing Gestión IT,__export__.res_partner_8372,Sonia Bautista,0.7,,Externalware Ibérica,2018-10-29,2018-12-28,False,0.0,0.0,False,,True,,Mes(es),1,1,2019-01-29,__export__.product_product_2298,"Implantación de Servicios Outsourcing Gestión Informática presencial a Central - cuota mensual
+- Según proyecto firmado -",1.0,Unidad(es),1200.0,0.0,Transferencia E,Contado,External - E
