@@ -76,7 +76,7 @@ class ProjectTask(models.Model):
     notice_person = fields.Char(string="Notice person", required=True)
     priority = fields.Selection(
         [('0','No process'), ('1','Low'), ('2','Mid'), ('3','Hight')], 
-        'Priority', index=True, index=True)
+        'Priority', index=True)
     problem = fields.Boolean('Problem')
     problem_description = fields.Text('Problem cause')
     # project_id = fields.Many2one(
