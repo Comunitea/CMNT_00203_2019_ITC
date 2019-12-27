@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
-db_name = 'conecta_testing'
+db_name = 'conecta'
 session.open(db=db_name)
 import logging
+from odoo import fields
 _logger = logging.getLogger(__name__)
 
 def _parse_line(line):
@@ -32,77 +33,173 @@ def _parse_line(line):
         'line_unit': line[23],
         'line_price': line[24],
         'line_discount': line[25],
+        'mode_name': line[26],
+        'term_name': line[27],
+        'sale_type': line[28],
     }
 
-def get_line_vals(data):
+def get_line_vals(data, idx, contract=False):
+    # import ipdb; ipdb.set_trace()
     field_lines = []
     product_id = False
+    product = False
+    if data.get('line_product_extid'):
+        product = session.env.ref(data['line_product_extid'])
+        if product:
+            product_id = product.id
+        else:
+            logger.error('Error')
+    
     uom_id = False
+    if data.get('line_unit'):
+        domain = [('name', '=', data['line_unit'])]
+        uom = session.env['uom.uom'].search(domain, limit=1)
+        if uom:
+            uom_id = uom.id
     date_start = False
+    if data.get('date_start'):
+        date_start = fields.Datetime.to_datetime(data.get('date_start'))
     date_end = False
+    if data.get('date_end'):
+        date_end = fields.Datetime.to_datetime(data.get('date_end'))
+    
+    if not date_start and contract:
+        date_start = contract.contract_line_ids[0].date_start
+    if not date_start and contract:
+        date_start = contract.contract_line_ids[0].end
+  
+    recurring_interval = False
+    if data.get('recurring_each'):
+        recurring_interval = data.get('recurring_each')
+    if not recurring_interval and contract:
+        recurring_interval = contract.contract_line_ids[0].recurring_interval
+
+    line_name = data.get('line_description')
+    if not line_name and product:
+        line_name = product.name_get()[0][1]
     recurring_rule_type = False
+    if data.get('recurring_unit') or (contract and contract.contract_line_ids[0].recurring_rule_type):
+        rt = data.get('recurring_unit') or contract.contract_line_ids[0].recurring_rule_type
+        recurring_rule_type = rt
+        if rt == 'Día(s)':
+            recurring_rule_type = 'daily'
+        elif rt == 'Semana(s)':
+            recurring_rule_type = 'weekly'
+        elif rt == 'Mes(es)':
+            recurring_rule_type = 'monthly'
+        elif rt == 'Mes(es) último día':
+            recurring_rule_type = 'monthlylastdat'
+        elif rt == 'Año(s)':
+            recurring_rule_type = 'yearly'
+        else:
+            recurring_rule_type = rt
+
+    recurring_next_date = False
+    if data.get('invoice_next_date'):
+        recurring_next_date = fields.Datetime.to_datetime(data.get('invoice_next_date'))
+    if not recurring_next_date and contract:
+        recurring_next_date = contract.contract_line_ids[0].recurring_next_date
+    
+    recurring_next_date = False
+    if data.get('invoice_next_date'):
+        recurring_next_date = fields.Datetime.to_datetime(data.get('invoice_next_date'))
+    if not recurring_next_date and contract:
+        recurring_next_date = contract.contract_line_ids[0].recurring_next_date
+
     vals = {
         'product_id': product_id,
-        'recurring_interval': data.get('recurring_interval'),
+        'name': product.name_get(),
+        'recurring_interval': recurring_interval,
         'recurring_rule_type': recurring_rule_type,
-        'date_start': data.get('recurring_interval'),
-        'date_end': data.get('recurring_interval'),
-        'recurring_next_date': data.get('recurring_interval'),
+        'date_start': date_start,
+        'date_end': date_end,
+        'recurring_next_date': recurring_next_date,
         'qty_type': 'fixed',
-        'quantity': data.get('line_qty'),
+        'quantity': data.get('line_qty') or 0.0,
         'uom_id': uom_id,
-        'price_unit': data.get('line_price'),
-        'discount': data.get('line_discount'),
+        'price_unit': data.get('line_price') or 0.0,
+        'discount': data.get('line_discount') or 0.0,
 
     }
     field_lines = [(0, 0, vals)]
     return field_lines
 
-def get_contract_vals(data):
+def get_contract_vals(data, idx):
+    vals = {}
     field_lines = []
 
     partner_id = False
-    if vals.get('partner_extid'):
-        partner_id = self.env.ref(vals['partner_extid'])
+    if data.get('partner_extid'):
+        partner = session.env.ref(data['partner_extid'])
+        if partner:
+            partner_id = partner.id
+        else:
+            logger.error('Error')
+    
     user_id = False
+    if data.get('user_name'):
+        domain = [('name', '=', data['user_name'])]
+        user = session.env['res.users'].search(domain, limit=1)
+        if user:
+            user_id = user.id
     pricelist_id = False
+    if data.get('pricelist_name'):
+        domain = [('name', '=', data['pricelist_name'])]
+        pricelist = session.env['res.users'].search(domain, limit=1)
+        if pricelist:
+            pricelist_id = pricelist.id
+    
+    company_id = False
+    if data.get('company_name'):
+        domain = [('name', '=', data['company_name'])]
+        company = session.env['res.company'].search(domain, limit=1)
+        if company:
+            comapny_id = company.id
 
-    line_vals = get_line_vals(data)
+
+    line_vals = get_line_vals(data, idx)
     vals = {
         'name': data.get('name'),
         'partner_id': partner_id,
         'user_id': user_id,
-        'reference': data.get('reference'),
+        'code': data.get('reference'),
         'warn_percent': data.get('warn_percent'),
         'quantity_max': data.get('quantity_max'),
+        'description': data.get('description'),
         # 'company_id': company_id,
-        'pricelist_id': pricelist_id
+        'pricelist_id': pricelist_id,
         'contract_line_ids': line_vals
     }
+    return vals
 
 def create_contracts(contract_datas):
-    import ipdb; ipdb.set_trace()
+    # import ipdb; ipdb.set_trace()
+    idx = 0
+    row_count = len(contract_datas)
     for data in contract_datas:
-        ext_id = data.get('ext_id')
+        idx += 1
+        _logger.info('IMPORTANDO CONTRATO %s / %s' % (idx, row_count))
+        ext_id = data.get('extid')
         cotract = False
         if ext_id:
-            vals = self.get_contract_vals(data)
-            contract = self.env['contract.contract'].create(vals)
-            data = {
-                'xml_id': ext_id,
+            vals = get_contract_vals(data, idx)
+            contract = session.env['contract.contract'].create(vals)
+            # import ipdb; ipdb.set_trace()
+            data =  [{
+                'xml_id': 'CONTRACT.' + ext_id,
                 'record': contract,
                 'noupdate': True
-            }
-            self.env['ir.model.data']._update_xmlids()
+            }]
+            session.env['ir.model.data']._update_xmlids(data)
         else:
-            line_vals = get_line_vals(data)
+            line_vals = get_line_vals(data, idx, contract)
             contract.write({'contract_line_ids': line_vals})
 
 
 
 import csv
 idx = 0
-import ipdb; ipdb.set_trace()
+# import ipdb; ipdb.set_trace()
 f1 = open('/home/javier/buildouts/conecta/scripts/contratos.csv', newline='\n')
 lines2count= csv.reader(f1, delimiter=',', quotechar='"')
 row_count = sum(1 for row in lines2count)
@@ -115,11 +212,11 @@ with open('/home/javier/buildouts/conecta/scripts/contratos.csv', newline='\n') 
         idx += 1
         if idx == 1:
             continue  # skip header
-        _logger.info('IMPORTANDO LÍNEA %s / %s' % (idx, row_count))
+        _logger.info('LEYENDO LÍNEA %s / %s' % (idx, row_count))
         data= _parse_line(line)
         contract_datas.append(data)
 
     create_contracts(contract_datas)
     
-session.cr.commit()
-session.cr.close()
+# session.cr.commit()
+# session.cr.close()

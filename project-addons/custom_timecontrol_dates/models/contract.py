@@ -11,7 +11,7 @@ class Contract(models.Model):
     warn_percent = fields.Float(
         "Warning limit percent", default=0.7)
     quantity_max = fields.Float(
-        'Scheduled Time', related='project_id.quantity_max')
+        'Scheduled Time')
     hours_quantity = fields.Float(
         'Total Worked Time', related='project_id.hours_quantity')
     remaining_hours = fields.Float(
@@ -30,4 +30,16 @@ class Contract(models.Model):
                         contract.warn_percent > 0:
                     flag = True
         return flag
+    
+    @api.multi
+    def _get_project_vals(self):
+        res = super()._get_project_vals()
+        res.update(quantity_max=self.quantity_max)
+        self.ensure_one()
+        res = {
+            'name': self.name,
+            'partner_id': self.partner_id.id,
+            'allow_timesheets': True,  # To create analytic account id
+            'company_id': self.company_id.id,
+        }
 

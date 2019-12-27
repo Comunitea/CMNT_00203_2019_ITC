@@ -16,6 +16,7 @@ class ContractContract(models.Model):
     project_id = fields.Many2one('project.project', string='Project')
     task_issue_count = fields.Integer(
         compute='_compute_task_issue_count', string="Task Count")
+    description = fields.Text('Description')
 
     _sql_constraints = [
         ('unique_group_id', 'unique(group_id)', 

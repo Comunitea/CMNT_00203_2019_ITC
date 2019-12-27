@@ -22,6 +22,14 @@
             <field name="project_id" readonly="True"/>
         </field>
 
+        <notebook position="inside">
+            <page string="Notes">
+                <group string="Notes">
+                    <field name="description" nolabel="1"/>
+                </group>
+            </page>
+        </notebook>
+
         
     </field>
 </record>

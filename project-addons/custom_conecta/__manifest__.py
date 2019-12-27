@@ -17,7 +17,8 @@
         # No real dependencies
         'sale_contract_project_link', 
         'custom_sla',
-        'project_task_material'
+        'project_task_material',
+        'project_task_default_stage'
     ],
     'data': [
         'security/ir.model.access.csv',
