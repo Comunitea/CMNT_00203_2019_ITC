@@ -56,13 +56,13 @@ class ProjectTask(models.Model):
 
     # Fields from sd_project_sla module
     waiting = fields.Boolean('Waiting')
-    finish_date = fields.Datetime('Finish', readonly=True, select=True)
+    finish_date = fields.Datetime('Finish', readonly=True, index=True)
     last_task_date = fields.Datetime(
         compute='_compute_final', 
         string="Fecha finalización de última tarea", 
         store=True)
     # Field from project_issue module
-    date_closed = fields.Datetime('Closed', readonly=True, select=True)
+    date_closed = fields.Datetime('Closed', readonly=True, index=True)
 
     # From sd_ajustes_conecta
     reply_date = fields.Datetime('Reply date')
@@ -76,11 +76,11 @@ class ProjectTask(models.Model):
     notice_person = fields.Char(string="Notice person", required=True)
     priority = fields.Selection(
         [('0','No process'), ('1','Low'), ('2','Mid'), ('3','Hight')], 
-        'Priority', select=True, index=True)
+        'Priority', index=True, index=True)
     problem = fields.Boolean('Problem')
     problem_description = fields.Text('Problem cause')
     # project_id = fields.Many2one(
-    # 'project.project', 'Project', track_visibility='onchange', select=True)
+    # 'project.project', 'Project', track_visibility='onchange', index=True)
     # working_hours_open = fields.Float(
     #     compute='_compute_day', string='Working Hours to assign the Issue',
     #     store=True)
