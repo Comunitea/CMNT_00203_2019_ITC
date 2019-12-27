@@ -48,7 +48,7 @@ def get_line_vals(data, idx, contract=False):
         if product:
             product_id = product.id
         else:
-            logger.error('Error')
+            logging.error('ERROR OBTENIENDO PARTNER %s EN (LIN %s)' % (data['partner_extid'], str(idx)))
     
     uom_id = False
     if data.get('line_unit'):
@@ -56,6 +56,8 @@ def get_line_vals(data, idx, contract=False):
         uom = session.env['uom.uom'].search(domain, limit=1)
         if uom:
             uom_id = uom.id
+        else:
+            logging.error('OBTENIENDO UOM %s EN (LIN %s)' % (data['line_unit'], str(idx)))
     date_start = False
     if data.get('date_start'):
         date_start = fields.Datetime.to_datetime(data.get('date_start'))
@@ -99,13 +101,13 @@ def get_line_vals(data, idx, contract=False):
         recurring_next_date = fields.Datetime.to_datetime(data.get('invoice_next_date'))
     if not recurring_next_date and contract:
         recurring_next_date = contract.contract_line_ids[0].recurring_next_date
-    
-    recurring_next_date = False
-    if data.get('invoice_next_date'):
-        recurring_next_date = fields.Datetime.to_datetime(data.get('invoice_next_date'))
-    if not recurring_next_date and contract:
-        recurring_next_date = contract.contract_line_ids[0].recurring_next_date
 
+    if not recurring_interval:
+        logging.error('SIN RECURRING INTERVAL EN (LIN %s)' % (str(idx)))
+    if not recurring_rule_type:
+        logging.error('SIN RECURRING INTERVAL EN (LIN %s)' % (tr(idx)))
+    if not recurring_next_date:
+        logging.error('SIN RECURRING NEXT DATE EN (LIN %s)' % (str(idx)))
     vals = {
         'product_id': product_id,
         'name': product.name_get(),
@@ -134,7 +136,7 @@ def get_contract_vals(data, idx):
         if partner:
             partner_id = partner.id
         else:
-            logger.error('Error')
+            logging.error('OBTENIENDO PARTNER %s EN (LIN %s)' % (data['partner_extid'], str(idx)))
     
     user_id = False
     if data.get('user_name'):
@@ -142,20 +144,52 @@ def get_contract_vals(data, idx):
         user = session.env['res.users'].search(domain, limit=1)
         if user:
             user_id = user.id
+        else:
+            logging.error('OBTENIENDO USUARIO %s EN (LIN %s)' % (data['user_name'], str(idx)))
     pricelist_id = False
     if data.get('pricelist_name'):
         domain = [('name', '=', data['pricelist_name'])]
-        pricelist = session.env['res.users'].search(domain, limit=1)
+        pricelist = session.env['product.pricelist'].search(domain, limit=1)
         if pricelist:
             pricelist_id = pricelist.id
+        else:
+            logging.error('OBTENIENDO TARIFA %s EN (LIN %s)' % (data['pricelist_name'], str(idx)))
     
     company_id = False
     if data.get('company_name'):
         domain = [('name', '=', data['company_name'])]
         company = session.env['res.company'].search(domain, limit=1)
         if company:
-            comapny_id = company.id
+            company_id = company.id
+        else:
+            logging.error('OBETENIENDO COMPAÑÍA %s EN (LIN %s)' % (data['company_name'], str(idx)))
 
+    payment_mode_id = False
+    if data.get('mode_name'):
+        domain = [('name', '=', data['mode_name'])]
+        pm = session.env['account.payment.mode'].search(domain, limit=1)
+        if pm:
+            payment_mode_id = pm.id
+        else:
+            logging.error('OBETENIENDO MODO PAGO %s EN (LIN %s)' % (data['mode_name'], str(idx)))
+
+    payment_term_id = False
+    if data.get('term_name'):
+        domain = [('name', '=', data['term_name'])]
+        pt = session.env['account.payment.term'].search(domain, limit=1)
+        if pt:
+            payment_term_id = pt.id
+        else:
+            logging.error('OBTENIENDO PLAZO DE PAGO %s EN (LIN %s)' % (data['term_name'], str(idx)))
+
+    journal_id = False
+    if data.get('sale_type'):
+        domain = [('name', '=', data['sale_type'])]
+        st = session.env['sale.order.type'].search(domain, limit=1)
+        if st and st.journal_id:
+            journal_id = st.journal_id.id
+        else:
+            logging.error('OBTENIENDO DIARO DE %s EN (LIN %s)' % (data['sale_type'], str(idx)))
 
     line_vals = get_line_vals(data, idx)
     vals = {
@@ -166,24 +200,29 @@ def get_contract_vals(data, idx):
         'warn_percent': data.get('warn_percent'),
         'quantity_max': data.get('quantity_max'),
         'description': data.get('description'),
-        # 'company_id': company_id,
+        'company_id': company_id,
         'pricelist_id': pricelist_id,
-        'contract_line_ids': line_vals
+        'contract_line_ids': line_vals,
+        'payment_mode_id': payment_mode_id,
+        'payment_term_id': payment_term_id,
+        'journal_id': journal_id,
     }
     return vals
 
 def create_contracts(contract_datas):
     # import ipdb; ipdb.set_trace()
-    idx = 0
-    row_count = len(contract_datas)
+    idx = 1
+    row_count = len(contract_datas) + 1
+    created_contracts = session.env['contract.contract']
     for data in contract_datas:
         idx += 1
-        _logger.info('IMPORTANDO CONTRATO %s / %s' % (idx, row_count))
+        _logger.info('IMPORTANDO CONTRATO LÍNEA %s / %s' % (idx, row_count))
         ext_id = data.get('extid')
         cotract = False
         if ext_id:
             vals = get_contract_vals(data, idx)
             contract = session.env['contract.contract'].create(vals)
+            created_contracts += contract
             # import ipdb; ipdb.set_trace()
             data =  [{
                 'xml_id': 'CONTRACT.' + ext_id,
@@ -194,6 +233,8 @@ def create_contracts(contract_datas):
         else:
             line_vals = get_line_vals(data, idx, contract)
             contract.write({'contract_line_ids': line_vals})
+    import ipdb; ipdb.set_trace()
+    created_contracts.link_project()
 
 
 

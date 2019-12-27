@@ -42,4 +42,5 @@ class Contract(models.Model):
             'allow_timesheets': True,  # To create analytic account id
             'company_id': self.company_id.id,
         }
+        return res
 

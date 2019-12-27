@@ -52,4 +52,15 @@ class ContractContract(models.Model):
             project.get_contract_id()
 
         return True
+    
+    @api.multi
+    def write(self, vals):
+        """
+        Propagar cuenta analítica a las líneas
+        """
+        res = super().write(vals)
+        if 'group_id' in vals:
+            self.mapped('contract_line_ids').write(
+                {'analytic_account_id': vals['group_id']})
+        return res
 
