@@ -41,6 +41,16 @@ class Contract(models.Model):
             'partner_id': self.partner_id.id,
             'allow_timesheets': True,  # To create analytic account id
             'company_id': self.company_id.id,
+            'quantity_max': self.quantity_max,
         }
+        return res
+    
+    def write(self, vals):
+        res = super().write(vals)
+        if vals.get('quantity_max'):
+            qm = vals['quantity_max']
+            if self.project_id and self.project_id.quantity_max != qm:
+                self.project_id.write({
+                    'quantity_max': qm})
         return res
 

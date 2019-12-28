@@ -53,22 +53,18 @@ class AccountAnalyticLine(models.Model):
 
     @api.model
     def create(self, vals):
-        
-        if not vals.get('task_id', False):
-            return res
-
-        # TODO Comprobaciones diario y account_id?
-        task = self.env['project.task'].browse(vals['task_id'])
-        date_start = vals['date_start']
-        date_end = vals['date_end']
-        work_type = vals.get('work_type')
-        
-        task_vals = self._get_task_vals(
-                task, date_start, date_end, work_type)
-        if task_vals:
-            vals.update(task_vals)
-
-        vals['date'] = date_start
+        if vals.get('task_id', False):
+            # TODO Comprobaciones diario y account_id?
+            task = self.env['project.task'].browse(vals['task_id'])
+            date_start = vals.get('date_start')
+            date_end = vals.get('date_end')
+            work_type = vals.get('work_type')
+            
+            task_vals = self._get_task_vals(
+                    task, date_start, date_end, work_type)
+            if task_vals:
+                vals.update(task_vals)
+            vals['date'] = date_start
         res = super().create(vals)
         return res
     

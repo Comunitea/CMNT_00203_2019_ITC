@@ -55,11 +55,20 @@ class AccountAnalyticLine(models.Model):
     
     @api.model
     def create(self, vals):
+        if vals.get('date_start'):
+            vals.update(date=vals['date_start'])
         res = super().create(vals)
         if res.task_id and res.task_id.contract_id:
             contract = res.task_id.contract_id
             if contract.check_limit():
                 self.send_warning_mail(contract.id)
+        return res
+    
+
+    def write(self, vals):
+        if vals.get('date_start'):
+            vals.update(date=vals['date_start'])
+        res = super().write(vals)
         return res
     
     def send_warning_mail(self, account_id):

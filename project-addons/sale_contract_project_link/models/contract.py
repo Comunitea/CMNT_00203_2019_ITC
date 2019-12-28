@@ -9,7 +9,8 @@ class ContractContract(models.Model):
 
     def _compute_task_issue_count(self):
         for contract in self:
-            domain = [('contract_id', '=', contract.id), ('is_issue', '=', True)]
+            domain = [
+                ('contract_id', '=', contract.id), ('is_issue', '=', True)]
             task_count = self.env['project.task'].search_count(domain)
             contract.task_issue_count = task_count
 
@@ -18,6 +19,10 @@ class ContractContract(models.Model):
         compute='_compute_task_issue_count', string="Task Count")
     description = fields.Text('Description')
 
+    # No facturar líneas a 0 marcado por defecto
+    skip_zero_qty = fields.Boolean(default=True)
+
+    # Proyecto y cuenta analítica deben se unicos
     _sql_constraints = [
         ('unique_group_id', 'unique(group_id)', 
           _('Analytic account already assigned')),
@@ -63,4 +68,41 @@ class ContractContract(models.Model):
             self.mapped('contract_line_ids').write(
                 {'analytic_account_id': vals['group_id']})
         return res
+    
+    # FIX!! OVERWRITE PORQUE EL MODULO DE SALE_CONTRACT_INVOICING NO
+    # TIENE EN CUENTA QUE ES API MULTI, TODO PR A OCA
+    # @api.multi
+    def _recurring_create_invoice(self, date_ref=False):
+        invoices_values = self._prepare_recurring_invoices_values(date_ref)
+
+        # CODIGO DE SALE_CONTRACT_INVOICING CON BUCLE
+        invoices = self._finalize_and_create_invoices(invoices_values)
+        for contract in self:
+            if not contract.invoicing_sales:
+                continue
+            sales = self.env['sale.order'].search([
+                ('analytic_account_id', '=', contract.group_id.id),
+                ('partner_invoice_id', 'child_of',
+                contract.partner_id.commercial_partner_id.ids),
+                ('invoice_status', '=', 'to invoice'),
+                ('date_order', '<=',
+                '{} 23:59:59'.format(contract.recurring_next_date)),
+            ])
+            if sales:
+                invoice_ids = sales.action_invoice_create()
+                invoices |= self.env['account.invoice'].browse(invoice_ids)[:1]
+
+        return invoices
+
+
+class ContractLine(models.Model):
+    _inherit = "contract.line"
+
+    @api.model
+    def create(self, vals):
+        res = super().create(vals)
+        if res.contract_id.group_id:
+            res.write({'analytic_account_id': res.contract_id.group_id.id})
+        return res
+
 
