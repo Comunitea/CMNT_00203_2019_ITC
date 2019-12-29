@@ -141,3 +141,14 @@ class ContractLine(models.Model):
                     rec.create_invoice_visibility = bool(
                         rec.recurring_next_date
                     )
+
+# FIX BUG NO ME DEJA SUPRIMIR UNA LINEA SI HE USADO EL ASISTENTE
+class ContractLineWizard(models.TransientModel):
+
+    _inherit = 'contract.line.wizard'
+    contract_line_id = fields.Many2one(
+        comodel_name="contract.line",
+        string="Contract Line",
+        required=False,
+        index=True,
+    )
