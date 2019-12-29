@@ -22,5 +22,7 @@ class SaleOrder(models.Model):
             if projects and projects[0].analytic_account_id and contracts:
                 project = projects[0]
                 contracts.write(
-                    {'group_id': projects[0].analytic_account_id.id})
+                    {'group_id': projects[0].analytic_account_id.id,
+                     'project_id':project.id
+                    })
         return res
