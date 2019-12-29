@@ -18,8 +18,8 @@ class ProjectSla(models.Model):
         help="Date field used to check if the SLA was achieved.")
     sla_line_ids =  fields.One2many(
         'project.sla.line', 'sla_id', 'Definitions', copy=True)
-    analytic_ids =  fields.Many2many(
-        'account.analytic.account', string='Contracts')
+    contract_ids =  fields.Many2many(
+        'contract.contract', string='Contracts')
     
 
 class SlaRules(models.Model):

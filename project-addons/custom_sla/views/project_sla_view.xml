@@ -50,7 +50,7 @@
                         </field>
                     </page>
                     <page string="Contracts" name="contracts_page">
-                      <field name="analytic_ids" nolabel="1" />
+                      <field name="contract_ids" nolabel="1" />
                     </page>
                   </notebook>
                   <button name="reapply_slas" colspan="2"
