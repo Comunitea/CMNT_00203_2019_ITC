@@ -25,4 +25,22 @@
     </field>
 </record>
 
+
+<!-- <menuitem id="menu_contract_general"
+          parent="sale.sale_menu_root"
+          string="Contracts"
+          sequence="10"/>
+
+<menuitem id="menu_contract_contract_customer_general"
+            parent="menu_contract_general"
+            action="contract.action_customer_contract"
+            sequence="98"
+/>
+
+<menuitem id="menu_contract_contract_supplier_general"
+            parent="menu_contract_general"
+            action="contract.action_supplier_contract"
+            sequence="99"
+/> -->
+
 </odoo>

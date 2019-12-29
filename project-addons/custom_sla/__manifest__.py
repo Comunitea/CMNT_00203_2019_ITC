@@ -13,6 +13,7 @@
         'base', 
         'contract', 
         'project',
+        'sale',
         'custom_timecontrol_dates',
         'sale_contract_project_link'],
     'data': [
