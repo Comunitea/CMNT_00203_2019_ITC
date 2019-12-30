@@ -74,7 +74,6 @@ class ContractContract(models.Model):
     # TIENE EN CUENTA QUE ES API MULTI, TODO PR A OCA
     # @api.multi
     def _recurring_create_invoice(self, date_ref=False):
-        import ipdb; ipdb.set_trace()
         invoices_values = self._prepare_recurring_invoices_values(date_ref)
 
         # CODIGO DE SALE_CONTRACT_INVOICING CON BUCLE
