@@ -19,7 +19,9 @@ delete from stock_move;
 delete from stock_move_line;
 delete from stock_picking;
 
-delete from account_move;
+delete from account_partial_reconcile;
+
 delete from account_move_line;
+delete from account_move;
 
 delete from account_bank_statement;
