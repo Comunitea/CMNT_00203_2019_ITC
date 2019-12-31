@@ -10,8 +10,8 @@ def _parse_line(line):
         'extid': line[0],
         'name': line[1],
         'partner_extid': line[2],
-        'user_name': line[3],
-        'warn_percent': line[4],
+        'partner_nif': line[3]
+        'partner_name': line[4]
         'reference': line[5],
         'company_name': line[6],
         'date_start': line[7],
@@ -25,18 +25,22 @@ def _parse_line(line):
         'description': line[15],
         'recurring_unit': line[16],
         'recurring_each': line[17],
-        'recurring_each2': line[18],
-        'invoice_next_date': line[19],
-        'line_product_extid': line[20],
-        'line_description': line[21],
-        'line_qty': line[22],
-        'line_unit': line[23],
-        'line_price': line[24],
-        'line_discount': line[25],
-        'mode_name': line[26],
-        'term_name': line[27],
-        'sale_type': line[28],
-        'partner_invoice_extid': line[29],
+
+        'invoice_next_date': line[18],
+        'line_product_extid': line[19],
+        'line_product_name': line[20],
+        'line_internal_reference': line[21],
+        'line_description': line[22],
+        'line_qty': line[23],
+        'line_unit': line[24],
+        'line_price': line[25],
+        'line_discount': line[26],
+        'user_name': line[27],
+        # 'warn_percent': line[4],
+        # 'recurring_each2': line[18],
+        # 'mode_name': line[26],
+        # 'term_name': line[27],
+        # 'sale_type': line[28],
     }
 
 def get_line_vals(data, idx, contract=False):
@@ -138,14 +142,6 @@ def get_contract_vals(data, idx):
         else:
             logging.error('OBTENIENDO PARTNER %s EN (LIN %s)' % (data['partner_extid'], str(idx)))
     
-    invoice_partner_id = False
-    if data.get('partner_invoice_extid'):
-        partner_invoice = session.env.ref(data['partner_invoice_extid'])
-        if partner_invoice:
-            invoice_partner_id = partner_invoice.id
-        else:
-            logging.error('OBTENIENDO PARTNER %s EN (LIN %s)' % (data['partner_invoice_extid'], str(idx)))
-    
     user_id = False
     if data.get('user_name'):
         domain = [('name', '=', data['user_name'])]
@@ -215,8 +211,6 @@ def get_contract_vals(data, idx):
         'payment_term_id': payment_term_id,
         'journal_id': journal_id,
     }
-    if invoice_partner_id:
-        vals.update(invoice_partner_id=invoice_partner_id)
     return vals
 
 def create_contracts(contract_datas):
