@@ -108,6 +108,13 @@ def get_line_vals(data, idx, contract=False):
         logging.error('SIN RECURRING INTERVAL EN (LIN %s)' % (tr(idx)))
     if not recurring_next_date:
         logging.error('SIN RECURRING NEXT DATE EN (LIN %s)' % (str(idx)))
+    
+    qty_type = 'fixed'
+    qty_formula_id = False
+    if not data.get('recurring_invoices'):
+        qty_type = 'variable'
+        qty_formula_id = 3  # Analítica mismo producto
+
     vals = {
         'product_id': product_id,
         'name': line_name,
@@ -116,7 +123,8 @@ def get_line_vals(data, idx, contract=False):
         'date_start': date_start,
         'date_end': date_end,
         'recurring_next_date': recurring_next_date,
-        'qty_type': 'fixed',
+        'qty_type': qty_type,
+        'qty_formula_id': qty_formula_id,
         'quantity': data.get('line_qty') or 0.0,
         'uom_id': uom_id,
         'price_unit': data.get('line_price') or 0.0,

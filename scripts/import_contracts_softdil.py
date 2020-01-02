@@ -112,6 +112,13 @@ def get_line_vals(data, idx, contract=False):
         logging.error('SIN RECURRING INTERVAL EN (LIN %s)' % (tr(idx)))
     if not recurring_next_date:
         logging.error('SIN RECURRING NEXT DATE EN (LIN %s)' % (str(idx)))
+    
+    qty_type = 'fixed'
+    qty_formula_id = False
+    if not data.get('recurring_invoices'):
+        qty_type = 'variable'
+        qty_formula_id = 3  # Analítica mismo producto
+
     vals = {
         'product_id': product_id,
         'name': line_name,
@@ -120,7 +127,8 @@ def get_line_vals(data, idx, contract=False):
         'date_start': date_start,
         'date_end': date_end,
         'recurring_next_date': recurring_next_date,
-        'qty_type': 'fixed',
+        'qty_type': qty_type,
+        'qty_formula_id': qty_formula_id,
         'quantity': data.get('line_qty') or 0.0,
         'uom_id': uom_id,
         'price_unit': data.get('line_price') or 0.0,
@@ -135,8 +143,16 @@ def get_contract_vals(data, idx):
     field_lines = []
 
     partner_id = False
-    if data.get('partner_extid'):
-        partner = session.env.ref(data['partner_extid'])
+    # if data.get('partner_extid'):
+    #     partner = session.env.ref(data['partner_extid'])
+    #     if partner:
+    #         partner_id = partner.id
+    #     else:
+    #         logging.error('OBTENIENDO PARTNER %s EN (LIN %s)' % (data['partner_extid'], str(idx)))
+    
+    partner_id = False
+    if data.get('partner_nif'):
+        partner = session.env['res.partner'].search([('vat', '=', data['partner.nif'])])
         if partner:
             partner_id = partner.id
         else:
@@ -187,13 +203,13 @@ def get_contract_vals(data, idx):
             logging.error('OBTENIENDO PLAZO DE PAGO %s EN (LIN %s)' % (data['term_name'], str(idx)))
 
     journal_id = False
-    if data.get('sale_type'):
-        domain = [('name', '=', data['sale_type'])]
-        st = session.env['sale.order.type'].search(domain, limit=1)
-        if st and st.journal_id:
-            journal_id = st.journal_id.id
-        else:
-            logging.error('OBTENIENDO DIARO DE %s EN (LIN %s)' % (data['sale_type'], str(idx)))
+    # if data.get('sale_type'):
+    #     domain = [('name', '=', data['sale_type'])]
+    #     st = session.env['sale.order.type'].search(domain, limit=1)
+    #     if st and st.journal_id:
+    #         journal_id = st.journal_id.id
+    #     else:
+    #         logging.error('OBTENIENDO DIARO DE %s EN (LIN %s)' % (data['sale_type'], str(idx)))
 
     line_vals = get_line_vals(data, idx)
     vals = {
