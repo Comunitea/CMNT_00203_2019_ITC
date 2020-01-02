@@ -56,6 +56,7 @@
             <field name="arch" type="xml">
                 <tree editable="top" string="Timesheet Activities" import="false">
                     <field name="date" readonly="1"/>
+                    <field name="employee_id" required="True"/>
                     <field name="date_start" required="True"/>
 					<field name="date_end" required="True"/>
 					<field name="work_type" required="True"/>

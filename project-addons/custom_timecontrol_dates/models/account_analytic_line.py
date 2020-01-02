@@ -4,10 +4,18 @@ import math
 class AccountAnalyticLine(models.Model):
     _inherit = "account.analytic.line"
 
+    @api.model
+    def _get_employee_id(self):
+        res = False
+        user = self.env['res.users'].browse(self._uid)
+        if user.employee_ids:
+            res = user.employee_ids[0].id
+        return res
+
     # From sd_timecontrol_dates
     #Overwrite date for Datetime
-    date_start = fields.Datetime('Date Start')
-    date_end = fields.Datetime('Date End')
+    date_start = fields.Datetime('Date Start', default=fields.Datetime.now())
+    date_end = fields.Datetime('Date End', default=fields.Datetime.now())
     work_type = fields.Selection(
         [('presencial','Presencial'),
          ('remoto','Remoto'),
@@ -21,6 +29,8 @@ class AccountAnalyticLine(models.Model):
     signature = fields.Binary('Customer signature')
     observations = fields.Text('Observations')
     sended = fields.Boolean('Sended', default=False)
+
+    employee_id = fields.Many2one(default=_get_employee_id)
 
     @api.onchange('date_start', 'date_end', 'work_type', 'discount')
     def _on_change_datetime(self):

@@ -15,17 +15,17 @@
                     <tree string="Timesheet Activities" default_order="date">
                         <!-- Date tiene que estar en la vista o da error web -->
                         <!-- <field name="user_id" invisible="1"/> -->
-                        <!-- <field name="employee_id" required="1"/> -->
                         <field name="date" invisible="1"/>
                         <field name="project_id" invisible="1"/>
 
+                        <field name="employee_id" required="1"/>
                         <field name="name" required="True"/>
                         <field name="date_start" required="True"/>
                         <field name="date_end" required="True"/>
                         <field name="work_type" required="True"/>
                         <field name="unit_amount"/>
                         <field name="discount"/>
-                        <field name="user_id"/>
+                        <field name="user_id" invisible="1"/>
                         <field name="signature" widget="screen_draw" draw_height="300" draw_width="300"/>
 
                         <!-- <field name="account_id"/> -->
@@ -71,6 +71,7 @@
                         <sheet>
                             <group>
                                 <!-- <field name="user_id" invisible="1"/> -->
+                                <field name="user_id" invisible="1"/>
                                 <field name="employee_id" required="1"/>
                                 <field name="project_id" invisible="1"/>
                             </group>
@@ -82,7 +83,6 @@
                                 <field name="work_type" required="True"/>
                                 <field name="unit_amount" string="Duration" widget="float_time"/>
                                 <field name="discount"/>
-                                <field name="user_id"/>
                                 <field name="signature" widget="screen_draw" draw_height="300" draw_width="300"/>
                                 <!-- <field name="account_id"/> -->
                             </group>
