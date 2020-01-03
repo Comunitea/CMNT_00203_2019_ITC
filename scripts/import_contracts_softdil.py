@@ -10,8 +10,8 @@ def _parse_line(line):
         'extid': line[0],
         'name': line[1],
         'partner_extid': line[2],
-        'partner_nif': line[3]
-        'partner_name': line[4]
+        'partner_nif': line[3],
+        'partner_name': line[4],
         'reference': line[5],
         'company_name': line[6],
         'date_start': line[7],
@@ -44,15 +44,25 @@ def _parse_line(line):
     }
 
 def get_line_vals(data, idx, contract=False):
+    # import ipdb; ipdb.set_trace()
     field_lines = []
     product_id = False
     product = False
-    if data.get('line_product_extid'):
-        product = session.env.ref(data['line_product_extid'])
+    # if data.get('line_product_extid'):
+    #     product = session.env.ref(data['line_product_extid'])
+    #     if product:
+    #         product_id = product.id
+    #     else:
+    #         logging.error('ERROR OBTENIENDO PARTNER %s EN (LIN %s)' % (data['partner_extid'], str(idx)))
+    
+    if data.get('line_product_name'):
+        domain = [('name', '=', data['line_product_name'])]
+        product = session.env['product.product'].search(domain, limit=1)
         if product:
             product_id = product.id
         else:
-            logging.error('ERROR OBTENIENDO PARTNER %s EN (LIN %s)' % (data['partner_extid'], str(idx)))
+            logging.error('OBTENIENDO PRODUCTO %s EN (LIN %s)' % (data['line_product_name'], str(idx)))
+    
     
     uom_id = False
     if data.get('line_unit'):
@@ -71,8 +81,8 @@ def get_line_vals(data, idx, contract=False):
     
     if not date_start and contract:
         date_start = contract.contract_line_ids[0].date_start
-    if not date_start and contract:
-        date_start = contract.contract_line_ids[0].end
+    if not date_end and contract:
+        date_end = contract.contract_line_ids[0].date_end
   
     recurring_interval = False
     if data.get('recurring_each'):
@@ -112,12 +122,8 @@ def get_line_vals(data, idx, contract=False):
         logging.error('SIN RECURRING INTERVAL EN (LIN %s)' % (tr(idx)))
     if not recurring_next_date:
         logging.error('SIN RECURRING NEXT DATE EN (LIN %s)' % (str(idx)))
-    
+
     qty_type = 'fixed'
-    qty_formula_id = False
-    if not data.get('recurring_invoices'):
-        qty_type = 'variable'
-        qty_formula_id = 3  # Analítica mismo producto
 
     vals = {
         'product_id': product_id,
@@ -128,7 +134,7 @@ def get_line_vals(data, idx, contract=False):
         'date_end': date_end,
         'recurring_next_date': recurring_next_date,
         'qty_type': qty_type,
-        'qty_formula_id': qty_formula_id,
+        # 'qty_formula_id': qty_formula_id,
         'quantity': data.get('line_qty') or 0.0,
         'uom_id': uom_id,
         'price_unit': data.get('line_price') or 0.0,
@@ -136,9 +142,12 @@ def get_line_vals(data, idx, contract=False):
 
     }
     field_lines = [(0, 0, vals)]
+    # import ipdb; ipdb.set_trace()
+
     return field_lines
 
 def get_contract_vals(data, idx):
+    # import ipdb; ipdb.set_trace()
     vals = {}
     field_lines = []
 
@@ -152,10 +161,11 @@ def get_contract_vals(data, idx):
     
     partner_id = False
     if data.get('partner_nif'):
-        partner = session.env['res.partner'].search([('vat', '=', data['partner.nif'])])
+        partner = session.env['res.partner'].search([('vat', '=', data['partner_nif'])], limit=1)
         if partner:
             partner_id = partner.id
         else:
+            partner_id = 7630  # CLIENTE Sin Nombre
             logging.error('OBTENIENDO PARTNER %s EN (LIN %s)' % (data['partner_extid'], str(idx)))
     
     user_id = False
@@ -175,15 +185,6 @@ def get_contract_vals(data, idx):
         else:
             logging.error('OBTENIENDO TARIFA %s EN (LIN %s)' % (data['pricelist_name'], str(idx)))
     
-    company_id = False
-    if data.get('company_name'):
-        domain = [('name', '=', data['company_name'])]
-        company = session.env['res.company'].search(domain, limit=1)
-        if company:
-            company_id = company.id
-        else:
-            logging.error('OBETENIENDO COMPAÑÍA %s EN (LIN %s)' % (data['company_name'], str(idx)))
-
     payment_mode_id = False
     if data.get('mode_name'):
         domain = [('name', '=', data['mode_name'])]
@@ -220,13 +221,14 @@ def get_contract_vals(data, idx):
         'warn_percent': data.get('warn_percent'),
         'quantity_max': data.get('quantity_max'),
         'description': data.get('description'),
-        'company_id': company_id,
+        'company_id': 12,
         'pricelist_id': pricelist_id,
         'contract_line_ids': line_vals,
         'payment_mode_id': payment_mode_id,
         'payment_term_id': payment_term_id,
         'journal_id': journal_id,
     }
+    # import ipdb; ipdb.set_trace()
     return vals
 
 def create_contracts(contract_datas):
@@ -243,7 +245,7 @@ def create_contracts(contract_datas):
             contract = session.env['contract.contract'].create(vals)
             created_contracts += contract
             data =  [{
-                'xml_id': 'CONTRACT.' + ext_id,
+                'xml_id': 'CONTRACTSOFT.' + ext_id.replace('.', '_'),
                 'record': contract,
                 'noupdate': True
             }]
@@ -257,11 +259,11 @@ def create_contracts(contract_datas):
 
 import csv
 idx = 0
-f1 = open('/home/comunitea/conecta/scripts/contratos.csv', newline='\n')
+f1 = open('/home/comunitea/conecta/scripts/contratos_softdil_recurrentes.csv', newline='\n')
 lines2count= csv.reader(f1, delimiter=',', quotechar='"')
 row_count = sum(1 for row in lines2count)
 
-with open('/home/comunitea/conecta/scripts/contratos.csv', newline='\n') as csvfile:
+with open('/home/comunitea/conecta/scripts/contratos_softdil_recurrentes.csv', newline='\n') as csvfile:
     lines = csv.reader(csvfile, delimiter=',', quotechar='"')
     
     contract_datas = []

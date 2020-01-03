@@ -81,17 +81,15 @@
     </record>
 
     <menuitem id="menu_sla_general"
-                parent="sale.sale_menu_root"
+                parent="menu_contract_root"
                 name="SLA"
-                sequence="10"/>
+                sequence="50"/>
     
     <menuitem id="menu_sla"
               parent="menu_sla_general"
               action="action_sla"
-              sequence="10"
+              sequence="80"
     />
-
-
 
     </data>
 </odoo>

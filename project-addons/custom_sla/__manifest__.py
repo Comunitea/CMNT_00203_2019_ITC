@@ -20,6 +20,7 @@
         'security/ir.model.access.csv',
         'data/project_sla_control_data.xml',
         'views/contract.xml',
+        'views/contract_line.xml',
         'views/project_sla_view.xml',
         'views/project_task_view.xml',
         'views/project_view.xml',

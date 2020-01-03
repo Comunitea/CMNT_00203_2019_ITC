@@ -25,22 +25,27 @@
     </field>
 </record>
 
+<menuitem id="menu_contract_root"
+          name="Contracts"
+          web_icon="custom_sla,static/description/menu_icon.png"
+          sequence="40"/>
 
-<!-- <menuitem id="menu_contract_general"
-          parent="sale.sale_menu_root"
-          string="Contracts"
+<menuitem id="menu_contract_general"
+          parent="menu_contract_root"
+          name="Contracts"
           sequence="10"/>
+
 
 <menuitem id="menu_contract_contract_customer_general"
             parent="menu_contract_general"
             action="contract.action_customer_contract"
-            sequence="98"
+            sequence="10"
 />
 
 <menuitem id="menu_contract_contract_supplier_general"
             parent="menu_contract_general"
             action="contract.action_supplier_contract"
-            sequence="99"
-/> -->
+            sequence="20"
+/>
 
 </odoo>

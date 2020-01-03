@@ -1,0 +1,344 @@
+External ID,Nombre del contrato/cuenta,Cliente/ID (identificación),Cliente/NIF,Cliente/Nombre,Referencia,Compañía/Nombre de la compañía,Fecha de inicio,Fecha de caducidad,Precio fijo,Precio máx. factura,Unidades del servicio pre-pago,En imputaciones de horas,Tarifa/Nombre tarifa,Generar automáticamente facturas recurrentes,Descripción,Recurrencia,Repetir cada,Fecha de la proxima factura,Líneas de factura/Producto/ID,Líneas de factura/Producto/Nombre,Líneas de factura/Producto/Referencia interna,Líneas de factura/Descripción,Líneas de factura/Cantidad,Líneas de factura/Unidad de medida/Unidad de medida,Líneas de factura/Precio unitario,Líneas de factura/Descuento (%),Gestor contable/Nombre
+__export__.account_analytic_account_114,19_MONTECHICO_Web,__export__.res_partner_427,ESB37321601,"AGROPECUARIA MONTECHICO, S.L.",AA122,"Soluciones Informáticas Integrales, S.L",2019-02-01,,False,0.0,6.0,False,Tarifa pública,True,,Mes(es),1,2020-01-26,__export__.product_product_8,MANTENIMIENTO WEB,,"SERVICIOS DE MANTENIMIENTO APLICACION WEB 
+- Cuota Mensual -",1.0,Unidad(es),152.0,0.0,Ana
+,,,,,,,,,,,,,,,,,,,__export__.product_product_8,MANTENIMIENTO WEB,,"SERVICIOS DE MANTENIMIENTO APLICACION WEB
+ Cuota mensual en concepto de Promociones Addwords y Promociones Facebook",1.0,Unidad(es),200.0,0.0,
+,,,,,,,,,,,,,,,,,,,__export__.product_product_8,MANTENIMIENTO WEB,,SERVICIO DE ATENCIÓN CHAT,1.0,Unidad(es),25.0,0.0,
+__export__.account_analytic_account_188,19_RIN_SEO + Web,__export__.res_partner_853,ESB83347070,"ZAPATERIA RIN, S.L.",AA198,"Soluciones Informáticas Integrales, S.L",2019-02-01,,False,0.0,26.5,False,Tarifa pública,True,,Mes(es),1,2020-01-26,__export__.product_product_8,MANTENIMIENTO WEB,,SERVICIOS DE MANTENIMIENTO APLICACION WEB Y SEO,1.0,Unidad(es),1230.0,0.0,Ana
+__export__.account_analytic_account_198,19_CHEMASPORT_Mant Conector,__export__.res_partner_486,ESB36325066,"RAJOY Y RICOY, S.L.",AA209,"Soluciones Informáticas Integrales, S.L",2016-02-01,,False,0.0,0.0,False,Tarifa pública,True,,Mes(es),1,2020-05-26,__export__.product_product_39,Conector Mantenimiento,,"Conector Mantenimiento
+Mantenimiento mensual del conector Avelon_Prestashop.",1.0,Unidad(es),36.0,0.0,Diego Lago
+__export__.account_analytic_account_199,19_YOLANDA_Mant Conector,__export__.res_partner_507,ESB15442411,"YOLANDA ZAPATERIAS, S.L.",AA210,"Soluciones Informáticas Integrales, S.L",2016-01-10,,False,0.0,0.0,False,Tarifa pública,True,,Mes(es),1,2020-01-26,__export__.product_product_39,Conector Mantenimiento,,"Conector Mantenimiento
+Mantenimiento mensual del conector Avelon_Prestashop.",1.0,Unidad(es),36.0,0.0,Diego Lago
+__export__.account_analytic_account_200,19_RIN_Mant Conector,__export__.res_partner_853,ESB83347070,"ZAPATERIA RIN, S.L.",AA211,"Soluciones Informáticas Integrales, S.L",2016-11-14,,False,0.0,0.0,False,Tarifa pública,True,,Mes(es),1,2020-05-26,__export__.product_product_39,Conector Mantenimiento,,"Conector Mantenimiento
+Mantenimiento mensual del conector Avelon_Prestashop.",1.0,Unidad(es),36.0,0.0,Diego Lago
+__export__.account_analytic_account_202,19_LUNA_Mant Conector,__export__.res_partner_643,ESB30896823,"BERASI SHOES,S.L.",AA213,"Soluciones Informáticas Integrales, S.L",2016-09-20,,False,0.0,0.0,False,Tarifa pública,True,,Mes(es),1,2020-01-26,__export__.product_product_39,Conector Mantenimiento,,"Conector Mantenimiento
+Mantenimiento mensual del conector Avelon_Presashop.",1.0,Unidad(es),36.0,0.0,Diego Lago
+__export__.account_analytic_account_203,Mant. Conector Agatha,__export__.res_partner_700,ESB83614594,"DREAM OF BEACH NIGHT, S.L    ",AA214,"Soluciones Informáticas Integrales, S.L",2016-09-01,,False,0.0,0.0,False,Tarifa pública,True,,Mes(es),1,2020-01-26,__export__.product_product_39,Conector Mantenimiento,,"Conector Mantenimiento
+Mantenimiento mensual del conector Avelon_Prestashop.",1.0,Unidad(es),36.0,0.0,Diego Lago
+__export__.account_analytic_account_204,Mant. Conector Bypeppas,__export__.res_partner_644,ESB86974763,GRUPO BY PEPPAS DISEÑADORES S.L.,AA215,"Soluciones Informáticas Integrales, S.L",2016-07-01,,False,0.0,0.0,False,Tarifa pública,True,,Mes(es),1,2020-06-26,__export__.product_product_39,Conector Mantenimiento,,"Conector Mantenimiento
+Mantenimiento mensual del conector Avelon_Prestashop.",1.0,Unidad(es),36.0,0.0,Diego Lago
+__export__.account_analytic_account_205,19_HEMESHOP_Mant Conector,__export__.res_partner_709,ESB75161893,BIDASOA RETAIL S.L.U,AA216,"Soluciones Informáticas Integrales, S.L",2016-12-01,,False,0.0,0.0,False,Tarifa pública,True,,Mes(es),1,2020-01-26,__export__.product_product_39,Conector Mantenimiento,,"Conector Mantenimiento
+Mantenimiento mensual del conector Avelon_Presashop.",1.0,Unidad(es),36.0,0.0,Diego Lago
+__export__.account_analytic_account_214,19_CHEMASPORT_Web,__export__.res_partner_486,ESB36325066,"RAJOY Y RICOY, S.L.",AA224,"Soluciones Informáticas Integrales, S.L",2019-02-01,,False,0.0,3.5,False,Tarifa pública,True,,Mes(es),1,2020-01-26,__export__.product_product_8,MANTENIMIENTO WEB,,"SERVICIOS DE MANTENIMIENTO APLICACION WEB
+Servicios de mantenimiento mensual.
+Incluye resolución de incidencias y soporte teléfonico.
+* Los servicios que superen las 2 horas mensuales se facturarán como exceso de horas a 25,00 € / Hora.",2.0,Unidad(es),25.0,0.0,Sonia
+__export__.account_analytic_account_224,19_LEISTUNG_Odoo + Prestashop,__export__.res_partner_712,ESB36996734,LEISTUNG S.L.U,AA236,"Soluciones Informáticas Integrales, S.L",2019-02-01,,False,0.0,8.0,False,Tarifa pública,True,,Mes(es),1,2020-01-26,__export__.product_product_41,Mantenimiento Odoo,,"Mantenimiento Mensual Odoo. Incluye:
+- Gestión de incidencias puntuales a nivel funcional.
+- Posibles incidencias técnicas a nivel de sistema operativo y base de datos.
+- Nuevas normativas legales.
+- Bugs de Odoo.
+- Aclaraciones a usuarios telefónicamente o a través de correo de ""soporte@softdil.com"".
+- Mantenimiento del conector Prestashop - Odoo.
+
+Este mantenimiento ha sido valorado con una estimación de 6 horas de mantenimiento al mes.",1.0,Unidad(es),120.0,0.0,Aitor Bouzas
+,,,,,,,,,,,,,,,,,,,__export__.product_product_8,MANTENIMIENTO WEB,,"Mantenimiento Mensual Prestashop.
+- Soporte telefónico para resolución de incidencias.
+- Actualización de módulos.
+- Soporte programación Php, Html, Javascript, Css.
+- Información nuevas versiones o funcionalidades.
+- Soporte base de datos. Recuperación o consultas masivas.
+
+Este mantenimiento ha sido valorado con una estimación de 6 horas de mantenimiento al mes.",1.0,Unidad(es),396.0,0.0,
+__export__.account_analytic_account_227,19_SALGADO_Prestashop + 24x7,__export__.res_partner_443,ESB36263861,"D.S. SALGADO, S.L.",AA240,"Soluciones Informáticas Integrales, S.L",2019-02-01,,False,0.0,5.0,False,Tarifa pública,True,,Mes(es),1,2020-01-26,__export__.product_product_8,MANTENIMIENTO WEB,,"Mantenimiento mensual webs: www.sentibona.com / www.salgadoonline.com
+
+Servicios a realizar todos los meses:
+
+- Publicar un artículo en el blog de Sentibona.
+- Cambio de Banners principales en las 2 webs.
+- 2 publicaciones en el facebook de Sentibona.
+- Maquetación de 1 Newsletter con novedades y promociones para Sentibona.
+- Análisis y mejora y seguimiento del posicionamiento actual de Sentibona y Salgadoonline.
+- Diseño de posibles campañas de Adwords, Adsense o Facebook. ",1.0,Unidad(es),205.0,0.0,Juan Carlos
+,,,,,,,,,,,,,,,,,,,__export__.product_product_63,24x7 monitorización,,"Servicio mensual de monitorización web.
+Alerta de caídas de la página web. Análisis cada minuto.
+Avisos del estado del servidor web donde está alojada la página. Análisis de memoria Ram, CPU, espacio en disco…
+Análisis de velocidad de carga de la página de forma periódica.
+Verificación de estado del certificado SSl
+Revisión de posibles infecciones por virus.
+Aviso automático a cuenta de soporte y mantenimiento.
+",1.0,Unidad(es),24.95,0.0,
+__export__.account_analytic_account_228,19_VAS_Prestashop,__export__.res_partner_733,ESB80606494,"SANCHEZ LANDERAS, S.L.",AA241,"Soluciones Informáticas Integrales, S.L",2019-02-01,,False,0.0,8.5,False,Tarifa pública,True,,Mes(es),1,2020-01-26,__export__.product_product_8,MANTENIMIENTO WEB,,"Mantenimiento Mensual Prestashop.
+- Soporte telefónico para resolución de incidencias.
+- Actualización de módulos.
+- Soporte programación Php, Html, Javascript, Css.
+- Información nuevas versiones y funcionalidades.
+- Soporte base de datos. Recuperación o consultas masivas.
+
+Este mantenimiento ha sido valorado con una estimación de 7 horas de mantenimiento al mes.",1.0,Unidad(es),224.0,0.0,Juan Carlos
+__export__.account_analytic_account_244,19_LUNA_CMax,__export__.res_partner_643,ESB30896823,"BERASI SHOES,S.L.",AA261,"Soluciones Informáticas Integrales, S.L",2017-06-01,,False,0.0,0.0,False,Tarifa pública,True,,Año(s),1,2020-05-26,__export__.product_product_43,CMAX,,"Acceso Remoto (12 meses)
+La característica Control remoto de CMAX RemoteManagement permite el soporte remoto con ‘un clic’ para servidores y estaciones de trabajo. Accediendo desde la consola, puede realizar, atendida o desatendidamente, trabajos sobre servidores y estaciones de trabajo sin abandonar el despacho.",12.0,Unidad(es),1.0,0.0,Juan Carlos
+__export__.account_analytic_account_246,19_NANETS_Mant Conector,__export__.res_partner_742,ESB98630171,MARTOS BARBERA S.L.,AA263,"Soluciones Informáticas Integrales, S.L",2019-02-01,,False,0.0,1.5,False,Tarifa pública,True,,Mes(es),1,2020-01-26,__export__.product_product_42,Programacion Prestashop,,"Resolucion de incidencias, actualización de versión con mejoras y adaptaciones a nuevas versiones tanto de Avelon como de Prestashop.",1.0,Unidad(es),36.0,0.0,Juan Carlos
+__export__.account_analytic_account_248,19_MONTIEL_Mant Conector,__export__.res_partner_743,ESB03168317,"CALZADOS MONTIEL, S.L.",AA265,"Soluciones Informáticas Integrales, S.L",2019-02-01,,False,0.0,1.5,False,Tarifa pública,True,,Mes(es),1,2020-01-26,__export__.product_product_42,Programacion Prestashop,,"Mantenimiento mensual Conector. 
+Resolución de incidencias, actualización de vrsión con mejoras y adaptaciones a las nuevas versiones tanto de Avelon como de Pretashop",1.0,Unidad(es),36.0,0.0,Juan Carlos
+__export__.account_analytic_account_256,DEHADES - MANTENIMIENTO,__export__.res_partner_428,ES32807925N,ALBERTO FERNANDEZ GARCIA,AA273,"Soluciones Informáticas Integrales, S.L",2017-07-17,,False,0.0,0.0,False,Tarifa pública,True,,Mes(es),1,2020-01-26,__export__.product_product_8,MANTENIMIENTO WEB,,"Mantenimiento mensual Web - Dehades
+Mantenimiento Mensual básico Prestashop - Dehades ",1.0,Unidad(es),50.0,0.0,Juan Carlos
+__export__.account_analytic_account_266,19_CONECTA_Odoo,__export__.res_partner_435,ESB36823169,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",AA284,"Soluciones Informáticas Integrales, S.L",2017-11-01,,False,0.0,0.0,False,Tarifa pública,True,,Mes(es),1,2020-01-26,__export__.product_product_22,Programación Odoo,,Servicios Programación Tablet DiD - Odoo,1.0,Unidad(es),165.0,0.0,Juan Carlos
+__export__.account_analytic_account_281,19_LUNA_Prestashop,__export__.res_partner_643,ESB30896823,"BERASI SHOES,S.L.",AA300,"Soluciones Informáticas Integrales, S.L",2019-02-01,,False,0.0,3.0,False,Tarifa pública,True,,Mes(es),1,2020-01-26,__export__.product_product_8,MANTENIMIENTO WEB,,"Mantenimiento Mensual Prestashop.
+- Soporte telefónico para resolución de incidencias.
+- Actualización de módulos.
+- Soporte en la integración deSpartoo y Amazon.
+- Soporte programación Php, Html, Javascript, Css.
+- Información nuevas versiones o funcionalidades.
+- Soporte base de datos. Recuperación o consultas masivas.
+
+Este mantenimiento ha sido valorado con una estimación de 3 horas de mantenimiento al mes.",1.0,Unidad(es),55.0,0.0,Juan Carlos
+__export__.account_analytic_account_311,19_MOTO ELITE_Prestashop,__export__.res_partner_417,ESB36366409,"INFOSER SISTEMAS Y COMUNICACIONES, S.L.",AA332,"Soluciones Informáticas Integrales, S.L",2019-02-01,,False,0.0,1.5,False,Tarifa pública,True,,Mes(es),1,2020-01-26,__export__.product_product_8,MANTENIMIENTO WEB,,Mantenimiento mensual Prestashop cliente Motoélite,1.0,Unidad(es),45.0,0.0,Juan Carlos
+__export__.account_analytic_account_312,DISTRIBUCIONES DOMINGUEZ - Dominio,__export__.res_partner_640,ESB36821403,"DISTRIBUCIONES DOMINGUEZ, S.L.",AA333,"Soluciones Informáticas Integrales, S.L",2018-04-16,,False,0.0,0.0,False,Tarifa pública,True,,Año(s),1,2020-03-26,__export__.product_product_38,DOMINIO,,RENOVACION ANUAL DE DOMINIO distribucionesdominguez.com,1.0,Unidad(es),30.0,0.0,Juan Carlos
+__export__.account_analytic_account_313,19_VAS_Mant Conector,__export__.res_partner_733,ESB80606494,"SANCHEZ LANDERAS, S.L.",AA334,"Soluciones Informáticas Integrales, S.L",2018-04-18,,False,0.0,0.0,False,Tarifa pública,True,,Mes(es),1,2020-01-26,__export__.product_product_8,MANTENIMIENTO WEB,,"Matenimiento mensual. Resolución de
+incidencias, actualización de versión con mejoras
+y adaptaciones a nuevas versiones tanto de
+Avelon como de Prestashop.",1.0,Unidad(es),36.0,0.0,Juan Carlos
+__export__.account_analytic_account_318,KAUMAN - Consultoria,__export__.res_partner_783,ESA36625093,KAUMAN S.A,AA339,"Soluciones Informáticas Integrales, S.L",2018-05-02,2018-11-15,False,0.0,0.0,False,Tarifa pública,True,,Mes(es),1,2018-11-29,__export__.product_product_19,SERVICIOS DE CONSULTORIA Y SOPORTE,,"Proyecto: Consultoría, análisis y seguimiento de la implantación de Erp en Kauman. 
+
+Tipo servicio: Contratación mensual.
+Duración: 8 meses
+Forma de pago: Transferencia anticipada
+Día de pago: 10 de cada mes.
+
+Servicios incluidos en el contrato:
+
+Asesoramiento en la selección del mejor Erp para cumplir con los requisitos funcionales de Kauman..
+Análisis de los principales puntos críticos del proceso administrativo-productivo de Kauman para evaluar correctamente los diferentes Erps.
+Seguimiento de las diferentes ofertas presentadas y ayuda en la toma de decisiones finales.
+Asistencia y soporte durante la implantación del Erp para evitar posibles desviaciones de presupuesto y objetivos iniciales.
+
+Funciones a realizar durante el proyecto de selección-implantación:
+
+Análisis de necesidades y puntos críticos del proyecto para evaluar correctamente las diferentes soluciones Erp del mercado.
+Coordinación con responsables de departamento de Kauman para coordinar las diferentes demos de producto y asistencia a reuniones de análisis de los diferentes distribuidores de ERP.
+Realización de informe técnico-funcional con los resultados de la fase de selección para ayuda en la decisión final.
+Seguimiento del proyecto de implantación del ERP con la finalidad de evitar desviaciones en tiempo y económicos sobre el proyecto inicial. Verificación de que se cumplen los objetivos funcionales de los diferentes departamentos de Kauman bajo un visión global de proyecto.
+Pruebas de funcionamiento e integración del Erp con otras aplicaciones o áreas de la organización.
+Acompañamiento en la puesta en marcha real.
+
+Se estima una dedicación de consultoría, análisis y seguimiento del proyecto de 1 jornada semanal durante los meses que dure el proceso de implantación.",1.0,Unidad(es),1300.0,0.0,Juan Carlos
+__export__.account_analytic_account_321,19_LEISTUNG_CMax ,__export__.res_partner_712,ESB36996734,LEISTUNG S.L.U,AA342,"Soluciones Informáticas Integrales, S.L",2017-06-01,,False,0.0,0.0,False,Tarifa pública,True,,Año(s),1,2020-06-26,__export__.product_product_43,CMAX,,"Acceso Remoto (12 meses)
+La característica Control remoto de CMAX RemoteManagement permite el soporte remoto con ‘un clic’ para servidores y estaciones de trabajo. Accediendo desde la consola, puede realizar, atendida o desatendidamente, trabajos sobre servidores y estaciones de trabajo sin abandonar el despacho.",12.0,Unidad(es),1.0,100.0,Juan Carlos
+__export__.account_analytic_account_324,MARIA DIZ REY - SSL,__export__.res_partner_791,ES44080964S,MARIA DIZ REY,AA345,"Soluciones Informáticas Integrales, S.L",2018-06-14,,False,0.0,0.0,False,Tarifa pública,True,,Año(s),1,2020-04-26,__export__.product_product_18,HOSTINGODOO,,Renovación anual Certificado SSL,1.0,Unidad(es),110.0,0.0,Juan Carlos
+__export__.account_analytic_account_325,19_YOLANDA_Prestashop + 24x7,__export__.res_partner_507,ESB15442411,"YOLANDA ZAPATERIAS, S.L.",AA346,"Soluciones Informáticas Integrales, S.L",2019-02-01,,False,0.0,4.5,False,Tarifa pública,True,,Mes(es),1,2020-01-26,__export__.product_product_42,Programacion Prestashop,,"Mantenimiento Mensual Prestashop.
+
+- Soporte telefónico para resolución de incidencias.
+- Actualización de módulos.
+- Soporte en la integración deSpartoo y Amazon.
+- Soporte programación Php, Html, Javascript, Css.
+- Información nuevas versiones o funcionalidades.
+- Soporte base de datos. Recuperación o consultas masivas.
+
+Este mantenimiento ha sido valorado con una estimación de 3 horas de mantenimiento al mes.",1.0,Unidad(es),65.0,0.0,Juan Carlos
+,,,,,,,,,,,,,,,,,,,__export__.product_product_63,24x7 monitorización,,"Servicio mensual de monitorización web.
+Alerta de caídas de la página web. Análisis cada minuto.
+Avisos del estado del servidor web donde está alojada la página. Análisis de memoria Ram, CPU, espacio en disco…
+Análisis de velocidad de carga de la página de forma periódica.
+Verificación de estado del certificado SSl
+Revisión de posibles infecciones por virus.
+Aviso automático a cuenta de soporte y mantenimiento.
+",1.0,Unidad(es),24.95,0.0,
+__export__.account_analytic_account_327,19_KRACK - Mantenimiento,__export__.res_partner_9,ESB36283372,"KRACK ZAPATERÍAS, S.L.",AA348,"Soluciones Informáticas Integrales, S.L",2019-02-01,2020-03-11,False,0.0,15.0,False,Tarifa pública,True,,Mes(es),1,2020-01-26,__export__.product_product_10,MANTENIMIENTO SOFTWARE A MEDIDA,,"Mantenimiento mensual correctivo:
+
+Soporte a usuarios finales para la resolución de incidencias y consultas/dudas sobre los desarrollos implantados.
+Corrección de errores o bugs en las aplicaciones contratadas.
+Incluye un máximo de 15 horas mensuales",1.0,Unidad(es),490.0,0.0,Juan Carlos
+__export__.account_analytic_account_332,19_MEGACALZADO_Mant Conector,__export__.res_partner_809,ESB31592975,"MEGACALZADO PAMPLONA, S.L.",AA353,"Soluciones Informáticas Integrales, S.L",2018-09-04,,False,0.0,0.0,False,Tarifa pública,True,,Mes(es),1,2020-01-26,__export__.product_product_42,Programacion Prestashop,,"Mantenimiento mensual del conector: loggo, megacalzado y marketplace
+Resolución de incidencias, actualización a nuevas versiones tanto de Avelon como de Prestashop.",3.0,Unidad(es),36.0,0.0,Juan Carlos
+__export__.account_analytic_account_333,19_APLAUSO_Prestashop,__export__.res_partner_739,ESB82370396,"APLAUSO CALZADOS, S.L.",AA354,"Soluciones Informáticas Integrales, S.L",2019-02-01,,False,0.0,12.0,False,Tarifa pública,True,,Mes(es),1,2020-01-26,__export__.product_product_8,MANTENIMIENTO WEB,,"Mantenimiento MENSUAL Prestashop.
+- Soporte telefónico para resolución de incidencias.
+- Actualización de módulos.
+- Soporte programación Php, Html, Javascript, Css.
+- Información nuevas versiones o funcionalidades.
+- Soporte base de datos. Recuperación o consultas masivas.
+- Mantenimiento y revisiones periódicas de sincronización Amazon.
+- Soporte conectores Modalia, Spartoo y Avelon Cloud.
+
+Este mantenimiento ha sido valorado con una estimación de 12 horas de
+mantenimiento al mes.",1.0,Unidad(es),325.0,0.0,Juan Carlos
+__export__.account_analytic_account_336,19_ASAI_Mant Conector + SMO + 24x7,__export__.res_partner_751,ESB97291934,"INVERSIONES ASAI, S.L.",AA357,"Soluciones Informáticas Integrales, S.L",2019-02-01,,False,0.0,10.0,False,Tarifa pública,True,,Mes(es),1,2020-01-26,__export__.product_product_42,Programacion Prestashop,,"Mantenimiento conector Kompuwin-Prestashop.
+Soporte y asistencia a incidencias relacionadas con la integración.
+Actualización a nuevas versiones.",1.0,Unidad(es),36.0,0.0,Diego Lago
+,,,,,,,,,,,,,,,,,,,__export__.product_product_42,Programacion Prestashop,,"Mantenimiento MENSUAL Prestashop.
+- Soporte telefónico para resolución de incidencias.
+- Actualización de módulos.
+- Soporte programación Php, Html, Javascript, Css.
+- Información nuevas versiones o funcionalidades.
+- Soporte base de datos. Recuperación o consultas masivas.
+- Mantenimiento y revisiones periódicas de sincronización Amazon y Spartoo.",1.0,Unidad(es),142.0,0.0,
+,,,,,,,,,,,,,,,,,,,__export__.product_product_54,SMO AVANZADO,,"SMO AVANZADO
+Creación y seguimiento de dos redes sociales:
+Se analizarán las redes sociales mas adecuadas para el proyecto y se darán de alta 3 en caso de que el
+proyecto no cuente con RSS
+Creación de tres publicaciones semanales fijas, más las indicadas por el cliente y según calendario
+(ejemplo: nuevas noticias. nuevos productos, promociones.)
+Una publicación de producto, categoría o servicio (promocionada por 10 Euros a la semana)",1.0,Unidad(es),162.0,0.0,
+,,,,,,,,,,,,,,,,,,,__export__.product_product_64,24x7 monitorizacion,,"Servicio mensual de monitorización web.
+Alerta de caídas de la página web. Análisis cada minuto.
+Avisos del estado del servidor web donde está alojada la página. Análisis de memoria Ram, CPU, espacio en disco…
+Análisis de velocidad de carga de la página de forma periódica.
+Verificación de estado del certificado SSl
+Revisión de posibles infecciones por virus.
+Aviso automático a cuenta de soporte y mantenimiento.",1.0,Unidad(es),24.95,0.0,
+__export__.account_analytic_account_341,19_HEMESHOP_Prestashop,__export__.res_partner_709,ESB75161893,BIDASOA RETAIL S.L.U,AA362,"Soluciones Informáticas Integrales, S.L",2019-02-01,,False,0.0,4.5,False,Tarifa pública,True,,Mes(es),1,2020-01-26,__export__.product_product_8,MANTENIMIENTO WEB,,"Mantenimiento Mensual Prestashop.
+- Soporte telefónico para resolución de incidencias.
+- Actualización de módulos.
+- Mantenimiento y soporte sobre conectores con Marketplaces.
+- Soporte programación Php, Html, Javascript, Css.
+- Información nuevas versiones y funcionalidades.
+- Soporte base de datos. Recuperación o consultas masivas.
+
+Este mantenimiento ha sido valorado con una estimación de 3 horas de mantenimiento al mes.",1.0,Unidad(es),72.0,0.0,Diego Lago
+__export__.account_analytic_account_361,19_MEGACALZADO_Prestashop,__export__.res_partner_809,ESB31592975,"MEGACALZADO PAMPLONA, S.L.",AA382,"Soluciones Informáticas Integrales, S.L",2019-02-01,,False,0.0,4.5,False,Tarifa pública,True,,Mes(es),1,2020-01-26,__export__.product_product_8,MANTENIMIENTO WEB,,"Mantenimiento Mensual Prestashop. Tienda online Mis Zapatos
+- Soporte telefónico para resolución de incidencias.
+- Actualización de módulos.
+- Mantenimiento y soporte sobre conectores con Marketplaces.
+- Soporte programación Php, Html, Javascript, Css.
+- Información nuevas versiones y funcionalidades.
+- Soporte base de datos. Recuperación o consultas masivas.
+
+Este mantenimiento ha sido valorado con una estimación de 3 horas de mantenimiento al mes.",1.0,Unidad(es),75.0,0.0,Juan Carlos
+__export__.account_analytic_account_363,19_UNI JAEN_Prestashop,__export__.res_partner_15,ESQ7350006H,Universidad de Jaén,AA384,"Soluciones Informáticas Integrales, S.L",2019-01-01,,False,0.0,36.0,False,Tarifa pública,True,,Año(s),1,2020-12-26,__export__.product_product_8,MANTENIMIENTO WEB,,"Mantenimiento Anual Prestashop y panel de control del proyecto Arquiberlab.
+- Soporte telefónico para resolución de incidencias.
+- Actualización de módulos de Prestashop y adaptación a cambios en la integración con Europeana.
+- Mantenimiento y soporte sobre conectores con.
+- Soporte programación Php, Html, Javascript, Css.
+- Información nuevas versiones y funcionalidades.
+- Soporte base de datos. Recuperación o consultas masivas.
+
+Este mantenimiento ha sido valorado con una estimación de 3 horas de mantenimiento al mes.
+
+12 meses x 75€/mes",1.0,Unidad(es),900.0,0.0,Juan Carlos
+__export__.account_analytic_account_374,ALBERTO FERNANDEZ,__export__.res_partner_428,ES32807925N,ALBERTO FERNANDEZ GARCIA,AA395,"Soluciones Informáticas Integrales, S.L",2018-11-06,,False,0.0,0.0,False,Tarifa pública,True,,Mes(es),1,2020-01-25,__export__.product_product_42,Programacion Prestashop,,"Servicios de soporte Seo y SMO de los clientes:
+
+Zapaterías RIN: 260
+Dehades: 100
+Calderascalorgas: 75
+ComercialSIA: 55
+Bocadodemar: 50
+Hemeshops: 120
+Asai Zapaterías: 60",1.0,Unidad(es),720.0,0.0,Juan Carlos
+__export__.account_analytic_account_377,19_CONECTA_SMO ,__export__.res_partner_435,ESB36823169,"CONECTA COMUNICACIONES Y MEDIOS, S.L.",AA398,"Soluciones Informáticas Integrales, S.L",2018-11-09,,False,0.0,0.0,False,Tarifa pública,True,,Mes(es),1,2020-01-26,__export__.product_product_54,SMO AVANZADO,,"SMO AVANZADO - DID CONFIDENCIAL
+Creación y seguimiento de dos redes sociales:
+Se analizarán las redes sociales mas adecuadas para el proyecto y se darán de alta 3 en caso de que el
+proyecto no cuente con RSS
+Creación de tres publicaciones semanales fijas, más las indicadas por el cliente y según calendario
+(ejemplo: nuevas noticias. nuevos productos, promociones.)
+Una publicación de producto, categoría o servicio (promocionada por 10 Euros a la semana)",1.0,Unidad(es),160.0,30.0,Juan Carlos
+__export__.account_analytic_account_390,19_BICIOCON_Prestashop,__export__.res_partner_826,ESB36542512,"BICI O CON FRANQUICIAS, S.L.",AA411,"Soluciones Informáticas Integrales, S.L",2019-02-01,,False,0.0,4.0,False,Tarifa pública,True,,Mes(es),1,2020-01-26,__export__.product_product_8,MANTENIMIENTO WEB,,"Servicios de mantenimiento mensual Prestashop.
+
+- Soporte telefónico para resolución de incidencias o consultas.
+- Actualización de módulos.
+- Soporte programación Php, Html, Javascript, Css.
+- Información nuevas versiones o funcionalidades.
+- Soporte base de datos. 
+
+
+* Este presupuesto se ha realizado estimando un máximo de 4 horas mensuales de soporte.
+
+* No se incluyen en los servicios de soporte nuevas funcionalidades o instalación/configuración de nuevos módulos.
+* Precio de hora de programación fuera de mantenimiento mensual 40€/hora.
+* Los excesos de horas de soporte mensual se facturarán a mes vencido y a un precio de 36€/hora.",1.0,Unidad(es),85.0,0.0,Juan Carlos
+__export__.account_analytic_account_400,19_XUNCA_Web + 24x7,__export__.res_partner_804,ESB36568392,"XUNCA XESTION, S.L.",AA421,"Soluciones Informáticas Integrales, S.L",2019-02-01,,False,0.0,3.0,False,Tarifa pública,True,,Mes(es),1,2020-01-26,__export__.product_product_8,MANTENIMIENTO WEB,,"Mantenimiento MENSUAL.
+Soporte a usuarios para resolver posibles incidencias en la web y panel de administración de www.aventurariasbaixas.com
+Asistencia ante posibles caídas o ataques a la web.",1.0,Unidad(es),70.0,0.0,Sonia
+,,,,,,,,,,,,,,,,,,,__export__.product_product_64,24x7 monitorizacion,,"Servicio mensual de monitorización web.
+Alerta de caídas de la página web. Análisis cada minuto.
+Avisos del estado del servidor web donde está alojada la página. Análisis de memoria Ram, CPU, espacio en disco…
+Análisis de velocidad de carga de la página de forma periódica.
+Verificación de estado del certificado SSl
+Revisión de posibles infecciones por virus.
+Aviso automático a cuenta de soporte y mantenimiento.",1.0,Unidad(es),24.95,0.0,
+__export__.account_analytic_account_411,19_PABLO OCHOA_Mant Conector,__export__.res_partner_795,ESB5071581,"SOCIEDAD GESTORA DE ZAPATERÍAS, S.L.U.",AA432,"Soluciones Informáticas Integrales, S.L",2019-02-01,,False,0.0,1.5,False,Tarifa pública,True,,Mes(es),1,2020-01-26,__export__.product_product_42,Programacion Prestashop,,"Mantenimiento mensual del conector:
+Resolución de incidencias, actualización a nuevas versiones tanto de Avelon como de Prestashop.",1.0,Unidad(es),36.0,0.0,Juan Carlos
+__export__.account_analytic_account_412,19_XUNCA_SMO,__export__.res_partner_804,ESB36568392,"XUNCA XESTION, S.L.",AA433,"Soluciones Informáticas Integrales, S.L",2019-01-25,2019-12-05,False,0.0,0.0,False,Tarifa pública,True,,Mes(es),1,2019-12-26,__export__.product_product_54,SMO AVANZADO,,"SMO BÁSICO: 5 meses x 95€
+SMO AVANZADO: 6 meses x 160€
+
+Media para facturación mensual: 130,45€ 
+
+",1.0,Unidad(es),130.45,0.0,Juan Carlos
+__export__.account_analytic_account_418,19_KAUMAN_ERP,__export__.res_partner_783,ESA36625093,KAUMAN S.A,AA439,"Soluciones Informáticas Integrales, S.L",2019-02-14,2020-01-01,False,0.0,0.0,False,Tarifa pública,True,,Mes(es),1,2020-01-26,__export__.product_product_19,SERVICIOS DE CONSULTORIA Y SOPORTE,,"Servicios de consultoría y análisis en el proceso de implantación del ERP Navision en Kauman.
+
+Participación en jornadas de análisis de procesos realizados por la empresa S2G.
+Asesoramiento a personal de Kauman en la toma de decisiones sobre procesos.
+Intermediación con empresas terceras (I3T, programador de Erp actual, S2G...) para la correcta integración de las diferentes soluciones.
+Información al comité de ERP de Kauman de posibles desviaciones o anomalías en el proceso de análisis y ejecución.
+
+Estimación  media de 4 jornadas mensules hasta el arranque.",4.0,Unidad(es),320.0,0.0,Juan Carlos
+__export__.account_analytic_account_427,19_CODICA_ Mant Conector,__export__.res_partner_849,ESA08790768,"CODICA, S.A.",AA449,"Soluciones Informáticas Integrales, S.L",2019-03-21,,False,0.0,0.0,False,Tarifa pública,True,,Mes(es),1,2020-01-26,__export__.product_product_42,Programacion Prestashop,,"Mantenimiento mensual del conector:
+Resolución de incidencias, actualización a nuevas versiones tanto de Avelon como de Prestashop.",1.0,Unidad(es),36.0,0.0,Juan Carlos
+__export__.account_analytic_account_428,19_SARA CALZADOS_ Mant Conector,__export__.res_partner_860,ES77855564N,SARA BERMUDEZ GARCIA,AA450,"Soluciones Informáticas Integrales, S.L",2019-03-21,,False,0.0,0.0,False,Tarifa pública,True,,Mes(es),1,2020-01-26,__export__.product_product_39,Conector Mantenimiento,,"Conector Mantenimiento mensual
+Mantenimiento mensual del conector Avelon_Presashop.
+Soporte telefónico y resolución de posibles incidencias.
+Actualización  y mejoras de versión ante posibles cambios de Avelon o Prestashop.",1.0,Unidad(es),36.0,0.0,Juan Carlos
+__export__.account_analytic_account_439,19_FEELING STREET_Mantenimiento Prestashop,__export__.res_partner_767,ESB54962501,"FEELING STREET, S.L.",AA463,"Soluciones Informáticas Integrales, S.L",2019-05-14,,False,0.0,0.0,False,Tarifa pública,True,,Mes(es),1,2020-01-25,__export__.product_product_8,MANTENIMIENTO WEB,,"Mantenimiento Mensual Prestashop.
+- Soporte telefónico para resolución de incidencias.
+- Actualización de módulos.
+- Soporte programación Php, Html, Javascript, Css.
+- Información nuevas versiones y funcionalidades.
+- Soporte base de datos. Recuperación o consultas masivas.
+
+Este mantenimiento ha sido valorado con una estimación de 7 horas de mantenimiento al mes.",1.0,Unidad(es),231.0,0.0,Juan Carlos
+__export__.account_analytic_account_443,19_Luna_Licencia APP,__export__.res_partner_643,ESB30896823,"BERASI SHOES,S.L.",AA468,"Soluciones Informáticas Integrales, S.L",2019-07-01,,False,0.0,0.0,False,Tarifa pública,True,,Mes(es),1,2020-01-25,__export__.product_product_20,CONECTOR_AVELON,,Licencia App Picking Avelon ,2.0,Unidad(es),12.95,0.0,Juan Carlos
+__export__.account_analytic_account_444,19_MEGACALZADOS_Mantenimiento Prestashop,__export__.res_partner_809,ESB31592975,"MEGACALZADO PAMPLONA, S.L.",AA470,"Soluciones Informáticas Integrales, S.L",2019-08-01,2019-10-07,False,0.0,0.0,False,Tarifa pública,True,,Mes(es),1,2019-12-26,__export__.product_product_42,Programacion Prestashop,,"Mantenimiento Mensual Prestashop Avanzado
+
+- Soporte telefónico para resolución de incidencias.
+- Actualización de módulos.
+- Soporte programación Php, Html, Javascript, Css.
+- Información nuevas versiones o funcionalidades.
+- Soporte base de datos. Recuperación o consultas masivas.
+- Instalación de módulos de mejora.
+- Tareas solicitadas por Marketing online.
+
+Este mantenimiento ha sido valorado con una estimación de 25 horas de mantenimiento al mes.",25.0,Unidad(es),33.0,0.0,Juan Carlos
+__export__.account_analytic_account_447,19_CALZADOS BIENVE_Mant Conector,__export__.res_partner_875,ESB54885413,CALZADOS BIENVE S.L.,AA473,"Soluciones Informáticas Integrales, S.L",2018-09-04,,False,0.0,0.0,False,Tarifa pública,True,,Mes(es),1,2020-01-26,__export__.product_product_42,Programacion Prestashop,,"Mantenimiento mensual conector Avelon-Prestashop. Soporte técnico, nuevas funcionalidades y actualización ante posibles cambios de versión de Avelon o Presashop.",1.0,Unidad(es),36.0,0.0,Juan Carlos
+__export__.account_analytic_account_448,19_Megacalzado_Licencia APP,__export__.res_partner_809,ESB31592975,"MEGACALZADO PAMPLONA, S.L.",AA474,"Soluciones Informáticas Integrales, S.L",2019-08-01,,False,0.0,0.0,False,Tarifa pública,True,,Mes(es),1,2020-01-25,__export__.product_product_20,CONECTOR_AVELON,,Licencia App Picking Avelon ,4.0,Unidad(es),12.95,0.0,Juan Carlos
+__export__.account_analytic_account_449,19_Yolanda_Licencia APP,__export__.res_partner_507,ESB15442411,"YOLANDA ZAPATERIAS, S.L.",AA475,"Soluciones Informáticas Integrales, S.L",2019-07-01,,False,0.0,0.0,False,Tarifa pública,True,,Mes(es),1,2020-01-25,__export__.product_product_62,App picking Android,,"Licencia mensual por dispositivo de la App ""Picking Android"" versión Saas (mantenimiento incluido). Incluye funcionalidad ""consulta stock en tiendas"".",1.0,Unidad(es),12.95,0.0,Juan Carlos
+__export__.account_analytic_account_452,19_KESLEM_Mant Conector,__export__.res_partner_767,ESB54962501,"FEELING STREET, S.L.",AA478,"Soluciones Informáticas Integrales, S.L",2016-01-10,,False,0.0,0.0,False,Tarifa pública,True,,Mes(es),1,2020-01-26,__export__.product_product_39,Conector Mantenimiento,,"Conector Mantenimiento
+Mantenimiento mensual del conector Avelon_Prestashop.",1.0,Unidad(es),36.0,0.0,Diego Lago
+__export__.account_analytic_account_453,19_MADERANDECO_Mant Prestashop,__export__.res_partner_889,ESB15017908,"MOLDURAS DEL NOROESTE, S.L.U.",AA479,"Soluciones Informáticas Integrales, S.L",2019-08-26,,False,0.0,0.0,False,Tarifa pública,True,,Mes(es),1,2020-01-26,__export__.product_product_8,MANTENIMIENTO WEB,,"Servicios de mantenimiento mensual Prestashop.
+
+- Soporte telefónico para resolución de incidencias o consultas.
+- Actualización de módulos.
+- Soporte programación Php, Html, Javascript, Css.
+- Información nuevas versiones o funcionalidades.
+- Soporte base de datos. 
+- Formación.
+
+
+* Este presupuesto se ha realizado estimando un máximo de 2 horas mensuales de soporte o mejoras.
+
+* No se incluyen en los servicios de soporte la compra de nuevos nuevos módulos.",1.0,Unidad(es),55.0,0.0,Juan Carlos
+__export__.account_analytic_account_454,19_CALZADOS BIENVE_Marketing online 3 meses,__export__.res_partner_875,ESB54885413,CALZADOS BIENVE S.L.,AA480,"Soluciones Informáticas Integrales, S.L",2019-08-26,2019-11-15,False,0.0,0.0,False,Tarifa pública,True,,Mes(es),1,2019-11-26,__export__.product_product_42,Programacion Prestashop,,"Potenciación posicionamiento y marketing online (Mensual) a partir del segundo mes de arranque (3 meses)
+
+ Cambios de Banners de la página principal para publicitar promociones, novedades,….
+ Seguimiento y optimización SEO según posiciones obtenidas.
+ Asesoramiento en redes sociales, creación de contenidos, búsqueda de nuevas palabras clave.
+ Ayuda en la localización de blogs de temática similar de mucha audiencia y bien posicionados (no penalizados por google y con cierta fuerza) y ofrecer productos para que los publiciten.
+ Campaña de linkbuilding en nuestros blogs privados relacionados con temática y otros sitios
+de autoridad.
+ Contenidos internos.
+ Creación de titulares y temáticas para blog, trazados con el fin de potenciar el posicionamiento.
+ Contenidos Externos (Se recomienda).
+ Patrocinar algún blog que haga publicidad directa de los productos (puede ser sobre blogs ya creados o crearlos nuevos por nosotros.).
+ Búsqueda de enlaces caducados de la temática con fuerza para potenciar el posicionamiento.
+ Diseño de posibles campañas de Adwords, Adsense o Facebook. ",1.0,Unidad(es),750.0,0.0,Juan Carlos
+__export__.account_analytic_account_455,19_CALZADOS BIENVE_Marketing online 6 meses,__export__.res_partner_875,ESB54885413,CALZADOS BIENVE S.L.,AA481,"Soluciones Informáticas Integrales, S.L",2019-08-26,2020-05-15,False,0.0,0.0,False,Tarifa pública,True,,Mes(es),1,2020-01-26,__export__.product_product_42,Programacion Prestashop,,"Potenciación posicionamiento y marketing online (Mensual) a partir del 5º mes de arranque:
+
+ Cambios de Banners de la página principal para publicitar promociones, novedades,….
+ Seguimiento y optimización SEO según posiciones obtenidas.
+ Asesoramiento en redes sociales, creación de contenidos, búsqueda de nuevas palabras clave.
+ Ayuda en la localización de blogs de temática similar de mucha audiencia y bien posicionados (no penalizados por google y con cierta fuerza) y ofrecer productos para que los publiciten.
+ Campaña de linkbuilding en nuestros blogs privados relacionados con temática y otros sitios
+de autoridad.
+ Contenidos internos.
+ Creación de titulares y temáticas para blog, trazados con el fin de potenciar el posicionamiento.
+ Contenidos Externos (Se recomienda).
+ Patrocinar algún blog que haga publicidad directa de los productos (puede ser sobre blogs ya creados o crearlos nuevos por nosotros.).
+ Búsqueda de enlaces caducados de la temática con fuerza para potenciar el posicionamiento.
+ Diseño de posibles campañas de Adwords, Adsense o Facebook. ",1.0,Unidad(es),450.0,0.0,Juan Carlos
+__export__.account_analytic_account_460,LEISTUNG - Servicios programacion,__export__.res_partner_712,ESB36996734,LEISTUNG S.L.U,AA487,"Soluciones Informáticas Integrales, S.L",2019-11-14,2019-12-31,False,0.0,0.0,False,Tarifa pública,True,,Día(s),15,2020-01-09,__export__.product_product_9,SERVICIOS DE PROGRAMACION,,Proyecto creación de tiendas online mediante metodología scrum,1.0,Unidad(es),1280.0,0.0,Juan Carlos
+,,,,,,,,,,,,,,,,,,,__export__.product_product_9,SERVICIOS DE PROGRAMACION,,Proyecto creación de tiendas online mediante metodología scrum,1.0,Unidad(es),720.0,0.0,
+__export__.account_analytic_account_464,YOLANDA - Licencia Scana,__export__.res_partner_507,ESB15442411,"YOLANDA ZAPATERIAS, S.L.",AA491,"Soluciones Informáticas Integrales, S.L",2019-11-13,,False,0.0,0.0,False,Tarifa pública,True,,Mes(es),1,2020-01-26,__export__.product_product_52,Licencia,,"Licencia mensual por dispositivo de la App ""Picking Android"" versión Saas (mantenimiento incluido).
+Incluye:
+Consulta stock en tiendas.
+Reserva local, peticiones (próxima versión) y compra modo kiosko.
+Impresión etiquetas modo puntual y continuo.
+Inventario.
+Impresión de etiquetas de recepción.",4.0,Unidad(es),7.95,0.0,Juan Carlos

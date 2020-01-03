@@ -1,0 +1,29 @@
+External ID,Nombre del contrato/cuenta,Cliente/ID (identificación),Cliente/NIF,Cliente/Nombre,Referencia,Compañía/Nombre de la compañía,Fecha de inicio,Fecha de caducidad,Precio fijo,Precio máx. factura,Unidades del servicio pre-pago,En imputaciones de horas,Tarifa/Nombre tarifa,Generar automáticamente facturas recurrentes,Descripción,Recurrencia,Repetir cada,Fecha de la proxima factura,Líneas de factura/Producto/ID,Líneas de factura/Producto/Nombre,Líneas de factura/Producto/Referencia interna,Líneas de factura/Descripción,Líneas de factura/Cantidad,Líneas de factura/Unidad de medida/Unidad de medida,Líneas de factura/Precio unitario,Líneas de factura/Descuento (%),Gestor contable/Nombre
+__export__.account_analytic_account_268,19_VALPORTA_Odoo,__export__.res_partner_759,B27733906,"EXCLUSIVAS VALPORTA, S.L.L.",AA287,"Soluciones Informáticas Integrales, S.L",2019-02-01,,False,0.0,3.0,False,Tarifa pública,True,,Mes(es),1,2020-01-26,__export__.product_product_22,Programación Odoo,,"Servicios incluidos en: SAS Odoo versión 10.
+Instalación del ERP en servidor dedicado (instalaciones del cliente).
+Configuración de los módulos base de Odoo versión 10: Compras, Ventas, Contabilidad, Almacén, Proyectos y Crm.
+Formación a usuarios finales de la solución.
+Soporte y mantenimiento de los módulos instalados.",1.0,Unidad(es),95.0,0.0,Juan Carlos
+__export__.account_analytic_account_269,19_VALPORTA_Web,__export__.res_partner_759,B27733906,"EXCLUSIVAS VALPORTA, S.L.L.",AA288,"Soluciones Informáticas Integrales, S.L",2019-02-01,,False,0.0,1.5,False,Tarifa pública,True,,Mes(es),1,2020-01-26,__export__.product_product_8,MANTENIMIENTO WEB,,"Mantenimiento MENSUAL.
+Actualizaciones de Wordpress y plugins instalados para evitar vulnerabilidades, soporte a usuarios para incorporar contenido en la web y redes sociales, asistencia ante posibles caídas o ataques a la web.",1.0,Unidad(es),40.0,0.0,Juan Carlos
+__export__.account_analytic_account_319,19_RKS_Mant Conector,__export__.res_partner_797,ES71023865,RKS FOOTWEAR SLU,AA340,"Soluciones Informáticas Integrales, S.L",2019-02-01,,False,0.0,1.5,False,Tarifa pública,True,,Mes(es),1,2020-01-26,__export__.product_product_39,Conector Mantenimiento,,"Mantenimiento mensual. Resolución de incidencias, actualización de versión con mejoras y adaptaciones a nuevas versiones tanto de Avelon como de Prestashop",1.0,Unidad(es),36.0,0.0,Juan Carlos
+__export__.account_analytic_account_420,19_RKS_Prestashop,__export__.res_partner_797,ES71023865,RKS FOOTWEAR SLU,AA441,"Soluciones Informáticas Integrales, S.L",2019-03-01,,False,0.0,10.0,False,Tarifa pública,True,,Mes(es),1,2020-01-26,__export__.product_product_8,MANTENIMIENTO WEB,,"Mantenimiento MENSUAL Prestashop.
+- Soporte telefónico para resolución de incidencias.
+- Actualización de módulos.
+- Soporte programación Php, Html, Javascript, Css.
+- Información nuevas versiones o funcionalidades.
+- Soporte base de datos. Recuperación o consultas masivas.
+- Mantenimiento y revisiones periódicas de sincronización Amazon.
+- Soporte conectores Modalia, Spartoo y Avelon Cloud.
+
+Este mantenimiento ha sido valorado con una estimación de 10 horas de
+mantenimiento al mes.",1.0,Unidad(es),300.0,0.0,Juan Carlos
+__export__.account_analytic_account_450,19_Moddo_Mantenimiento Conector Cabinett,__export__.res_partner_851,B86010188,"INNOVACIÓN Y DESARROLLO DE NUEVOS CANALES COM., S.L.",AA476,"Soluciones Informáticas Integrales, S.L",2019-08-05,,False,0.0,0.0,False,Tarifa pública,True,,Mes(es),1,2020-01-25,__export__.product_product_39,Conector Mantenimiento,,"Conector Mantenimiento
+Mantenimiento mensual del conector Avelon_Prestashop. - Cabinett",1.0,Unidad(es),36.0,0.0,Juan Carlos
+__export__.account_analytic_account_459,RKS - Licencia Scana,__export__.res_partner_797,ES71023865,RKS FOOTWEAR SLU,AA486,"Soluciones Informáticas Integrales, S.L",2019-11-13,,False,0.0,0.0,False,Tarifa pública,True,,Mes(es),1,2020-01-26,__export__.product_product_52,Licencia,,"Licencia mensual por dispositivo de la App ""Picking Android"" versión Saas (mantenimiento incluido).
+Incluye:
+Consulta stock en tiendas.
+Reserva local, peticiones (próxima versión) y compra modo kiosko.
+Impresión etiquetas modo puntual y continuo.
+Inventario.
+Impresión de etiquetas de recepción.",2.0,Unidad(es),7.95,0.0,Juan Carlos
