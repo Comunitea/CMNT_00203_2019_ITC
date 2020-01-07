@@ -291,7 +291,7 @@ msgstr ""
 #. module: custom_documents_conecta
 #: model_terms:ir.ui.view,arch_db:custom_documents_conecta.view_company_form_documents
 msgid "Report Config"
-msgstr ""
+msgstr "Configuración informes"
 
 #. module: custom_documents_conecta
 #: model:ir.model.fields,field_description:custom_documents_conecta.field_res_company__sale_note
