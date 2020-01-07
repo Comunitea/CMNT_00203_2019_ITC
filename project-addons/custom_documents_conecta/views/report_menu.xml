@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<odoo>
+
+<!--  -->
+ <report
+    id="account.account_invoices"
+    model="account.invoice"
+    string="Invoices"
+    report_type="qweb-pdf"
+    name="account.report_invoice"
+    file="account.report_invoice"
+    attachment="(object.state in ('open','in_payment','paid')) and ('INV'+(object.number or '').replace('/','')+'.pdf')"
+    print_report_name="(object._get_report_base_filename())"
+    groups="account.group_account_invoice"
+/>
+
+<report
+    id="account.account_invoices_without_payment"
+    model="account.invoice"
+    string="Invoices without Payment"
+    report_type="qweb-pdf"
+    name="account.report_invoice"
+    file="account.report_invoice"
+    attachment="(object.state in ('open','in_payment','paid')) and ('INV'+(object.number or '').replace('/','')+'.pdf')"
+    print_report_name="(object._get_report_base_filename())"
+    menu="False"
+/>
+
+</odoo>

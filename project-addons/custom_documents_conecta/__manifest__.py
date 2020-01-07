@@ -11,11 +11,16 @@
     'license': 'AGPL-3',
     'depends': [
         'base',
+        'sale',
+        'account',
         'web',
     ],
     'data': [
+        'views/report_menu.xml',
         'views/report_templates.xml',
         'views/sale_report_templates.xml',
+        'views/report_invoice.xml',
+        'views/res_company_views.xml',
         ],
     'development_status': 'Beta',
     'maintainers': [

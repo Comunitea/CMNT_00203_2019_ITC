@@ -1,0 +1,162 @@
+$custom-blue: #153d66;
+.custom_document_conecta{
+    font-size: 15px;
+}
+
+
+
+.custom_o_boxed_header {
+    border-bottom: 1px solid $custom-blue;
+    img {
+        max-height: 100px;
+    }
+    h4 {
+        color: $o-we-color-text-normal;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    span{
+        color: $custom-blue;
+    }
+}
+
+.custom-company-info  {
+    padding: 0;
+    list-style: none;
+    line-height: 0.7em;
+    span{
+        font-size: 9px;
+    }
+
+}
+
+.row2{
+    margin-top: 2em;
+}
+
+.custom-table{
+    display: table;
+    width:100%;
+    // font-size: 12px;
+}
+.custom-th{
+    display: table-row;
+    background-color: #153d66;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    font-size: 10px
+}
+.custom-th-cell{
+    display: table-cell;
+    // background-color: $custom-blue;
+    // font-weight: bold;
+}
+.custom-th{
+    display: table-row;
+    text-align: center;
+    color: white;
+    // font-size: 10px
+}
+.custom-customer-cell{
+    display: table-cell;
+    line-height: 2px;
+    padding-top: 10px;
+    // background-color: $custom-blue;
+    // font-weight: bold;
+}
+.custom-cell{
+    // display: table-cell;
+    text-align: center;
+    line-height: 1em;
+    padding-top: 10px;    
+}
+.custom-cell-sign{
+    // display: table-cell;
+    margin-top:0px;
+    padding:0;
+    font-size: 8px;
+    text-align: center;   
+}
+
+// Table with lines
+.custom-table-full{
+    width: 100%;
+    border: none !important;
+    // font-size:12px;
+    margin-bottom: 10px;
+    thead{
+        border: 0px;
+        color: white;
+        text-align: center;
+        font-size: 10px;
+        background-color: #153d66;
+    }
+    tr, td{
+        border:none !important;
+    }
+}
+
+
+// IMPORTES TOTALES
+div#custom_total table {
+    margin-top: 5em;
+    tr {
+        strong{
+            color: $custom-blue; 
+        }
+        td{
+            border-top: none !important;
+        }
+    }
+
+}
+
+.caption-table{
+    color: $custom-blue;
+    caption-side: top;
+}
+
+.custom-tax-table{
+    margin-top: 2em !important;
+}
+
+.custom_end{
+    margin-top: 100px;
+}
+
+
+
+
+
+
+// PÁGINA LOPD
+.color-custom-blue{
+    color: $custom-blue;
+}
+
+.lopd_text{
+    font-size: 11px;
+}
+
+
+
+
+
+// FOOTER
+.custom_o_boxed_footer {
+    margin-bottom: 100px;
+    white-space: nowrap;
+    // border-top: 3px solid gray('700');
+    ul {
+        margin: 4px 0;
+    }
+    img {
+        max-height: 200px;
+        width: 200px;
+        height: 70px;
+    }
+    .invoice-text{
+        font-size: 9px;
+    }
+}

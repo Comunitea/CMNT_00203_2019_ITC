@@ -1,1 +1,1 @@
-# from . import res_setings
+from . import res_company

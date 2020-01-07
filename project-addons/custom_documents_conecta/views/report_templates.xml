@@ -1,9 +1,18 @@
 <?xml version="1.0"?>
 <odoo>
 
+    
+    <!-- Add Assets -->
+    <template id="assets_common" name="custom_documents_conecta pdf assets" inherit_id="web.report_assets_common">
+        <xpath expr="." position="inside">
+            <link rel="stylesheet" type="text/scss" href="/custom_documents_conecta/static/src/scss/custom_conecta.scss"/>
+        </xpath>
+    </template>
+
+
      <template id="custom_external_layout_conecta">
         <div class="header">
-            <div class="o_boxed_header">
+            <div class="custom_o_boxed_header">
             <div class="row mb8">
                 <div class="col-6">
                     <img t-if="company.logo" t-att-src="image_data_uri(company.logo)" alt="Logo"/>
@@ -11,30 +20,45 @@
                 <div class="col-6 text-right mb4">
                     <h4 class="mt0" t-field="company.report_header"/>
                     <div name="company_address" class="mb4">
-                        <span class="company_address" t-field="company.partner_id"
-                            t-options='{"widget": "contact", "fields": ["address", "name"], "no_marker": true}'/>
+                        <!-- <span class="company_address" t-field="company.partner_id"
+                            t-options='{"widget": "contact", "fields": ["address", "name", "vat"], "no_marker": true}'/> -->
+                        <ul class="custom-company-info">
+                            <strong><li t-if="company.name"><span t-field="company.name"/></li></strong>
+                            <li t-if="company.street"><span t-field="company.street"/></li>
+                            <li t-if="company.phone">
+                                <span>Telf:</span> <span t-field="company.phone"/>
+                                <!-- <span>Fax:</span> <span t-field="company.fax"/> -->
+                            </li>
+                            <li t-if="company.email"><span t-field="company.email"/></li>
+                            <li t-if="company.vat"><span>CIF</span>: <span t-field="company.vat"/></li>
+                        </ul>
                     </div>
                 </div>
             </div>
+            <div class="clearfix mb8"/>
             </div>
         </div>
 
-        <div class="article o_report_layout_boxed" t-att-data-oe-model="o and o._name" t-att-data-oe-id="o and o.id" t-att-data-oe-lang="o and o.env.context.get('lang')">
+        <div class="article" t-att-data-oe-model="o and o._name" t-att-data-oe-id="o and o.id" t-att-data-oe-lang="o and o.env.context.get('lang')">
             <t t-call="web.address_layout"/>
             <t t-raw="0"/>
         </div>
 
-        <div class="footer o_boxed_footer">
-            <div class="text-center">
-                <ul class="list-inline">
-                    <li t-if="company.phone" class="list-inline-item">Tel: <span t-field="company.phone"/></li>
-                    <li t-if="company.email" class="list-inline-item">Mail: <span t-field="company.email"/></li>
-                    <li t-if="company.website" class="list-inline-item">Web: <span t-field="company.website"/></li>
-                    <li t-if="company.vat" class="list-inline-item"><t t-esc="(company.country_id.vat_label or 'Tax ID').replace(' ','\N{NO-BREAK SPACE}')"/>: <span t-esc="company.vat.replace(' ','\N{NO-BREAK SPACE}')"/></li>
-                </ul>
-                <div t-field="company.report_footer"/>
-                <div t-if="report_type == 'pdf'">
-                    Page: <span class="page"/> / <span class="topage"/>
+        <div class="footer custom_o_boxed_footer">
+            <div class="row">
+                <div class="col-12 text-right color-custom-blue">Page: <span class="page"/> / <span class="topage"/></div>
+            </div>
+            <div class="row">
+                <div class="col-2 text-left">
+                        <img t-if="company.logo_footer_left" t-att-src="image_data_uri(company.logo_footer_left)" alt="Logo"/>
+                </div>
+                <div class="col-8 text-center invoice-text">
+                    <div t-if="o._name=='account.invoice'">
+                        <span t-field="company.invoice_text"/>
+                    </div>
+                </div>
+                <div class="col-2 text-right">
+                    <img t-if="company.logo_footer_rigth" t-att-src="image_data_uri(company.logo_footer_rigth)" alt="Logo"/>
                 </div>
             </div>
         </div>
@@ -59,5 +83,27 @@
         <t t-call="custom_documents_conecta.custom_external_layout_conecta"><t t-raw="0"/></t>
 
     </template>
+
+    <template id="custom_lopd_text_template">
+        <h3>
+            <span class="color-custom-blue">Aviso legal y Observaciones:</span>
+        </h3>
+        <p>
+        <span class="lopd_text" t-field="doc.company_id.lopd_text"/>
+        </p>
+        <div class="col-12 text-center">
+            <img t-if="doc.company_id.logo_lopd" t-att-src="image_data_uri(doc.company_id.logo_lopd)" alt="Logo"/>
+            
+        </div>
+        <div class="col-12 text-center">
+            FECHA Y CONFORME
+            
+        </div>
+         <div class="col-12 text-center">
+            NOMBRE, FIRMA Y SELLO
+            
+        </div>
+
+</template>
 
 </odoo>
