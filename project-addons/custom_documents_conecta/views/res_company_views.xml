@@ -8,7 +8,7 @@
             <field name="arch" type="xml">
                 
                 <notebook position="inside">
-                    <page string="Reports">
+                    <page string="Report Config">
                         <group>
                             <group>
                                 <field name="logo_footer_left" widget="image"/>                               

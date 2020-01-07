@@ -49,11 +49,12 @@
                 <div class="col-12 text-right color-custom-blue">Page: <span class="page"/> / <span class="topage"/></div>
             </div>
             <div class="row">
-                <div class="col-2 text-left">
+                <div class="col-3 text-left">
                         <img t-if="company.logo_footer_left" t-att-src="image_data_uri(company.logo_footer_left)" alt="Logo"/>
                 </div>
-                <div class="col-8 text-center invoice-text">
-                    <div t-if="o._name=='account.invoice'">
+                <div class="col-6">
+                    <div class="my-invoice-text" >
+                    <!-- <div t-if="o._name=='account.invoice'" class="my-invoice-text" > -->
                         <span t-field="company.invoice_text"/>
                     </div>
                 </div>

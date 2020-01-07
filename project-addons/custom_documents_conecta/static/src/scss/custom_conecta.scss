@@ -1,10 +1,9 @@
+// Color de las tablas
 $custom-blue: #153d66;
-.custom_document_conecta{
-    font-size: 15px;
-}
 
-
-
+// ***************************************************************************
+// HEADER
+// ***************************************************************************
 .custom_o_boxed_header {
     border-bottom: 1px solid $custom-blue;
     img {
@@ -27,17 +26,25 @@ $custom-blue: #153d66;
     span{
         font-size: 9px;
     }
+}
 
+// ***************************************************************************
+// INFORMES CLASES AYUDA
+// ***************************************************************************
+.custom_document_conecta{
+    font-size: 11px;
 }
 
 .row2{
     margin-top: 2em;
 }
 
+// ***************************************************************************
+// TABLAS UNITARIAS GENERALES
+// ***************************************************************************
 .custom-table{
     display: table;
     width:100%;
-    // font-size: 12px;
 }
 .custom-th{
     display: table-row;
@@ -49,27 +56,21 @@ $custom-blue: #153d66;
 }
 .custom-th-cell{
     display: table-cell;
-    // background-color: $custom-blue;
-    // font-weight: bold;
-}
-.custom-th{
-    display: table-row;
-    text-align: center;
-    color: white;
-    // font-size: 10px
 }
 .custom-customer-cell{
     display: table-cell;
-    line-height: 2px;
-    padding-top: 10px;
-    // background-color: $custom-blue;
-    // font-weight: bold;
+    line-height: 1em;
+    padding-top: 4px;
+    padding-left: 1px;
+    p{
+        margin-bottom: 1px;
+    }
 }
 .custom-cell{
     // display: table-cell;
     text-align: center;
     line-height: 1em;
-    padding-top: 10px;    
+    padding-top: 4px;    
 }
 .custom-cell-sign{
     // display: table-cell;
@@ -79,17 +80,20 @@ $custom-blue: #153d66;
     text-align: center;   
 }
 
-// Table with lines
+// ***************************************************************************
+// TABLA LÍNEAS
+// ***************************************************************************
 .custom-table-full{
     width: 100%;
     border: none !important;
     // font-size:12px;
-    margin-bottom: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     thead{
         border: 0px;
         color: white;
         text-align: center;
-        font-size: 10px;
+        // font-size: 11px;
         background-color: #153d66;
     }
     tr, td{
@@ -98,9 +102,11 @@ $custom-blue: #153d66;
 }
 
 
+// ***************************************************************************
 // IMPORTES TOTALES
+// ***************************************************************************
 div#custom_total table {
-    margin-top: 5em;
+    // margin-top: 5em;
     tr {
         strong{
             color: $custom-blue; 
@@ -118,32 +124,44 @@ div#custom_total table {
 }
 
 .custom-tax-table{
-    margin-top: 2em !important;
+    margin-top: 3em !important;
 }
 
 .custom_end{
     margin-top: 100px;
 }
 
+.invoice-text-wrap{
+    display: table;
+}
+
+.my-invoice-text{
+    font-size: 8.5px;
+    // padding: 0.5em;
+    text-align: center;
+}
 
 
-
-
-
-// PÁGINA LOPD
+// ***************************************************************************
+// LOPD PAGE
+// ***************************************************************************
 .color-custom-blue{
     color: $custom-blue;
 }
 
 .lopd_text{
-    font-size: 11px;
+    font-size: 9px;
 }
 
 
+.payment-info{
+    margin-top:20px;
+}
 
 
-
+// ***************************************************************************
 // FOOTER
+// ***************************************************************************
 .custom_o_boxed_footer {
     margin-bottom: 100px;
     white-space: nowrap;
@@ -153,10 +171,7 @@ div#custom_total table {
     }
     img {
         max-height: 200px;
-        width: 200px;
+        width: 187px;
         height: 70px;
-    }
-    .invoice-text{
-        font-size: 9px;
     }
 }
