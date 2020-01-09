@@ -51,7 +51,7 @@
                     </div>
                     <div class="row row2">
                         <div class="col-6">
-                            <div class="custom-table">
+                            <div class="custom-table" t-if="doc.payment_term_id">
                                 <div class="custom-th">
                                     <div class="custom-th-cell">
                                         Forma de Pago
@@ -65,7 +65,7 @@
                             </div>
                         </div>
                         <div class="col-6">
-                            <div class="custom-table">
+                            <div class="custom-table" t-if="doc.payment_mode_id">
                                 <div class="custom-th">
                                     <div class="custom-th-cell">
                                         Modo de pago
