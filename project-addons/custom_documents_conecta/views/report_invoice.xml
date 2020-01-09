@@ -110,13 +110,13 @@
                 <thead>
                     <tr>
                         <t t-set="colspan" t-value="6"/>
-                        <th class="text-left">Producto</th>
-                        <th class="text-right">Cantidad</th>
-                        <th class="text-right">Precio Unidad</th>
+                        <th class="text-left cell-product">Producto</th>
+                        <th class="text-right cell-qty">Cantidad</th>
+                        <th class="text-right cell-price">Precio Unidad</th>
                         <!-- <th t-if="display_discount" class="text-right" groups="sale.group_discount_per_so_line"> -->
-                        <th class="text-right">Descuento (%)</th>
+                        <th class="text-right cell-dic">Descuento (%)</th>
                         <!-- <th class="text-right">Taxes</th> -->
-                        <th class="text-right">Total</th>
+                        <th class="text-right cell-total">Total</th>
                     </tr>
                 </thead>
                 <tbody class="sale_tbody">

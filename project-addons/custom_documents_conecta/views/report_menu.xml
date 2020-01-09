@@ -1,19 +1,20 @@
 <?xml version="1.0"?>
 <odoo>
 
-<!--  -->
+<!-- FACTURA GENERAL, sobrescribo para cambiar el name y file-->
  <report
     id="account.account_invoices"
     model="account.invoice"
     string="Invoices"
     report_type="qweb-pdf"
-    name="account.report_invoice"
+    name="account.report_invoice"  
     file="account.report_invoice"
     attachment="(object.state in ('open','in_payment','paid')) and ('INV'+(object.number or '').replace('/','')+'.pdf')"
     print_report_name="(object._get_report_base_filename())"
     groups="account.group_account_invoice"
 />
 
+<!-- FACTURAS sin pagos OCULTO -->
 <report
     id="account.account_invoices_without_payment"
     model="account.invoice"
@@ -25,5 +26,19 @@
     print_report_name="(object._get_report_base_filename())"
     menu="False"
 />
+
+
+<!-- VENTA SIN TOTALES -->
+ <report 
+    id="action_report_saleorder_no_subtotal"
+    string="Pedido Sin Totales"
+    model="sale.order" 
+    report_type="qweb-pdf"
+    file="custom_documents_conecta.report_saleorder_no_totals" 
+    name="custom_documents_conecta.report_saleorder_no_totals"
+    print_report_name="(object.state in ('draft', 'sent') and 'Quotation - %s' % (object.name)) or 'Order - %s' % (object.name)"
+/>
+
+
 
 </odoo>

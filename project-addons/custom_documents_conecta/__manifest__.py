@@ -14,13 +14,14 @@
         'sale',
         'account',
         'web',
+        'account_due_dates_str',
     ],
     'data': [
-        'views/report_menu.xml',
         'views/report_templates.xml',
         'views/sale_report_templates.xml',
         'views/report_invoice.xml',
         'views/res_company_views.xml',
+        'views/report_menu.xml',
         ],
     'development_status': 'Beta',
     'maintainers': [

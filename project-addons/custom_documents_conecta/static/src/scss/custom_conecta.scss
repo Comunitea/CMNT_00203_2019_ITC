@@ -32,7 +32,7 @@ $custom-blue: #153d66;
 // INFORMES CLASES AYUDA
 // ***************************************************************************
 .custom_document_conecta{
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .row2{
@@ -57,8 +57,11 @@ $custom-blue: #153d66;
 .custom-th-cell{
     display: table-cell;
 }
+.custom-row{
+    width: 100%;
+}
 .custom-customer-cell{
-    display: table-cell;
+    // display: table-cell;
     line-height: 1em;
     padding-top: 4px;
     padding-left: 1px;
@@ -99,6 +102,23 @@ $custom-blue: #153d66;
     tr, td{
         border:none !important;
     }
+
+    .cell-product{
+        width:50%;
+    }
+    .cell-qty{
+        width:12.5%;
+    } 
+    .cell-price{
+        width:12.5%;
+    } 
+    .cell-disc{
+        width:12.5%;
+    } 
+    .cell-total{
+        width:12.5%;
+    }
+
 }
 
 
