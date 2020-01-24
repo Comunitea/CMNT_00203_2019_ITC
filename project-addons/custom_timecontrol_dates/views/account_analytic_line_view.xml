@@ -36,7 +36,7 @@
             </field>
         </record> -->
 
-        <record id="timesheet_view_tree_custom" model="ir.ui.view">
+        <!-- <record id="timesheet_view_tree_custom" model="ir.ui.view">
             <field name="name">timesheet_view_tree_custom</field>
             <field name="model">account.analytic.line</field>
             <field name="inherit_id" ref="hr_timesheet.hr_timesheet_line_tree"/>
@@ -46,11 +46,9 @@
 					<field name="date_end" required="True"/>
 					<field name="work_type" required="True"/>
 					<field name="discount" widget="float_time"/>
-					<!-- <field name="signature" widget="screen_draw" draw_height="300" draw_width="300"/>
-					<field name="observations"/> -->
                 </xpath>
             </field>
-        </record>
+        </record> -->
 
         <record id="hr_timesheet.hr_timesheet_line_tree" model="ir.ui.view">
             <field name="name">account.analytic.line.tree.hr_timesheet.custom</field>
