@@ -2,6 +2,7 @@
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
 
 from odoo import fields, models, api, _
+from odoo.exceptions import ValidationError
 
 
 class ContractContract(models.Model):
@@ -104,5 +105,39 @@ class ContractLine(models.Model):
         if res.contract_id.group_id:
             res.write({'analytic_account_id': res.contract_id.group_id.id})
         return res
-
-
+    
+    def _get_period_to_invoice(self, last_date_invoiced, recurring_next_date, 
+                               stop_at_date_end=True):
+        """
+        Esta función se va a eliminar, pero si next_period_date_end
+        da False porque el proyecto está cerrado hay que fallar. 
+        """
+        res = super()._get_period_to_invoice(
+            last_date_invoiced, recurring_next_date, 
+            stop_at_date_end=stop_at_date_end)
+        
+        if res[1] == False:
+            raise ValidationError(
+                    _("No hay siguiente fecha de fin de periodo. \
+                      Revise la fecha fin")
+                )
+        return res
+    
+    # FIX!!! overwrited NO INVOICE IF NOT NEXT RECURRING INTERVAL
+    @api.depends('recurring_next_date', 'date_start', 'date_end')
+    def _compute_create_invoice_visibility(self):
+        """
+        Si dejo crear factura sin next_period_date_end, falla en la
+        función de insert markers y en la de update recurring invoice date,
+        no espera esta situación
+        """
+        today = fields.Date.context_today(self)
+        for rec in self:
+            # ADDED AND Rec.next_period_date_end
+            if rec.date_start and rec.next_period_date_end:
+                if today < rec.date_start:
+                    rec.create_invoice_visibility = False
+                else:
+                    rec.create_invoice_visibility = bool(
+                        rec.recurring_next_date
+                    )
