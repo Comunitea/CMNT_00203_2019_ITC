@@ -12,7 +12,7 @@
     'summary': 'Mail Reply to the sender',
     'description': """ This module provides a functionality to reply to sender's email address or the mail address given in 'Reply To' field of email template""",
     'depends': [
-        'mail',
+        'mail', 'account',
     ],
     'data': [
     ],

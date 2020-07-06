@@ -8,10 +8,10 @@ class MailComposer(models.TransientModel):
     @api.multi
     def get_mail_values(self, res_ids):
         res = super(MailComposer, self).get_mail_values(res_ids)
-        if self.composition_mode == 'comment':
+        if self.composition_mode in ('comment', 'mass_mail') :
             mail_reply_to = getattr(self, 'reply_to', None)
             if mail_reply_to:
                 for f, x in res.items():
-                    if 'reply_to' not in x:
-                        x['reply_to'] = mail_reply_to
+                    #if 'reply_to' not in x:
+                    x['reply_to'] = mail_reply_to
         return res
